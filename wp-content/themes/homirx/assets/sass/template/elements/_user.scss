@@ -1,0 +1,346 @@
+.gva-user{
+   line-height: 1;
+   .login-account{
+      position: relative;
+      .profile{
+         display: inline-block;
+         transition: all 0.35s;
+         &:hover{
+            cursor: pointer;
+            color: $theme-color;
+         }
+         .avata{
+            @include size(50px, 50px);
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: 1px;
+            display: flex;
+         }
+      }
+      .user-account{
+         position: absolute;
+         top: 100%;
+         right: -20px;
+         width: 280px;
+         background: $white;
+         z-index: 11;
+         margin-top: 15px;
+         padding: 25px 30px 20px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+         border: 1px solid $border-color;
+         @include opacity(0);
+         transform: rotateX(-90deg);
+         transform-origin: 0 0;
+         transition: all 0.25s;
+         border-radius: 4px;
+         &:after{
+            content: '';
+            border: 10px solid transparent;
+            border-bottom-color: $white;
+            position: absolute;
+            bottom: 100%;
+            right: 35px;
+            z-index: 1;
+         }
+         .hi-account{
+            font-family: $headings-font-family;
+            color: $black;
+            font-weight: 600;
+            border-bottom: 1px solid $border-color;
+            text-align: left;
+            padding-bottom: 15px;
+            margin-bottom: 5px;
+         }
+         .gva-user-menu{
+            padding: 0;
+            list-style: none;
+            margin: 0;
+            > li{
+               display: block;
+               width: 100%;
+               text-align: left;
+               padding: 0;
+               &:after{
+                  display: none;
+               }
+               > a{
+                  padding: 10px 0; 
+                  font-weight: 500;
+                  position: relative;
+                  display: block;
+                  line-height: 20px;
+                  color: $body-color;
+                  &:after{
+                     content: '';
+                     position: absolute;
+                     height: 100%;
+                     top: 0;
+                     left: -10px;
+                     right: -10px;
+                     background: $bg-gray;
+                     z-index: -1;
+                     opacity: 0;
+                     border-radius: 6px;
+                  }
+                  i{
+                     margin-right: 10px;
+                  }
+                  &:hover{
+                     color: $theme-color;
+                     &:after{
+                        opacity: 1;
+                     }
+                  }
+               }
+            }
+         }
+         .menu-item-logout{
+            text-align: left;
+            padding-top: 3px;
+            a{
+               font-weight: 400;
+               font-family: $headings-font-family;
+               font-size: 16px;
+               color: $body-color;
+               i{
+                  margin-right: 10px;
+               }
+               &:hover{
+                  color: $theme-color;
+               }
+            }
+         }
+      }
+      &.open{
+         .user-account{
+            -webkit-transform: rotateX(0);
+            -moz-transform: rotateX(0);
+            -ms-transform: rotateX(0);
+            -o-transform: rotateX(0);
+            transform: rotateX(0);
+            opacity: 1;
+         }
+      }
+      &.without-login{
+         .user-account{
+            max-width: 200px;
+            padding: 18px 30px;
+            .gva-user-menu{
+               li{
+                  a{
+                     .icon{
+                        font-size: 20px;
+                        position: relative;
+                        top: 3px;
+                        margin-right: 5px;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+.gva-user.style-1{
+   .login-account{
+      .profile{
+         .username{
+            display: none;
+         }
+      }
+
+      &.without-login{
+         .profile{
+            .avata-icon{
+               width: 50px;
+               height: 50px;
+               border: 1px solid $border-color;
+               font-size: 26px;
+               line-height: 50px;
+               text-align: center;
+               transition: all 0.35s;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               &:hover{
+                  background: $theme-color;
+                  color: $white;
+                  border-color: $theme-color;
+               }
+            }
+         }
+      }
+   }
+}
+
+.gva-user.style-2{
+   .login-account{
+      .profile{
+         display: flex;
+         align-items: center;
+         .avata{
+            width: 28px;
+            height: 28px;
+         }
+         .username{
+            margin-left: 6px;
+            text-transform: capitalize;
+            font-size: 13px;
+            font-weight: 600;
+            i{
+               font-size: 13px;
+               position: relative;
+               top: 2px;
+            }
+         }
+      }
+   }
+   .login-register{
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      padding-top: 2px;
+      font-weight: 600;
+      .text-or{
+         opacity: 0.69;
+         padding: 0 3px;
+      }
+      .box-icon{
+         font-size: 16px;
+         margin-right: 6px;
+         position: relative;
+      }
+   }
+}
+
+.user-wishlist{
+   .wishlist-link{
+      font-size: 18px;
+      color: $body-color;
+      text-transform: uppercase;
+      font-weight: 600;
+      .wishlist-icon{
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         width: 50px;
+         line-height: 1;
+         height: 50px;
+         font-size: 18px;
+         border-radius: 50%;
+         border: 1px solid $white;
+         transition: all 0.35s;
+         @media (max-width: 575px){
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+         }
+      }
+      .wishlist-text{
+         font-size: 12px;
+         font-family: $headings-font-family;
+         letter-spacing: 2px;
+      }
+      &:hover{
+         .wishlist-icon{
+            background: $theme-color;
+            color: $white;
+            border-color: $theme-color;
+         }
+         color: $theme-color;
+      }
+   }
+}
+
+.modal-ajax-user-form{
+   .close{
+      @include size(28px, 28px);
+      background: $theme-color;
+      color: $white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 1;
+      transition: all 0.35s;
+      font-size: 24px;
+      line-height: 24px;
+      border: 0;
+      border-radius: 0 0 0 4px;
+      z-index: 99;
+      &:hover{
+         opacity: 0.8;
+      }
+   }
+   .ajax-user-form{
+      padding: 15px 35px 5px;
+      .form-status{
+         font-size: 14px;
+         line-height: 24px;
+         a{
+            display: none!important;
+         }
+      }
+      .title{
+         text-align: center;
+         font-size: 22px;
+         margin: 0 0 20px;
+         padding: 0 0 10px;
+         font-weight: 600;
+         position: relative;
+         &:after{
+            content: '';
+            @include size(50px, 2px);
+            background: $theme-color;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -25px;
+            z-index: 1;
+         }
+      }
+      form{
+         .form-group{
+            margin-bottom: 20px;
+            label{
+               color: $black;
+               font-weight: 600;
+            }
+         }
+         .form-action{
+            input{
+               padding: 16px;
+            }
+         }
+      }
+      .lost-password, .user-registration{
+         text-align: center;
+         a{
+            color: $theme-color;
+            &:hover{
+               text-decoration: underline;
+            }
+         }
+      }
+      .user-registration{
+         margin-top: 10px;
+      }
+   }
+   .ajax-form-content{
+      &.ajax-preload{
+         .form-action{
+            position: relative;
+            &:after{
+               content: '';
+               @include size(100%, 100%);
+               position: absolute;
+               top: 0;
+               left: 0;
+               z-index: 11;
+               border: 1px solid $theme-color;
+               background: url('#{$image-theme-path-base}/preloader-2.gif') no-repeat center center rgba(255, 255, 255, 0.92);
+            }
+         }
+      }
+   }
+}

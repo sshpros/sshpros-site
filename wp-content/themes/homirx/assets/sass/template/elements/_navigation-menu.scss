@@ -1,0 +1,43 @@
+.gva-navigation-menu{
+   &.menu-align-center{
+      text-align: center;
+      .gva-nav-menu{
+         display: inline-block;
+         float: none;
+         margin-bottom: -10px;
+      }
+   }
+   &.menu-align-right{
+      .gva-nav-menu{
+         float: right;
+      }
+   }
+}
+
+.gva-navigation-mobile{
+   .dropdown-toggle{
+      display: inline-flex;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      color: $headings-color;
+      border: 1px solid $border-color;
+      line-height: 1;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      @media (max-width: 575px){
+         width: 40px;
+         height: 40px;
+         font-size: 16px;
+      }
+      &:after{
+         display: none;
+      }
+      &:hover{
+         background: $theme-color;
+         color: $white;
+         border-color: $theme-color;
+      }
+   }
+}

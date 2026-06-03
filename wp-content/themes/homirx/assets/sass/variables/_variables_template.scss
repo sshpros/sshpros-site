@@ -1,0 +1,30 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+
+//Fonts
+// --------------------------------------------------
+$font-icon-awesome         : 'Font Awesome 5 Free' !default;
+$font-icon-theme           : 'hicomoon' !default;
+// Colors
+$white                     : #ffffff !default;
+$nocolor                   : transparent !default;
+$theme-color               : var(--e-global-color-primary) !default;
+$theme-color-2             : var(--e-global-color-secondary) !default;
+$theme-color-3             : var(--#{$variable-prefix}color-three) !default;
+$theme-color-black         : var(--e-global-color-secondary) !default;
+$bg-gray                   : #F1F3F3 !default; 
+$bg-input                  : #FBFBFB !default; 
+$color-gray                : #737373 !default; 
+$rating-color              : #FEBB02 !default;
+
+
+$footer-bg-color           : var(--#{$variable-prefix}footer-bg-color) !default;
+$footer-color              : var(--#{$variable-prefix}footer-color) !default;
+$footer-color-link         : var(--#{$variable-prefix}footer-color-link) !default;
+$footer-color-link-hover   : var(--#{$variable-prefix}footer-color-link-hover) !default;
+// Variables
+// --------------------------------------------------
+$image-theme-path-base  :'../images/' !default;
+$font-path              : '../fonts/';
+$woo-font-path          : '../fonts/woocommerce/' !default;
+

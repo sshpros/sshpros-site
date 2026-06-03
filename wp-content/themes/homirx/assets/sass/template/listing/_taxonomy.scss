@@ -1,0 +1,40 @@
+.directorist-categories{
+   .directorist-type-nav{
+      margin-bottom: 30px;
+   }
+   .directorist-categories__single{
+      margin-bottom: 30px;
+      min-height: 320px;
+      &__name{
+         font-weight: 700;
+         font-size: 20px;
+      }
+   }
+}
+.directorist-location{
+   margin-bottom: 0 0 30px;
+   .directorist-type-nav{
+      margin-bottom: 30px;
+   }
+   .directorist-location__single{
+      margin-bottom: 30px;
+      min-height: 320px;
+      .directorist-location__content{
+         bottom: 10px;
+         h3{
+            font-weight: 700;
+            font-size: 20px;
+         }
+         .directorist-location__count{
+            font-size: 16px;
+            font-weight: 600;
+         }
+      }
+   }
+   &.directorist-location--grid-one .directorist-location__single__img{
+      height: 100%;
+      &:before{
+         height: 100%;
+      }
+   }
+}

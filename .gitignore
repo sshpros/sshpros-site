@@ -1,0 +1,11 @@
+.env
+wp-content/uploads/
+wp-content/ai1wm-backups/
+wp-content/backups-dup-lite/
+wp-content/et-cache/
+wp-content/metasync_caches/
+wp-content/metasync_data/
+wp-content/metasync.log
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/upgrade/

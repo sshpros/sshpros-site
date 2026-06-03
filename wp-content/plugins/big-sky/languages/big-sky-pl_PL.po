@@ -1,0 +1,1201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Big Sky\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-21T10:49:11+00:00\n"
+"PO-Revision-Date: 2026-05-06 18:10:10+0000\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:409
+#: src/components/dock/index.js:428
+msgid "New chat"
+msgstr "Nowa rozmowa"
+
+#: src/image-studio/components/header/index.tsx:82
+msgid "Save and apply image"
+msgstr "Zapisz i zastosuj obrazek"
+
+#: src/image-studio/components/header/index.tsx:68
+msgid "Save & Apply"
+msgstr "Zapisz i zastosuj"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+#: big-sky.php:1515
+msgid "Edit with AI"
+msgstr "Edytuj z AI"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:59
+msgid "How can you help me?"
+msgstr "Jak możesz mi pomóc?"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:53
+msgid "What should I do next?"
+msgstr "Co powinienem zrobić następnie?"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:424
+msgid "Welcome to your new store! I'm your personal AI assistant. How can I help you?"
+msgstr "Witaj w twoim nowym sklepie! Jestem twoim osobistym asystentem AI. Jak mogę ci pomóc?"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:93
+msgid "Cannot delete - no image found"
+msgstr "Nie można usunąć - nie znaleziono obrazka"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:135
+msgid "Failed to delete image. Please try again."
+msgstr "Nie udało się usunąć obrazka. Proszę spróbować ponownie."
+
+#: src/image-studio/components/sidebar/index.tsx:65
+msgid "You are about to permanently delete this item from your site. This action cannot be undone."
+msgstr "Zamierzasz na stałe usuwać ten element z twojej witryny. Ta akcja nie może być cofnięta."
+
+#: src/image-studio/components/sidebar/index.tsx:53
+msgid "Delete permanently"
+msgstr "Trwale Usuń"
+
+#: src/image-studio/components/sidebar/index.tsx:46
+msgid "Delete this item"
+msgstr "Usuń ten element"
+
+#: src/image-studio/components/header/index.tsx:90
+#: src/image-studio/components/sidebar/index.tsx:25
+msgid "Save or discard your changes"
+msgstr "Zapisz lub odrzuć swoje zmiany"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File name:"
+msgstr "Nazwa pliku:"
+
+#: src/image-studio/components/header/index.tsx:147
+msgid "View or edit information about the image"
+msgstr "Zobacz lub edytuj informacje o obrazku"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:127
+msgid "Next image %s→"
+msgstr "Następny obrazek %s→"
+
+#: src/image-studio/components/header/index.tsx:124
+#: src/image-studio/components/sidebar/file-details.tsx:82
+#: src/image-studio/utils/get-image-data.ts:27
+msgid "Untitled"
+msgstr "Nienazwane"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:123
+msgid "Previous image %s←"
+msgstr "Poprzedni obrazek %s←"
+
+#: src/components/product-card/ProductCard.tsx:51
+msgid "Loading…"
+msgstr "Wczytywanie…"
+
+#: src/image-studio/components/index.tsx:127
+msgid "Generating suggestions…"
+msgstr "Generowanie sugestii…"
+
+#: src/image-studio/components/style-picker/index.tsx:41
+msgid "Vivid"
+msgstr "Jaskrawy"
+
+#: src/image-studio/components/style-picker/index.tsx:39
+msgid "None"
+msgstr "Żaden"
+
+#: src/image-studio/components/header/index.tsx:85
+msgid "Save displayed image to Media Library"
+msgstr "Zapisz wyświetlany obrazek do biblioteki mediów"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:88
+msgid "Reverted to original"
+msgstr "Przywrócono do oryginału"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:77
+msgid "Cannot revert - failed to load original image"
+msgstr "Nie można cofnąć - nie udało się wczytać oryginalnego obrazka"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:67
+msgid "Cannot revert - original image not found"
+msgstr "Nie można cofnąć - oryginalny obrazek nie został znaleziony"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:34
+msgid "More options"
+msgstr "Więcej opcji"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:24
+msgid "Revert to original"
+msgstr "Powróć do oryginału"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:18
+msgid "Save to media library"
+msgstr "Zapisz do biblioteki mediów"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision →"
+msgstr "Następna wersja →"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision ←"
+msgstr "Poprzednia wersja ←"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:41
+msgid "Aspect Ratio"
+msgstr "Proporcje:"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:23
+msgid "3:4"
+msgstr "3:4"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:22
+msgid "4:3"
+msgstr "4:3"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:21
+msgid "9:16"
+msgstr "9:16"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:20
+msgid "16:9"
+msgstr "16:9"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:19
+msgid "1:1"
+msgstr "1:1"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision"
+msgstr "Następna wersja"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision"
+msgstr "Poprzednia wersja"
+
+#: src/image-studio/components/style-picker/index.tsx:97
+msgid "Craft Clay"
+msgstr "Glina do rzemiosła"
+
+#: src/image-studio/components/style-picker/index.tsx:92
+msgid "Line Art"
+msgstr "Line Art"
+
+#: src/image-studio/components/style-picker/index.tsx:87
+msgid "Origami"
+msgstr "Origami"
+
+#: src/image-studio/components/style-picker/index.tsx:82
+msgid "Lowpoly"
+msgstr "Lowpoly"
+
+#: src/image-studio/components/style-picker/index.tsx:77
+msgid "Isometric"
+msgstr "Izometryczny"
+
+#: src/image-studio/components/style-picker/index.tsx:72
+msgid "Neonpunk"
+msgstr "Neonpunk"
+
+#: src/image-studio/components/style-picker/index.tsx:67
+msgid "Analog Film"
+msgstr "Film analogowy"
+
+#: src/image-studio/components/style-picker/index.tsx:62
+msgid "Fantasy Art"
+msgstr "Fantastyczna Sztuka"
+
+#: src/image-studio/components/style-picker/index.tsx:57
+msgid "Comicbook"
+msgstr "Komiks"
+
+#: src/image-studio/components/style-picker/index.tsx:52
+msgid "Digital Art"
+msgstr "Cyfrowa Sztuka"
+
+#: src/image-studio/components/style-picker/index.tsx:47
+msgid "Photographic"
+msgstr "Fotograficzny"
+
+#: src/image-studio/components/style-picker/index.tsx:45
+msgid "Anime"
+msgstr "Anime"
+
+#: src/image-studio/components/style-picker/index.tsx:38
+msgid "Select style"
+msgstr "Wybierz styl"
+
+#: src/image-studio/components/style-picker/index.tsx:150
+msgid "Styles"
+msgstr "Style"
+
+#: src/image-studio/components/style-picker/index.tsx:117
+msgid "Texture"
+msgstr "Tekstura"
+
+#: src/image-studio/components/style-picker/index.tsx:112
+msgid "Pixel Art"
+msgstr "Pixel Art"
+
+#: src/image-studio/components/style-picker/index.tsx:107
+msgid "3D Model"
+msgstr "Model 3D"
+
+#: src/image-studio/components/style-picker/index.tsx:102
+msgid "Cinematic"
+msgstr "Filmowy"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:99
+msgid "Help me to connect PayPal Payments to my store"
+msgstr "Pomóż mi połączyć płatności PayPal z moim sklepem"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:98
+msgid "Connect PayPal Payments to my store"
+msgstr "Połącz płatności PayPal z moim sklepem"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:93
+msgid "Recommend shipping zones and methods for my store"
+msgstr "Zalecane strefy wysyłki i metody dla mojego sklepu"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:92
+msgid "Set up shipping rates"
+msgstr "Ustaw stawki za wysyłkę"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:87
+msgid "Set my product pricing"
+msgstr "Ustaw ceny mojego produktu"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:81
+msgid "Help me to write a product description"
+msgstr "Pomóż mi napisać opis produktu"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:80
+msgid "Write a product description"
+msgstr "Napisz opis produktu"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:75
+msgid "Help me to create a product"
+msgstr "Pomóż mi stworzyć produkt"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:21
+msgid "Failed to make the theme update. Please try again."
+msgstr "Nie udało się zaktualizować motywu. Proszę spróbować ponownie."
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:95
+msgid "Add to post"
+msgstr "Dodaj do wpisu"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:88
+msgid "Replace selected image"
+msgstr "Zamień wybrany obrazek"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat"
+msgstr "Rozpocznij nową rozmowę"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat to begin"
+msgstr "Zacznij nową rozmowę, aby rozpocząć"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "No past conversations"
+msgstr "Brak wcześniejszych rozmów"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Failed to load conversations. Please try again."
+msgstr "Nie udało się wczytać rozmów. Proszę spróbować ponownie."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:416
+msgid "Past chats"
+msgstr "Przeszłe czaty"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:274
+msgid "Failed to upload images. Please try again."
+msgstr "Nie udało się wczytać obrazków. Proszę spróbować ponownie."
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:37
+msgid "Tell me what you can do for me"
+msgstr "Powiedz mi, co możesz dla mnie zrobić"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:74
+msgid "Create a product"
+msgstr "Utwórz produkt"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:31
+msgid "Show me recent comments"
+msgstr "Pokaż mi ostatnie komentarze"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:30
+msgid "Review comments"
+msgstr "Komentarze do recenzji"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:25
+msgid "Show me my site health status"
+msgstr "Pokaż mi stan witryny"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:24
+msgid "Check site health"
+msgstr "Sprawdź Stan witryny"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:19
+msgid "Help me create a new post"
+msgstr "Pomóż mi stworzyć nowy wpis"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:18
+msgid "Create content"
+msgstr "Utwórz treść"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:13
+msgid "Show me my recent posts"
+msgstr "Pokaż mi moje ostatnie wpisy"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:12
+msgid "Manage posts"
+msgstr "Zarządzaj wpisami"
+
+#: src/image-studio/index.tsx:179
+msgid "Image doesn't exist"
+msgstr "Obrazek nie istnieje"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:131
+msgid "Redo ⇧%sZ"
+msgstr "Powtórz ⇧%sZ"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:129
+msgid "Undo %sZ"
+msgstr "Cofnij %sZ"
+
+#: src/image-studio/components/header/index.tsx:138
+msgid "Failed to save changes. Please try again or use the Save button."
+msgstr "Nie udało się zapisać zmian. Proszę spróbować ponownie lub użyć przycisku Zapisz."
+
+#: src/image-studio/components/index.tsx:89
+msgid "Failed to send message."
+msgstr "Nie udało się wysłać wiadomości."
+
+#: src/image-studio/hooks/suggestions-data.ts:67
+msgid "Draw annotation"
+msgstr "Narysuj adnotację"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Beta"
+msgstr "Beta"
+
+#: src/image-studio/hooks/suggestions-data.ts:55
+msgid "Enhance only the region marked by the blue annotation. Preserve everything else unchanged."
+msgstr "Ulepsz tylko obszar oznaczony niebieską adnotacją. Zachowaj wszystko inne bez zmian."
+
+#: src/image-studio/hooks/suggestions-data.ts:50
+msgid "Remove only the region marked by the blue annotation. Do not change anything else"
+msgstr "Usuń tylko obszar oznaczony niebieską adnotacją. Nie zmieniaj niczego innego."
+
+#: src/image-studio/hooks/suggestions-data.ts:45
+msgid "Replace only the region marked by the blue annotation with:"
+msgstr "Zamień tylko obszar oznaczony niebieską adnotacją na: "
+
+#: src/ai/hooks/suggestions-data.ts:98
+msgid "Remove the background from this image"
+msgstr "Usuń tło z tego obrazka"
+
+#: src/ai/hooks/suggestions-data.ts:97
+msgid "Remove background"
+msgstr "Usuń tło"
+
+#: src/image-studio/extensions/generate-button-extension.tsx:56
+#: src/image-studio/index.tsx:154
+msgid "Generate Image"
+msgstr "Generuj obrazek"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit image with AI"
+msgstr "Edytuj obrazek z AI"
+
+#: src/image-studio/components/index.tsx:285
+msgid "Do you want to save this image?"
+msgstr "Chcesz zapisać ten obrazek?"
+
+#: src/image-studio/components/index.tsx:275
+msgid "Discard"
+msgstr "Odrzuć"
+
+#: src/image-studio/components/index.tsx:273
+msgid "Unsaved changes"
+msgstr "Niezapisane zmiany"
+
+#: src/image-studio/components/index.tsx:223
+msgid "Image being edited"
+msgstr "Obrazek jest edytowany"
+
+#: src/image-studio/components/index.tsx:213
+msgid "Image saved to Media Library"
+msgstr "Obrazek zapisany w bibliotece mediów"
+
+#: src/image-studio/hooks/suggestions-data.ts:54
+msgid "Enhance this"
+msgstr "Ulepsz to"
+
+#: src/image-studio/hooks/suggestions-data.ts:49
+msgid "Remove this"
+msgstr "Usuń to"
+
+#: src/image-studio/hooks/suggestions-data.ts:44
+msgid "Replace this"
+msgstr "Zamień to"
+
+#: src/image-studio/hooks/suggestions-data.ts:35
+msgid "A professional workspace scene with natural lighting"
+msgstr "Profesjonalna scena biurowa z naturalnym oświetleniem"
+
+#: src/image-studio/hooks/suggestions-data.ts:34
+msgid "Professional workspace"
+msgstr "Profesjonalna przestrzeń robocza"
+
+#: src/image-studio/hooks/suggestions-data.ts:30
+msgid "A serene mountain landscape at sunrise with misty valleys"
+msgstr "Spokojny górski krajobraz o wschodzie słońca z mglistymi dolinami"
+
+#: src/image-studio/hooks/suggestions-data.ts:29
+msgid "Mountain landscape"
+msgstr "Krajobraz górski"
+
+#: src/image-studio/hooks/suggestions-data.ts:25
+msgid "A warm and inviting cafe scene with coffee, pastries, and natural lighting"
+msgstr "Ciepła i przytulna scena kawiarni z kawą, ciastkami i naturalnym oświetleniem"
+
+#: src/image-studio/hooks/suggestions-data.ts:24
+msgid "Cozy cafe scene"
+msgstr "Przytulna scena kawiarni"
+
+#: src/image-studio/hooks/suggestions-data.ts:15
+msgid "Increase the overall brightness of this image while keeping it natural"
+msgstr "Zwiększ ogólną jasność tego obrazka, zachowując naturalność"
+
+#: src/image-studio/hooks/suggestions-data.ts:14
+msgid "Brighten image"
+msgstr "Rozjaśnij obrazek"
+
+#: src/image-studio/hooks/suggestions-data.ts:10
+msgid "Enhance this image with balanced lighting, sharpness, and color while keeping it natural"
+msgstr "Popraw ten obrazek zrównoważonym oświetleniem, ostrością i kolorem, zachowując naturalność"
+
+#: src/image-studio/hooks/suggestions-data.ts:9
+msgid "Enhance image"
+msgstr "Ulepsz obrazek"
+
+#: src/image-studio/components/index.tsx:68
+msgid "Describe your image"
+msgstr "Opisz twój obrazek"
+
+#: src/image-studio/components/index.tsx:67
+msgid "Describe what you want to add, remove, or replace…"
+msgstr "Opisz, co chcesz dodać, usuwać lub zastąpić…"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt text describes the image's purpose. Leave it blank if the image is purely decorative."
+msgstr "Tekst alternatywny opisuje cel obrazka. Zostaw go pustym, jeśli obrazek jest czysto dekoracyjny."
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt Text"
+msgstr "Tekst alternatywny"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Description"
+msgstr "Opis"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Caption"
+msgstr "Podpis"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Title"
+msgstr "Tytuł"
+
+#: src/image-studio/components/sidebar/index.tsx:19
+msgid "Close sidebar"
+msgstr "Zamknij pasek boczny"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Dimensions:"
+msgstr "Wymiary:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Size:"
+msgstr "Rozmiar:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File type:"
+msgstr "Typ pliku:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded by:"
+msgstr "Wgrane przez:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded to:"
+msgstr "Wgrano do:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded on:"
+msgstr "Wysłano na serwer:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File Details"
+msgstr "Szczegóły pliku"
+
+#. %1$d: Image width, %2$d: Image height
+#: src/image-studio/components/sidebar/file-details.tsx:79
+msgid "%1$d × %2$d"
+msgstr "%1$d × %2$d"
+
+#. %.1f: File size in kilobytes
+#: src/image-studio/components/sidebar/file-details.tsx:29
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+#. %.1f: File size in megabytes
+#: src/image-studio/components/sidebar/file-details.tsx:25
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. %.1f: File size in gigabytes
+#: src/image-studio/components/sidebar/file-details.tsx:20
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/image-studio/components/sidebar/file-details.tsx:80
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: src/image-studio/components/index.tsx:121
+#: src/image-studio/components/sidebar/editable-field.tsx:23
+msgid "An error occurred while generating content."
+msgstr "Wystąpił błąd podczas generowania treści."
+
+#: src/image-studio/components/header/index.tsx:156
+msgid "Close image editor"
+msgstr "Zamknij edytor obrazków"
+
+#: src/image-studio/components/header/index.tsx:155
+msgid "Saving…"
+msgstr "Zapisywanie…"
+
+#: src/image-studio/components/header/index.tsx:154
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Image Info"
+msgstr "Informacje o obrazku"
+
+#: src/image-studio/components/header/index.tsx:145
+msgid "Select"
+msgstr "Wybierz"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Select an area of the image to edit"
+msgstr "Wybierz obszar obrazka do edytowania"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Media Library"
+msgstr "Biblioteka mediów"
+
+#: src/image-studio/components/header/index.tsx:132
+msgid "Edit this image in the WordPress Media Library"
+msgstr "Edytuj ten obrazek w bibliotece mediów WordPress"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Image Editor"
+msgstr "Edytor Obrazków"
+
+#: src/image-studio/components/generate-layout/index.tsx:9
+msgid "Let's create!"
+msgstr "Stwórzmy!"
+
+#: src/image-studio/components/edit-layout/index.tsx:51
+msgid "AI has finished editing your image."
+msgstr "Sztuczna inteligencja zakończyła edytowanie twojego obrazka."
+
+#: src/image-studio/components/edit-layout/index.tsx:48
+msgid "AI is currently editing your image. Please wait."
+msgstr "AI obecnie edytuje twój obrazek. Proszę czekać."
+
+#: src/image-studio/components/edit-layout/index.tsx:46
+msgid "Saving your annotation…"
+msgstr "Zapisuję twoją adnotację…"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Interactive drawing area for creating image annotations"
+msgstr "Interaktywna strefa rysowania do tworzenia adnotacji obrazków"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Saved annotation markings"
+msgstr "Zapisane oznaczenia adnotacji"
+
+#: src/ai/wp-orchestrator/index.tsx:54
+msgid "Unable to authenticate with Jetpack. Please try again."
+msgstr "Nie można uwierzytelnić się za pomocą Jetpack. Proszę spróbować ponownie."
+
+#: src/ai/wp-orchestrator/index.tsx:52
+msgid "Network connection issue. Please check your internet connection and try again."
+msgstr "Problem z połączeniem sieciowym. Sprawdź swoje połączenie internetowe i spróbuj ponownie."
+
+#: src/ai/wp-orchestrator/index.tsx:47
+msgid "Unable to connect to Jetpack. Please ensure Jetpack is active and up to date."
+msgstr "Nie można połączyć się z Jetpack. Upewnij się, że Jetpack jest aktywny i zaktualizowany."
+
+#: src/ai/wp-orchestrator/index.tsx:44
+msgid "You don't have permission to access AI features."
+msgstr "Nie masz uprawnień do dostępu do funkcji AI."
+
+#: src/ai/wp-orchestrator/index.tsx:41
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Twoja sesja wygasła. Proszę odświeżyć stronę i spróbować ponownie."
+
+#: src/components/product-card/ProductCard.tsx:56
+msgid "Error: Product name is required"
+msgstr "Błąd: Nazwa produktu jest wymagana"
+
+#: src/components/product-card/ProductCard.tsx:87
+msgid "Product"
+msgstr "Produkt"
+
+#: src/components/product-card/ProductCard.tsx:84
+msgid "Service"
+msgstr "Usługa"
+
+#: src/components/product-card/ProductCard.tsx:53
+msgid "Error: Could not render product card"
+msgstr "Błąd: Nie można było wyrenderować karty produktu"
+
+#: src/components/product-card/ProductCard.tsx:25
+msgid "unit"
+msgid_plural "units"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/abilities/set-styles/index.ts:20
+msgid "Apply color palette, font pairing, and button style variations to the WordPress site. Accepts variation titles (e.g., \"Professional\", \"Montserrat + Open Sans\") and applies the complete styling including colors, typography, button styles, and all associated theme variations."
+msgstr "Zastosuj paletę kolorów, krój pisma oraz warianty stylu przycisków do witryny WordPress. Akceptuje tytuły wariantów (np. \"Profesjonalny\", \"Montserrat + Open Sans\") i stosuje pełne stylizacje, w tym kolory, typografię, style przycisków oraz wszystkie powiązane warianty motywu."
+
+#: src/abilities/set-styles/index.ts:18
+msgid "Set Styles"
+msgstr "Ustaw style"
+
+#: src/abilities/add-pages/index.ts:19
+msgid "Creates multiple WordPress pages with generated content from patterns and layouts. Page titles are provided by the backend, and page content is composed from layout blocks. Also updates site navigation."
+msgstr "Tworzy wiele podstron WordPressa z generowaną treścią z wzorców i układów. Tytuły stron są dostarczane przez backend, a treść strony składa się z bloków układu. Również aktualizuje nawigację witryny."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:82
+msgid "Failed to update styles:"
+msgstr "Nie udało się zaktualizować stylów: "
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:76
+msgid "Failed to update styles. The style variation may be invalid."
+msgstr "Nie udało się zaktualizować stylów. Wariant stylu może być nieprawidłowy."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:62
+msgid "Styles updated successfully."
+msgstr "Style zaktualizowane pomyślnie."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:38
+msgid "Invalid button format. Button must be a string (variation title)."
+msgstr "Nieprawidłowy format przycisku. Przycisk musi być ciągiem znaków (tytuł wariantu)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:31
+msgid "Invalid font format. Font must be a string (variation title)."
+msgstr "Nieprawidłowy krój pisma. Krój pisma musi być ciągiem znaków (tytuł wariacji)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:24
+msgid "Invalid color format. Color must be a string (variation title)."
+msgstr "Nieprawidłowy format koloru. Kolor musi być ciągiem znaków (tytuł wariantu)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:17
+msgid "Invalid arguments. Provide at least one of: color, font, or button."
+msgstr "Nieprawidłowe argumenty. Podaj przynajmniej jeden z: kolor, krój pisma lub przycisk."
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:169
+msgid "Failed to create pages:"
+msgstr "Nie udało się utworzyć stron: "
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:65
+msgid "Invalid pages. Must provide an array of page objects."
+msgstr "Nieprawidłowe podstrony. Musisz podać tablicę obiektów podstron."
+
+#: src/abilities/site-logo/index.ts:17
+msgid "Set the site logo"
+msgstr "Ustaw logo witryny"
+
+#: src/abilities/site-logo/index.ts:15
+msgid "Set Site Logo"
+msgstr "Ustaw logo witryny"
+
+#: src/abilities/update-theme/index.ts:17
+msgid "Update WordPress theme settings and styles using theme.json format"
+msgstr "Zaktualizuj ustawienia motywu WordPress i style, używając formatu theme.json"
+
+#: src/abilities/update-theme/index.ts:15
+msgid "Update Theme"
+msgstr "Zaktualizuj motyw"
+
+#: src/abilities/edit-entity-record/index.ts:17
+msgid "Create, edit, or delete WordPress data entity records using the data layer"
+msgstr "Twórz, edytuj lub usuń rekordy encji danych WordPressa za pomocą warstwy danych"
+
+#: src/abilities/edit-entity-record/index.ts:15
+msgid "Manage Entity Records"
+msgstr "Zarządzaj rekordami encji"
+
+#: src/abilities/show-component/index.ts:23
+msgid "Display a component in the UI with specified props"
+msgstr "Wyświetl komponent w interfejsie użytkownika z określonymi właściwościami"
+
+#: src/abilities/show-component/index.ts:21
+msgid "Show Component"
+msgstr "Pokaż komponent"
+
+#: src/abilities/client-assistants/index.ts:29
+msgid "Always use this if the user asks for something that requires a client-side assistant. Available assistants:"
+msgstr "Zawsze używaj tego, jeśli użytkownik poprosi o coś, co wymaga asystenta po stronie klienta. Dostępni asystenci: "
+
+#: src/abilities/client-assistants/index.ts:27
+msgid "Execute Client Assistant"
+msgstr "Wykonaj Asystenta Klienta"
+
+#: src/abilities/set-processing-state/index.ts:18
+msgid "Sets the processing state on a block and scrolls to it to indicate active processing"
+msgstr "Ustawia stan przetwarzania na bloku i przewija do niego, aby wskazać aktywne przetwarzanie"
+
+#: src/abilities/set-processing-state/index.ts:16
+msgid "Set Processing State"
+msgstr "Ustaw stan przetwarzania"
+
+#: src/abilities/apply-block-edits/index.ts:17
+msgid "Applies a collection of block edits to the canvas"
+msgstr "Zastosowuje zbiór edycji bloków do płótna"
+
+#: src/abilities/apply-block-edits/index.ts:15
+msgid "Apply Block Edits"
+msgstr "Zastosuj edycje bloku"
+
+#: src/abilities/editor-navigate/index.ts:18
+msgid "Saves everything and navigates to the specified path in the editor. Also be used to navigate to a view that shows all the sites pages so use this tool if the user asks to view all their pages."
+msgstr "Zapisuje wszystko i nawiguję do określonej ścieżki w edytorze. Może być też używane do nawigacji do widoku, który pokazuje wszystkie podstrony witryny, więc użyj tego narzędzia, jeśli użytkownik poprosi o zobacz wszystkie swoje podstrony."
+
+#: src/abilities/editor-navigate/index.ts:16
+msgid "Navigate"
+msgstr "Nawiguj"
+
+#: src/abilities/wp-admin-navigate.ts:104
+msgid "Navigate the browser to a different wp-admin page. Use this when the user asks to go to a specific admin page (e.g., \"go to plugins\", \"navigate to settings\"). The page will reload, but the conversation will automatically continue after navigation completes."
+msgstr "Nawiguj przeglądarkę do innej podstrony wp-admin. Użyj tego, gdy użytkownik prosi o przejście do konkretnej strony administracyjnej (np. 'przejdź do wtyczek', 'nawiguj do ustawień'). Strona się wczyta, ale rozmowa automatycznie będzie kontynuowana po zakończeniu nawigacji."
+
+#: src/abilities/wp-admin-navigate.ts:102
+msgid "Navigate to wp-admin page"
+msgstr "Nawiguj do strony wp-admin"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:138
+msgid "By updating the query, order posts from %s"
+msgstr "Poprzez zaktualizowanie zapytania, zamów wpisy od %s"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:135
+msgid "Stop inheriting default query settings and order posts from %s"
+msgstr "Przestań dziedziczyć domyślne ustawienia zapytań i porządkuj wpisy z %s"
+
+#: src/ai/hooks/suggestions-data.ts:130
+msgid "newest to oldest"
+msgstr "od najnowszych do najstarszych"
+
+#: src/ai/hooks/suggestions-data.ts:129
+msgid "oldest to newest"
+msgstr "najstarsze do najnowsze"
+
+#: src/ai/hooks/suggestions-data.ts:124
+msgid "Order posts"
+msgstr "Zamów wpisy"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:117
+msgid "Currently this query is displaying %s posts per page, change it to:"
+msgstr "Obecnie to zapytanie wyświetla %s wpisów na stronie, zmień to na:"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:114
+msgid "Stop inheriting default query settings and change the current number of posts displayed per page from %s to:"
+msgstr "Przestań dziedziczyć domyślne ustawienia zapytań i zmień obecny liczba wpisów wyświetlanych na podstronie z %s na:"
+
+#: src/ai/hooks/suggestions-data.ts:106
+msgid "Change number of posts"
+msgstr "Zmień liczbę wpisów"
+
+#: src/ai/hooks/suggestions-data.ts:103
+msgid "Tell me all the ways you can help design or edit my site"
+msgstr "Powiedz mi, w jaki sposób możesz pomóc w zaprojektowaniu lub edytowaniu mojej witryny"
+
+#: src/ai/hooks/suggestions-data.ts:102
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:36
+msgid "What else can you do?"
+msgstr "Co jeszcze możesz zrobić?"
+
+#: src/ai/hooks/suggestions-data.ts:84
+msgid "Edit the image to:"
+msgstr "Edytuj obrazek do: "
+
+#: src/ai/hooks/suggestions-data.ts:83
+msgid "Edit image"
+msgstr "Edytuj obrazek"
+
+#: src/ai/hooks/suggestions-data.ts:73
+msgid "Generate an image of:"
+msgstr "Wygeneruj obrazek: "
+
+#: src/ai/hooks/suggestions-data.ts:69
+msgid "Check the grammar of this text"
+msgstr "Sprawdź gramatykę tego tekstu"
+
+#: src/ai/hooks/suggestions-data.ts:68
+msgid "Check grammar"
+msgstr "Sprawdź gramatykę"
+
+#: src/ai/hooks/suggestions-data.ts:65
+msgid "Change the tone of this text to be more:"
+msgstr "Zmień ton tego tekstu, żeby był bardziej: "
+
+#: src/ai/hooks/suggestions-data.ts:61
+msgid "Translate this to:"
+msgstr "Przetłumacz to na: "
+
+#: src/ai/hooks/suggestions-data.ts:60
+msgid "Translate content"
+msgstr "Przetłumacz treść"
+
+#: src/ai/hooks/suggestions-data.ts:56
+msgid "Add another column to the end of these"
+msgstr "Dodaj jeszcze jedną kolumnę na końcu tych"
+
+#: src/ai/hooks/suggestions-data.ts:55
+msgid "Add column"
+msgstr "Dodaj kolumnę"
+
+#: src/ai/hooks/suggestions-data.ts:51
+msgid "Reverse the order of these columns"
+msgstr "Odwróć kolejność tych kolumn"
+
+#: src/ai/hooks/suggestions-data.ts:50
+msgid "Swap columns"
+msgstr "Zamień kolumny"
+
+#. %s is the button text
+#: src/ai/hooks/suggestions-data.ts:47
+msgid "Change the %s button link to:"
+msgstr "Zmień odnośnik przycisku %s na: "
+
+#: src/ai/hooks/suggestions-data.ts:41
+msgid "Create a new page on my site for"
+msgstr "Utwórz nową stronę na mojej witrynie dla "
+
+#: src/ai/hooks/suggestions-data.ts:40
+msgid "Add new page"
+msgstr "Dodaj nową stronę"
+
+#: src/ai/hooks/suggestions-data.ts:37
+msgid "Show me different layouts for this page"
+msgstr "Pokaż mi różne układy dla tej podstrony"
+
+#: src/ai/hooks/suggestions-data.ts:36
+msgid "Change page layout"
+msgstr "Zmień układ strony"
+
+#: src/ai/hooks/suggestions-data.ts:33
+msgid "Show me color palettes for my site that are:"
+msgstr "Pokaż mi palety kolorów dla mojej witryny, które są: "
+
+#: src/ai/hooks/suggestions-data.ts:32
+msgid "Customize colors"
+msgstr "Dostosuj kolory"
+
+#: src/ai/hooks/suggestions-data.ts:29
+msgid "Show me new fonts for my site"
+msgstr "Pokaż mi nowe kroje pisma dla mojej witryny"
+
+#: src/ai/hooks/suggestions-data.ts:28
+msgid "Choose new fonts"
+msgstr "Wybierz nowe kroje pisma"
+
+#: big-sky.php:376
+msgid "AI-powered site building and navigation abilities."
+msgstr "Funkcje budowania witryny i nawigacji zasilane sztuczną inteligencją."
+
+#: src/components/product-card/ProductCard.tsx:90
+msgid "Edit"
+msgstr "Edytuj"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:83
+msgid "Edit this image"
+msgstr "Edytuj ten obrazek"
+
+#: src/image-studio/components/index.tsx:268
+msgid "Image Studio"
+msgstr "Obrazek Studio"
+
+#: src/hooks/use-dock-state.ts:138
+#: src/components/dock/index.js:439
+msgid "Pop out sidebar"
+msgstr "Wyskakujący panel boczny"
+
+#: src/hooks/use-dock-state.ts:132
+#: src/components/dock/index.js:459
+msgid "Move to sidebar"
+msgstr "Przenieś do panelu bocznego"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:546
+msgid "Got a different request? Ask away."
+msgstr "Masz inne pytanie? Śmiało pytaj."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:540
+msgid "Howdy! How can I help you today?"
+msgstr "Cześć! Jak mogę ci dzisiaj pomóc?"
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:61
+msgid "Showing all pages."
+msgstr "Pokazuje wszystkie podstrony."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:65
+msgid "Updated:"
+msgstr "Zaktualizowano:"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:62
+msgid "Theme updated successfully"
+msgstr "Motyw został zaktualizowany."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:42
+msgid "Invalid styles format. Styles must be an object."
+msgstr "Nieprawidłowy format stylów. Style muszą być obiektem."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:34
+msgid "Invalid settings format. Settings must be an object."
+msgstr "Nieprawidłowy format ustawień. Ustawienia muszą być obiektem."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:26
+msgid "Invalid arguments. Provide either settings or styles to update the theme."
+msgstr "Nieprawidłowe argumenty. Podaj albo ustawienia, albo style, aby zaktualizować motyw."
+
+#: big-sky.php:1887
+#: big-sky.php:1888
+msgid "AI Editor"
+msgstr "Edytor AI"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:208
+msgid "Canceled."
+msgstr "Anulowane."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:188
+msgid "Proceed"
+msgstr "Kontynuuj"
+
+#: src/image-studio/components/canvas-controls/index.tsx:101
+#: src/components/chat/components/completed-plan.js:136
+#: src/components/chat/message/message-feedback.js:44
+msgid "Bad response"
+msgstr "Zła odpowiedź"
+
+#: src/image-studio/components/canvas-controls/index.tsx:92
+#: src/components/chat/components/completed-plan.js:128
+#: src/components/chat/message/message-feedback.js:36
+msgid "Good response"
+msgstr "Dobra odpowiedź"
+
+#: src/ai/hooks/suggestions-data.ts:44
+msgid "Edit link"
+msgstr "Edytuj odnośnik"
+
+#: src/abilities/show-component/show-component.tsx:193
+#: src/abilities/site-logo/set-site-logo.ts:74
+msgid "There was an error with this request. Please try again."
+msgstr "Zgłoszono błąd w tej prośbie. Proszę spróbować ponownie."
+
+#: src/abilities/client-assistants/run-assistant.ts:189
+msgid "No response from assistant"
+msgstr "Brak odpowiedzi od asystenta"
+
+#: src/abilities/client-assistants/index.ts:89
+msgid "Assistant completed successfully"
+msgstr "Pomocnik zakończony pomyślnie"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:608
+msgid "Something went wrong. Please try again."
+msgstr "Coś poszło nie tak. Proszę spróbować ponownie."
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:589
+msgid "I have completed the edits."
+msgstr "Zakończyłem edycje."
+
+#. %s: error message
+#: src/image-studio/hooks/use-revert-to-original.ts:94
+msgid "Failed to revert image: %s"
+msgstr "Nie udało się przywrócić obrazka: %s"
+
+#. translators: %s is the theme name.
+#: big-sky.php:630
+msgid "The current theme (%s) is a block theme."
+msgstr "Obecny motyw (%s) to motyw blokowy."
+
+#: big-sky.php:623
+msgid "The current theme is not a block theme. Big Sky requires a block theme to be active."
+msgstr "Obecny motyw nie jest motywem blokowym. Big Sky wymaga, aby motyw blokowy był aktywny."
+
+#: src/abilities/client-assistants/run-assistant.ts:182
+msgid "Sorry, I've encountered an error. Please try again or let me know if you need help with something else."
+msgstr "Przepraszam, napotkałem błąd. Proszę spróbować ponownie lub daj mi znać, jeśli potrzebujesz pomocy w czymś innym."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:194
+msgid "I changed my mind"
+msgstr "Zmieniłem zdanie"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:582
+msgid "I was not able to make the changes you requested. Either I don't have the capability to do so or I didn't understand your request. You can ask me to try again or ask me to do something else."
+msgstr "Nie byłem w stanie wprowadzić zmian, o które prosiłeś. Albo nie mam możliwości, żeby to zrobić, albo nie zrozumiałem twojej prośby. Możesz poprosić mnie, żebym spróbował znowu, albo poprosić mnie, żebym zrobił coś innego."
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:84
+msgid "Navigated to page"
+msgstr "Nawigowano do strony"
+
+#: src/ai/hooks/suggestions-data.ts:72
+msgid "Generate image"
+msgstr "Generuj obrazek"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Learn more"
+msgstr "Dowiedz się więcej."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:185
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:22
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:30
+msgid "No"
+msgstr "Nie"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:219
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:16
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:24
+msgid "Yes"
+msgstr "Tak"
+
+#: src/abilities/add-pages/index.ts:17
+msgid "Add Pages"
+msgstr "Dodaj podstrony"
+
+#: src/image-studio/components/sidebar/editable-field.tsx:35
+msgid "Regenerate"
+msgstr "Regeneruj"
+
+#: src/ai/hooks/suggestions-data.ts:64
+msgid "Change tone"
+msgstr "Zmień ton"
+
+#: src/image-studio/components/sidebar/index.tsx:48
+#: src/components/chat/components/feedback-input.js:126
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/image-studio/components/header/index.tsx:71
+#: src/image-studio/components/index.tsx:281
+msgid "Save"
+msgstr "Zapisz"
+
+#: big-sky.php:712
+msgid "These checks passed:"
+msgstr "Te kontrole przeszły:"
+
+#: big-sky.php:698
+msgid "Big Sky detected the following issues with your site:"
+msgstr "Big Sky wykrył następujące problemy z twoją witryną:"
+
+#. translators: $d is the number of performance issues found.
+#: big-sky.php:697
+msgid "Big Sky is affected by %d issue"
+msgid_plural "Big Sky is affected by %d issues"
+msgstr[0] "Big Sky ma wpływ na %d problem"
+msgstr[1] "Big Sky ma wpływ na %d problemy"
+msgstr[2] "Big Sky ma wpływ na %d problemów"
+
+#: big-sky.php:687
+msgid "Mapbox API key is set."
+msgstr "Klucz API Mapbox jest ustawiony."
+
+#: big-sky.php:682
+msgid "Mapbox API key is not set. Big Sky requires a Mapbox API key to be set."
+msgstr "Klucz API Mapbox nie jest ustawiony. Big Sky wymaga ustawienia klucza API Mapbox."
+
+#: big-sky.php:674
+msgid "Jetpack is connected to an admin."
+msgstr "Jetpack jest połączony z administratorem."
+
+#: big-sky.php:669
+msgid "Jetpack does not have a connected admin. Big Sky requires Jetpack to be connected to an admin."
+msgstr "Jetpack nie ma podłączonego administratora. Big Sky wymaga, aby Jetpack był podłączony do administratora."
+
+#: big-sky.php:660
+msgid "Jetpack is connected."
+msgstr "Jetpack jest połączony."
+
+#: big-sky.php:655
+msgid "Jetpack is not connected. Big Sky requires Jetpack to be connected."
+msgstr "Jetpack nie jest połączony. Big Sky wymaga, aby Jetpack był połączony."
+
+#: big-sky.php:644
+msgid "Jetpack is installed."
+msgstr "Jetpack jest zainstalowany."
+
+#: big-sky.php:639
+msgid "Jetpack is not installed. Big Sky requires Jetpack to be installed and active."
+msgstr "Jetpack nie jest zainstalowany. Big Sky wymaga, aby Jetpack był zainstalowany i aktywny."
+
+#: big-sky.php:613
+msgid "Big Sky did not find any known issues with your site."
+msgstr "Big Sky nie znalazł żadnych znanych problemów z twoją witryną."
+
+#: big-sky.php:605
+msgid "Big Sky Checks"
+msgstr "Big Sky Checks"
+
+#: big-sky.php:580
+#: big-sky.php:581
+msgid "Big Sky checks"
+msgstr "Big Sky checks"
+
+#: big-sky.php:411
+msgid "AI Features"
+msgstr "Funkcje AI"
+
+#: big-sky.php:403
+msgid "Enable AI-powered site building experience"
+msgstr "Włącz doświadczenie budowania witryny z wykorzystaniem AI"
+
+#. Author of the plugin
+#: big-sky.php
+msgid "Automattic, Inc."
+msgstr "Automattic, Inc."
+
+#. Description of the plugin
+#: big-sky.php
+msgid "The Big Sky AI Site Builder."
+msgstr "Twórca witryn Big Sky AI."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: big-sky.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Plugin Name of the plugin
+#: big-sky.php
+#: big-sky.php:375
+#: big-sky.php:608
+msgid "Big Sky"
+msgstr "Big Sky"

@@ -1,0 +1,215 @@
+.milestone-one{
+	&__single{
+		position: relative;
+		text-align: center;
+		padding: 20px 30px;
+		&:before{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 116px;
+			height: 116px;
+			display: inline-block;
+			border-radius: 50%;
+			border: 1px solid $theme-color-2;
+		}
+	}
+	&__content{
+		position: relative;
+	}
+	&__number{
+		font-size: 22px;
+		font-weight: 800;
+		color: $headings-color;
+		display: inline-block;
+	}
+	&__title{
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 400;
+	}
+	&__link{
+		position: absolute;
+		@include size(100%, 100%);
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+	&__single{
+		&:hover{
+			.milestone-one__icon{
+				.icon{
+					svg, i{
+						animation: beat 1.5s ease 0s infinite;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Style 02
+.milestone-two{
+	&__single{
+		position: relative;
+		margin-bottom: 30px;
+	}
+	&__content{
+		position: relative;
+		z-index: 2;
+	}
+	&__icon{
+		color: $theme-color;
+		font-size: 100px;
+		@media(max-width: 1024px){
+			font-size: 60px;
+		}
+		svg{
+			width: 100px;
+			@media(max-width: 1024px){
+				width: 60px;
+			}
+		}
+	}
+	&__number{
+		font-size: 40px;
+		font-weight: 700;
+		color: $link-color;
+		margin-bottom: 15px;
+      @media(max-width: 1024px){
+         font-size: 32px;
+      }
+		.symbol{
+			&.after{
+				
+			}
+			&.before{
+				
+			}
+		}
+	}
+	&__title{
+		position: relative;
+		font-size: 20px;
+		transition: all 0.5s;
+		line-height: 24px;
+      @media(max-width: 1024px){
+         font-size: 18px;
+         line-height: 22px;
+      }
+	}
+	&__desc{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	&__link{
+		position: absolute;
+		@include size(100%, 100%);
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+	&__single{
+		&:hover{
+			.milestone-two__icon{
+				svg, i{
+					
+				}
+			}
+		}
+	}
+}
+
+// Style 03
+.milestone-three{
+	&__single{
+		position: relative;
+		width: 192px;
+		height: 192px;
+		background: $theme-color;
+		padding: 20px;
+		border-radius: 50%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@media(max-width: 1024px){
+			width: 160px;
+			height: 160px;
+			padding: 15px;
+		}
+	}
+	&__wrap{ 
+		text-align: center;
+	}
+	&__icon{
+		width: 62px;
+		height: 62px;
+		border-radius: 50%;
+		background: $white;
+		color: $headings-color;
+		font-size: 28px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		bottom: -30px;
+		left: 50%;
+		margin-left: -31px;
+		@media(max-width: 1024px){
+			width: 50px;
+			height: 50px;
+			margin-left: -25px;
+			bottom: -25px;
+			font-size: 24px;
+		}
+	}
+	&__number{
+		font-size: 40px;
+		font-weight: 800;
+		color: $white;
+		margin: 10px 0 5px;
+		@media(max-width: 1200px){
+			font-size: 36px;
+		}
+		.symbol{
+			
+		}
+	}
+	&__title{
+		position: relative;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 500;
+		margin-top: 10px;
+		transition: all 0.5s;
+		line-height: 20px;
+		color: $white;
+		opacity: 0.6;
+		text-transform: uppercase;
+	}
+	&__link{
+		position: absolute;
+		@include size(100%, 100%);
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+	&__single{
+		&:hover{
+			.milestone-three__icon{
+				svg, i{
+					animation: beat 1.5s ease 0s infinite;
+				}
+			}
+		}
+	}
+}
+
+.icon-top{
+	.milestone-three__icon{
+		top: -30px;
+	}
+}

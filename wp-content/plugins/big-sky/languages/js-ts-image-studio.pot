@@ -1,0 +1,735 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/ai/hooks/suggestions-data.ts:102
+msgid "What else can you do?"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:103
+msgid "Tell me all the ways you can help design or edit my site"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:106
+msgid "Change number of posts"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:114
+#. %s is the number of posts. Eg: '10'
+msgid ""
+"Stop inheriting default query settings and change the current number of "
+"posts displayed per page from %s to:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:117
+#. %s is the number of posts. Eg: '10'
+msgid "Currently this query is displaying %s posts per page, change it to:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:124
+msgid "Order posts"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:129
+msgid "oldest to newest"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:130
+msgid "newest to oldest"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:135
+#. %s is the order. Eg: 'newest to oldest'
+msgid "Stop inheriting default query settings and order posts from %s"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:138
+#. %s is the order. Eg: 'newest to oldest'
+msgid "By updating the query, order posts from %s"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:28
+msgid "Choose new fonts"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:29
+msgid "Show me new fonts for my site"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:32
+msgid "Customize colors"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:33
+msgid "Show me color palettes for my site that are:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:36
+msgid "Change page layout"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:37
+msgid "Show me different layouts for this page"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:40
+msgid "Add new page"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:41
+msgid "Create a new page on my site for"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:44
+msgid "Edit link"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:47
+#. %s is the button text
+msgid "Change the %s button link to:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:50
+msgid "Swap columns"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:51
+msgid "Reverse the order of these columns"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:55
+msgid "Add column"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:56
+msgid "Add another column to the end of these"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:60
+msgid "Translate content"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:61
+msgid "Translate this to:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:64
+msgid "Change tone"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:65
+msgid "Change the tone of this text to be more:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:68
+msgid "Check grammar"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:69
+msgid "Check the grammar of this text"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:72
+msgid "Generate image"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:73
+msgid "Generate an image of:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:83
+msgid "Edit image"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:84
+msgid "Edit the image to:"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:97
+msgid "Remove background"
+msgstr ""
+
+#: src/ai/hooks/suggestions-data.ts:98
+msgid "Remove the background from this image"
+msgstr ""
+
+#: src/ai/wp-orchestrator/index.tsx:41
+msgid "Your session expired. Please refresh the page and try again."
+msgstr ""
+
+#: src/ai/wp-orchestrator/index.tsx:44
+msgid "You don't have permission to access AI features."
+msgstr ""
+
+#: src/ai/wp-orchestrator/index.tsx:47
+msgid ""
+"Unable to connect to Jetpack. Please ensure Jetpack is active and up to "
+"date."
+msgstr ""
+
+#: src/ai/wp-orchestrator/index.tsx:52
+msgid ""
+"Network connection issue. Please check your internet connection and try "
+"again."
+msgstr ""
+
+#: src/ai/wp-orchestrator/index.tsx:54
+msgid "Unable to authenticate with Jetpack. Please try again."
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:25
+msgid "unit"
+msgid_plural "units"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/product-card/ProductCard.tsx:51
+msgid "Loading…"
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:53
+msgid "Error: Could not render product card"
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:56
+msgid "Error: Product name is required"
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:84
+msgid "Service"
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:87
+msgid "Product"
+msgstr ""
+
+#: src/components/product-card/ProductCard.tsx:90
+msgid "Edit"
+msgstr ""
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Saved annotation markings"
+msgstr ""
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Interactive drawing area for creating image annotations"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:19
+msgid "1:1"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:20
+msgid "16:9"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:21
+msgid "9:16"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:22
+msgid "4:3"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:23
+msgid "3:4"
+msgstr ""
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:41
+msgid "Aspect Ratio"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/index.tsx:101
+msgid "Bad response"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/index.tsx:92
+msgid "Good response"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision ←"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision"
+msgstr ""
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision →"
+msgstr ""
+
+#: src/image-studio/components/edit-layout/index.tsx:46
+msgid "Saving your annotation…"
+msgstr ""
+
+#: src/image-studio/components/edit-layout/index.tsx:48
+msgid "AI is currently editing your image. Please wait."
+msgstr ""
+
+#: src/image-studio/components/edit-layout/index.tsx:51
+msgid "AI has finished editing your image."
+msgstr ""
+
+#: src/image-studio/components/generate-layout/index.tsx:9
+msgid "Let's create!"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Image Editor"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Beta"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:123
+#. %s: modifier key (command or control)
+msgid "Previous image %s←"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:124
+#: src/image-studio/components/sidebar/file-details.tsx:82
+#: src/image-studio/utils/get-image-data.ts:27
+msgid "Untitled"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:127
+#. %s: modifier key (command or control)
+msgid "Next image %s→"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:129
+#. %s: modifier key (command or control)
+msgid "Undo %sZ"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:131
+#. %s: modifier key (command or control)
+msgid "Redo ⇧%sZ"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:132
+msgid "Edit this image in the WordPress Media Library"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:138
+msgid "Failed to save changes. Please try again or use the Save button."
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Media Library"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Select an area of the image to edit"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:145
+msgid "Select"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:147
+msgid "View or edit information about the image"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:154
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Image Info"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:155
+msgid "Saving…"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:156
+msgid "Close image editor"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:68
+msgid "Save & Apply"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:71
+#: src/image-studio/components/index.tsx:281
+msgid "Save"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:82
+msgid "Save and apply image"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:85
+msgid "Save displayed image to Media Library"
+msgstr ""
+
+#: src/image-studio/components/header/index.tsx:90
+#: src/image-studio/components/sidebar/index.tsx:25
+msgid "Save or discard your changes"
+msgstr ""
+
+#: src/image-studio/components/image-actions-menu/index.tsx:18
+msgid "Save to media library"
+msgstr ""
+
+#: src/image-studio/components/image-actions-menu/index.tsx:24
+msgid "Revert to original"
+msgstr ""
+
+#: src/image-studio/components/image-actions-menu/index.tsx:34
+msgid "More options"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:121
+#: src/image-studio/components/sidebar/editable-field.tsx:23
+msgid "An error occurred while generating content."
+msgstr ""
+
+#: src/image-studio/components/index.tsx:127
+msgid "Generating suggestions…"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:213
+msgid "Image saved to Media Library"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:223
+msgid "Image being edited"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:268
+msgid "Image Studio"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:273
+msgid "Unsaved changes"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:275
+msgid "Discard"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:285
+msgid "Do you want to save this image?"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:67
+msgid "Describe what you want to add, remove, or replace…"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:68
+msgid "Describe your image"
+msgstr ""
+
+#: src/image-studio/components/index.tsx:89
+msgid "Failed to send message."
+msgstr ""
+
+#: src/image-studio/components/sidebar/editable-field.tsx:35
+msgid "Regenerate"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:20
+#. %.1f: File size in gigabytes
+msgid "%.1f GB"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:25
+#. %.1f: File size in megabytes
+msgid "%.1f MB"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:29
+#. %.1f: File size in kilobytes
+msgid "%.1f KB"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:79
+#. %1$d: Image width, %2$d: Image height
+msgid "%1$d × %2$d"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:80
+msgid "Unknown"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File Details"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File name:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded on:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded to:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded by:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File type:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Size:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Dimensions:"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:19
+msgid "Close sidebar"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Title"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Caption"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Description"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt Text"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid ""
+"Alt text describes the image's purpose. Leave it blank if the image is "
+"purely decorative."
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Learn more"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:46
+msgid "Delete this item"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:48
+msgid "Cancel"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:53
+msgid "Delete permanently"
+msgstr ""
+
+#: src/image-studio/components/sidebar/index.tsx:65
+msgid ""
+"You are about to permanently delete this item from your site. This action "
+"cannot be undone."
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:102
+msgid "Cinematic"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:107
+msgid "3D Model"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:112
+msgid "Pixel Art"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:117
+msgid "Texture"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:150
+msgid "Styles"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:38
+msgid "Select style"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:39
+msgid "None"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:41
+msgid "Vivid"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:45
+msgid "Anime"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:47
+msgid "Photographic"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:52
+msgid "Digital Art"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:57
+msgid "Comicbook"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:62
+msgid "Fantasy Art"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:67
+msgid "Analog Film"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:72
+msgid "Neonpunk"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:77
+msgid "Isometric"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:82
+msgid "Lowpoly"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:87
+msgid "Origami"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:92
+msgid "Line Art"
+msgstr ""
+
+#: src/image-studio/components/style-picker/index.tsx:97
+msgid "Craft Clay"
+msgstr ""
+
+#: src/image-studio/extensions/generate-button-extension.tsx:56
+#: src/image-studio/index.tsx:154
+msgid "Generate Image"
+msgstr ""
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit image with AI"
+msgstr ""
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit with AI"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:10
+msgid ""
+"Enhance this image with balanced lighting, sharpness, and color while "
+"keeping it natural"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:14
+msgid "Brighten image"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:15
+msgid "Increase the overall brightness of this image while keeping it natural"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:24
+msgid "Cozy cafe scene"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:25
+msgid "A warm and inviting cafe scene with coffee, pastries, and natural lighting"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:29
+msgid "Mountain landscape"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:30
+msgid "A serene mountain landscape at sunrise with misty valleys"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:34
+msgid "Professional workspace"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:35
+msgid "A professional workspace scene with natural lighting"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:44
+msgid "Replace this"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:45
+msgid "Replace only the region marked by the blue annotation with:"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:49
+msgid "Remove this"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:50
+msgid ""
+"Remove only the region marked by the blue annotation. Do not change "
+"anything else"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:54
+msgid "Enhance this"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:55
+msgid ""
+"Enhance only the region marked by the blue annotation. Preserve everything "
+"else unchanged."
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:67
+msgid "Draw annotation"
+msgstr ""
+
+#: src/image-studio/hooks/suggestions-data.ts:9
+msgid "Enhance image"
+msgstr ""
+
+#: src/image-studio/hooks/use-delete-permanently.ts:135
+msgid "Failed to delete image. Please try again."
+msgstr ""
+
+#: src/image-studio/hooks/use-delete-permanently.ts:93
+msgid "Cannot delete - no image found"
+msgstr ""
+
+#: src/image-studio/hooks/use-revert-to-original.ts:67
+msgid "Cannot revert - original image not found"
+msgstr ""
+
+#: src/image-studio/hooks/use-revert-to-original.ts:77
+msgid "Cannot revert - failed to load original image"
+msgstr ""
+
+#: src/image-studio/hooks/use-revert-to-original.ts:88
+msgid "Reverted to original"
+msgstr ""
+
+#: src/image-studio/hooks/use-revert-to-original.ts:94
+#. %s: error message
+msgid "Failed to revert image: %s"
+msgstr ""
+
+#: src/image-studio/index.tsx:179
+msgid "Image doesn't exist"
+msgstr ""

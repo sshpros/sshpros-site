@@ -1,0 +1,1199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Big Sky\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-21T10:49:11+00:00\n"
+"PO-Revision-Date: 2026-05-06 18:10:11+0000\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:409
+#: src/components/dock/index.js:428
+msgid "New chat"
+msgstr "Ny chatt"
+
+#: src/image-studio/components/header/index.tsx:82
+msgid "Save and apply image"
+msgstr "Spara och tillämpa bild"
+
+#: src/image-studio/components/header/index.tsx:68
+msgid "Save & Apply"
+msgstr "Spara och tillämpa"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+#: big-sky.php:1515
+msgid "Edit with AI"
+msgstr "Redigera med AI"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:59
+msgid "How can you help me?"
+msgstr "Hur kan du hjälpa mig?"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:53
+msgid "What should I do next?"
+msgstr "Vad ska jag göra härnäst?"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:424
+msgid "Welcome to your new store! I'm your personal AI assistant. How can I help you?"
+msgstr "Välkommen till din nya butik! Jag är din personliga AI-assistent. Hur kan jag hjälpa dig?"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:93
+msgid "Cannot delete - no image found"
+msgstr "Kan inte ta bort – ingen bild hittades"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:135
+msgid "Failed to delete image. Please try again."
+msgstr "Misslyckades att ta bort bild. Försök igen."
+
+#: src/image-studio/components/sidebar/index.tsx:65
+msgid "You are about to permanently delete this item from your site. This action cannot be undone."
+msgstr "Du är på väg att ta bort detta objekt permanent från din webbplats. Denna åtgärd kan inte ångras."
+
+#: src/image-studio/components/sidebar/index.tsx:53
+msgid "Delete permanently"
+msgstr "Ta bort permanent"
+
+#: src/image-studio/components/sidebar/index.tsx:46
+msgid "Delete this item"
+msgstr "Ta bort detta objekt"
+
+#: src/image-studio/components/header/index.tsx:90
+#: src/image-studio/components/sidebar/index.tsx:25
+msgid "Save or discard your changes"
+msgstr "Spara eller kasta dina ändringar"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File name:"
+msgstr "Filnamn:"
+
+#: src/image-studio/components/header/index.tsx:147
+msgid "View or edit information about the image"
+msgstr "Visa eller redigera information om bilden"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:127
+msgid "Next image %s→"
+msgstr "Nästa bild %s→"
+
+#: src/image-studio/components/header/index.tsx:124
+#: src/image-studio/components/sidebar/file-details.tsx:82
+#: src/image-studio/utils/get-image-data.ts:27
+msgid "Untitled"
+msgstr "Utan rubrik"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:123
+msgid "Previous image %s←"
+msgstr "Föregående bild %s←"
+
+#: src/components/product-card/ProductCard.tsx:51
+msgid "Loading…"
+msgstr "Laddar in …"
+
+#: src/image-studio/components/index.tsx:127
+msgid "Generating suggestions…"
+msgstr "Genererar förslag …"
+
+#: src/image-studio/components/style-picker/index.tsx:41
+msgid "Vivid"
+msgstr "Intensivt"
+
+#: src/image-studio/components/style-picker/index.tsx:39
+msgid "None"
+msgstr "Ingen"
+
+#: src/image-studio/components/header/index.tsx:85
+msgid "Save displayed image to Media Library"
+msgstr "Spara visad bild till mediabibliotek"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:88
+msgid "Reverted to original"
+msgstr "Återställd till original"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:77
+msgid "Cannot revert - failed to load original image"
+msgstr "Kan inte återställa – misslyckades att ladda originalbild"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:67
+msgid "Cannot revert - original image not found"
+msgstr "Kan inte återställa – originalbild hittades inte"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:34
+msgid "More options"
+msgstr "Fler alternativ"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:24
+msgid "Revert to original"
+msgstr "Återställ till original"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:18
+msgid "Save to media library"
+msgstr "Spara till mediabibliotek"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision →"
+msgstr "Nästa version →"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision ←"
+msgstr "Föregående version ←"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:41
+msgid "Aspect Ratio"
+msgstr "Bildförhållande"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:23
+msgid "3:4"
+msgstr "3:4"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:22
+msgid "4:3"
+msgstr "4:3"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:21
+msgid "9:16"
+msgstr "9:16"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:20
+msgid "16:9"
+msgstr "16:9"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:19
+msgid "1:1"
+msgstr "1:1"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision"
+msgstr "Nästa version"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision"
+msgstr "Föregående version"
+
+#: src/image-studio/components/style-picker/index.tsx:97
+msgid "Craft Clay"
+msgstr "Lera för hantverk"
+
+#: src/image-studio/components/style-picker/index.tsx:92
+msgid "Line Art"
+msgstr "Linjekonst"
+
+#: src/image-studio/components/style-picker/index.tsx:87
+msgid "Origami"
+msgstr "Origami"
+
+#: src/image-studio/components/style-picker/index.tsx:82
+msgid "Lowpoly"
+msgstr "Lowpoly"
+
+#: src/image-studio/components/style-picker/index.tsx:77
+msgid "Isometric"
+msgstr "Isometrisk"
+
+#: src/image-studio/components/style-picker/index.tsx:72
+msgid "Neonpunk"
+msgstr "Neonpunk"
+
+#: src/image-studio/components/style-picker/index.tsx:67
+msgid "Analog Film"
+msgstr "Analog film"
+
+#: src/image-studio/components/style-picker/index.tsx:62
+msgid "Fantasy Art"
+msgstr "Fantasikonst"
+
+#: src/image-studio/components/style-picker/index.tsx:57
+msgid "Comicbook"
+msgstr "Serietidning"
+
+#: src/image-studio/components/style-picker/index.tsx:52
+msgid "Digital Art"
+msgstr "Digital konst"
+
+#: src/image-studio/components/style-picker/index.tsx:47
+msgid "Photographic"
+msgstr "Fotografisk"
+
+#: src/image-studio/components/style-picker/index.tsx:45
+msgid "Anime"
+msgstr "Anime"
+
+#: src/image-studio/components/style-picker/index.tsx:38
+msgid "Select style"
+msgstr "Välj stil"
+
+#: src/image-studio/components/style-picker/index.tsx:150
+msgid "Styles"
+msgstr "Stilar"
+
+#: src/image-studio/components/style-picker/index.tsx:117
+msgid "Texture"
+msgstr "Textur"
+
+#: src/image-studio/components/style-picker/index.tsx:112
+msgid "Pixel Art"
+msgstr "Pixel Art"
+
+#: src/image-studio/components/style-picker/index.tsx:107
+msgid "3D Model"
+msgstr "3D-modell"
+
+#: src/image-studio/components/style-picker/index.tsx:102
+msgid "Cinematic"
+msgstr "Filmisk"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:99
+msgid "Help me to connect PayPal Payments to my store"
+msgstr "Hjälp mig att ansluta PayPal-betalningar till min butik"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:98
+msgid "Connect PayPal Payments to my store"
+msgstr "Anslut PayPal-betalningar till min butik"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:93
+msgid "Recommend shipping zones and methods for my store"
+msgstr "Rekommendera fraktzoner och metoder för min butik"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:92
+msgid "Set up shipping rates"
+msgstr "Ställ in fraktkostnader"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:87
+msgid "Set my product pricing"
+msgstr "Ställ in mitt produktpris"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:81
+msgid "Help me to write a product description"
+msgstr "Hjälp mig att skriva en produktbeskrivning"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:80
+msgid "Write a product description"
+msgstr "Skriv en produktbeskrivning"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:75
+msgid "Help me to create a product"
+msgstr "Hjälp mig att skapa en produkt"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:21
+msgid "Failed to make the theme update. Please try again."
+msgstr "Misslyckades att göra temauppdateringen. Försök igen."
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:95
+msgid "Add to post"
+msgstr "Lägg till i inlägg"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:88
+msgid "Replace selected image"
+msgstr "Ersätt vald bild"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat"
+msgstr "Starta en ny chatt"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat to begin"
+msgstr "Starta en ny chatt för att börja"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "No past conversations"
+msgstr "Inga tidigare konversationer"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Failed to load conversations. Please try again."
+msgstr "Misslyckades att ladda konversationer. Försök igen."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:416
+msgid "Past chats"
+msgstr "Tidigare chattar"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:274
+msgid "Failed to upload images. Please try again."
+msgstr "Misslyckades att ladda upp bilder. Försök igen."
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:37
+msgid "Tell me what you can do for me"
+msgstr "Berätta vad du kan göra för mig"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:74
+msgid "Create a product"
+msgstr "Skapa en produkt"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:31
+msgid "Show me recent comments"
+msgstr "Visa mig senaste kommentarer"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:30
+msgid "Review comments"
+msgstr "Granska kommentarer"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:25
+msgid "Show me my site health status"
+msgstr "Visa mig min webbplats hälsostatus"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:24
+msgid "Check site health"
+msgstr "Kontrollera hälsokontroll för webbplats"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:19
+msgid "Help me create a new post"
+msgstr "Hjälp mig skapa ett nytt inlägg"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:18
+msgid "Create content"
+msgstr "Skapa innehåll"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:13
+msgid "Show me my recent posts"
+msgstr "Visa mig mina senaste inlägg"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:12
+msgid "Manage posts"
+msgstr "Hantera inlägg"
+
+#: src/image-studio/index.tsx:179
+msgid "Image doesn't exist"
+msgstr "Bild finns inte"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:131
+msgid "Redo ⇧%sZ"
+msgstr "Gör om ⇧%sZ"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:129
+msgid "Undo %sZ"
+msgstr "Ångra %sZ"
+
+#: src/image-studio/components/header/index.tsx:138
+msgid "Failed to save changes. Please try again or use the Save button."
+msgstr "Misslyckades att spara ändringar. Försök igen eller använd knappen ”Spara”."
+
+#: src/image-studio/components/index.tsx:89
+msgid "Failed to send message."
+msgstr "Misslyckades att skicka meddelande."
+
+#: src/image-studio/hooks/suggestions-data.ts:67
+msgid "Draw annotation"
+msgstr "Rita beskrivning"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Beta"
+msgstr "Beta"
+
+#: src/image-studio/hooks/suggestions-data.ts:55
+msgid "Enhance only the region marked by the blue annotation. Preserve everything else unchanged."
+msgstr "Förbättra endast området som markeras med den blå anteckningen. Bevara allt annat oförändrat."
+
+#: src/image-studio/hooks/suggestions-data.ts:50
+msgid "Remove only the region marked by the blue annotation. Do not change anything else"
+msgstr "Ta endast bort det område som markerats med den blå anteckningen. Ändra inget annat"
+
+#: src/image-studio/hooks/suggestions-data.ts:45
+msgid "Replace only the region marked by the blue annotation with:"
+msgstr "Ersätt endast det område som markerats med den blå anteckningen med:"
+
+#: src/ai/hooks/suggestions-data.ts:98
+msgid "Remove the background from this image"
+msgstr "Ta bort bakgrunden från denna bild"
+
+#: src/ai/hooks/suggestions-data.ts:97
+msgid "Remove background"
+msgstr "Ta bort bakgrund"
+
+#: src/image-studio/extensions/generate-button-extension.tsx:56
+#: src/image-studio/index.tsx:154
+msgid "Generate Image"
+msgstr "Generera bild"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit image with AI"
+msgstr "Redigera bild med AI"
+
+#: src/image-studio/components/index.tsx:285
+msgid "Do you want to save this image?"
+msgstr "Vill du spara denna bild?"
+
+#: src/image-studio/components/index.tsx:275
+msgid "Discard"
+msgstr "Kassera"
+
+#: src/image-studio/components/index.tsx:273
+msgid "Unsaved changes"
+msgstr "Osparade ändringar"
+
+#: src/image-studio/components/index.tsx:223
+msgid "Image being edited"
+msgstr "Bild redigeras"
+
+#: src/image-studio/components/index.tsx:213
+msgid "Image saved to Media Library"
+msgstr "Bild sparad till mediabibliotek"
+
+#: src/image-studio/hooks/suggestions-data.ts:54
+msgid "Enhance this"
+msgstr "Förbättra detta"
+
+#: src/image-studio/hooks/suggestions-data.ts:49
+msgid "Remove this"
+msgstr "Ta bort detta"
+
+#: src/image-studio/hooks/suggestions-data.ts:44
+msgid "Replace this"
+msgstr "Ersätt detta"
+
+#: src/image-studio/hooks/suggestions-data.ts:35
+msgid "A professional workspace scene with natural lighting"
+msgstr "En professionell arbetsplatsscen med naturlig belysning"
+
+#: src/image-studio/hooks/suggestions-data.ts:34
+msgid "Professional workspace"
+msgstr "Professionell arbetsyta"
+
+#: src/image-studio/hooks/suggestions-data.ts:30
+msgid "A serene mountain landscape at sunrise with misty valleys"
+msgstr "Ett fridfullt bergslandskap med dimmiga dalar vid soluppgången"
+
+#: src/image-studio/hooks/suggestions-data.ts:29
+msgid "Mountain landscape"
+msgstr "Bergslandskap"
+
+#: src/image-studio/hooks/suggestions-data.ts:25
+msgid "A warm and inviting cafe scene with coffee, pastries, and natural lighting"
+msgstr "En varm och inbjudande kaféscen med kaffe, bakverk och naturlig belysning"
+
+#: src/image-studio/hooks/suggestions-data.ts:24
+msgid "Cozy cafe scene"
+msgstr "Mysig caféscen"
+
+#: src/image-studio/hooks/suggestions-data.ts:15
+msgid "Increase the overall brightness of this image while keeping it natural"
+msgstr "Öka den övergripande ljusstyrkan för den här bilden samtidigt som den förblir naturlig"
+
+#: src/image-studio/hooks/suggestions-data.ts:14
+msgid "Brighten image"
+msgstr "Ljusa upp bild"
+
+#: src/image-studio/hooks/suggestions-data.ts:10
+msgid "Enhance this image with balanced lighting, sharpness, and color while keeping it natural"
+msgstr "Förbättra denna bild med balanserat ljus, skärpa och färg samtidigt som den behålls naturlig."
+
+#: src/image-studio/hooks/suggestions-data.ts:9
+msgid "Enhance image"
+msgstr "Förbättra bild"
+
+#: src/image-studio/components/index.tsx:68
+msgid "Describe your image"
+msgstr "Beskriv din bild"
+
+#: src/image-studio/components/index.tsx:67
+msgid "Describe what you want to add, remove, or replace…"
+msgstr "Beskriv vad du vill lägga till, ta bort eller ersätta …"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt text describes the image's purpose. Leave it blank if the image is purely decorative."
+msgstr "Alt-texten beskriver bildens syfte. Lämna det tomt om bilden är enbart dekorativ."
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt Text"
+msgstr "Alt-text"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Caption"
+msgstr "Bildtext"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Title"
+msgstr "Rubrik:"
+
+#: src/image-studio/components/sidebar/index.tsx:19
+msgid "Close sidebar"
+msgstr "Stäng sidopanel"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Dimensions:"
+msgstr "Mått:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Size:"
+msgstr "Storlek:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File type:"
+msgstr "Filtyp:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded by:"
+msgstr "Uppladdat av:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded to:"
+msgstr "Uppladdat till:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded on:"
+msgstr "Uppladdat:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File Details"
+msgstr "Fildetaljer"
+
+#. %1$d: Image width, %2$d: Image height
+#: src/image-studio/components/sidebar/file-details.tsx:79
+msgid "%1$d × %2$d"
+msgstr "%1$d × %2$d"
+
+#. %.1f: File size in kilobytes
+#: src/image-studio/components/sidebar/file-details.tsx:29
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+#. %.1f: File size in megabytes
+#: src/image-studio/components/sidebar/file-details.tsx:25
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. %.1f: File size in gigabytes
+#: src/image-studio/components/sidebar/file-details.tsx:20
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/image-studio/components/sidebar/file-details.tsx:80
+msgid "Unknown"
+msgstr "Okänt"
+
+#: src/image-studio/components/index.tsx:121
+#: src/image-studio/components/sidebar/editable-field.tsx:23
+msgid "An error occurred while generating content."
+msgstr "Ett fel uppstod när innehållet genererades."
+
+#: src/image-studio/components/header/index.tsx:156
+msgid "Close image editor"
+msgstr "Stäng bildredigerare"
+
+#: src/image-studio/components/header/index.tsx:155
+msgid "Saving…"
+msgstr "Sparar …"
+
+#: src/image-studio/components/header/index.tsx:154
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Image Info"
+msgstr "Bildinformation"
+
+#: src/image-studio/components/header/index.tsx:145
+msgid "Select"
+msgstr "Välj"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Select an area of the image to edit"
+msgstr "Välj ett område av bilden att redigera"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Media Library"
+msgstr "Mediabibliotek"
+
+#: src/image-studio/components/header/index.tsx:132
+msgid "Edit this image in the WordPress Media Library"
+msgstr "Redigera denna bild i WordPress mediabibliotek"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Image Editor"
+msgstr "Bildredigerare"
+
+#: src/image-studio/components/generate-layout/index.tsx:9
+msgid "Let's create!"
+msgstr "Låt oss skapa!"
+
+#: src/image-studio/components/edit-layout/index.tsx:51
+msgid "AI has finished editing your image."
+msgstr "AI har slutfört redigera din bild."
+
+#: src/image-studio/components/edit-layout/index.tsx:48
+msgid "AI is currently editing your image. Please wait."
+msgstr "AI redigerar för närvarande din bild. Vänta."
+
+#: src/image-studio/components/edit-layout/index.tsx:46
+msgid "Saving your annotation…"
+msgstr "Sparar din annotation …"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Interactive drawing area for creating image annotations"
+msgstr "Interaktivt ritområde för att skapa bildanteckningar"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Saved annotation markings"
+msgstr "Sparade anteckningsmarkeringar"
+
+#: src/ai/wp-orchestrator/index.tsx:54
+msgid "Unable to authenticate with Jetpack. Please try again."
+msgstr "Kan inte autentisera med Jetpack. Försök igen."
+
+#: src/ai/wp-orchestrator/index.tsx:52
+msgid "Network connection issue. Please check your internet connection and try again."
+msgstr "Nätverksanslutningsproblem. Kontrollera din internetanslutning och försök igen."
+
+#: src/ai/wp-orchestrator/index.tsx:47
+msgid "Unable to connect to Jetpack. Please ensure Jetpack is active and up to date."
+msgstr "Kan inte ansluta till Jetpack. Se till att Jetpack är aktivt och uppdaterat."
+
+#: src/ai/wp-orchestrator/index.tsx:44
+msgid "You don't have permission to access AI features."
+msgstr "Du har inte behörighet att komma åt AI-funktioner."
+
+#: src/ai/wp-orchestrator/index.tsx:41
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Din session har löpt ut. Uppdatera sidan och försök igen."
+
+#: src/components/product-card/ProductCard.tsx:56
+msgid "Error: Product name is required"
+msgstr "Fel: Produktnamn är obligatoriskt"
+
+#: src/components/product-card/ProductCard.tsx:87
+msgid "Product"
+msgstr "Produkt"
+
+#: src/components/product-card/ProductCard.tsx:84
+msgid "Service"
+msgstr "Tjänst"
+
+#: src/components/product-card/ProductCard.tsx:53
+msgid "Error: Could not render product card"
+msgstr "Fel: Kunde inte återge produktkort"
+
+#: src/components/product-card/ProductCard.tsx:25
+msgid "unit"
+msgid_plural "units"
+msgstr[0] "enhet"
+msgstr[1] "enheter"
+
+#: src/abilities/set-styles/index.ts:20
+msgid "Apply color palette, font pairing, and button style variations to the WordPress site. Accepts variation titles (e.g., \"Professional\", \"Montserrat + Open Sans\") and applies the complete styling including colors, typography, button styles, and all associated theme variations."
+msgstr "Tillämpa färgpalett, typsnittsparning och variationer av knappstilar på WordPress-webbplatsen. Accepterar variationsrubriker (t.ex. ”Professional”, ”Montserrat + Open Sans”) och tillämpar den fullständiga stilsättningen, inklusive färger, typografi, knappstilar och alla associerade temavariationer."
+
+#: src/abilities/set-styles/index.ts:18
+msgid "Set Styles"
+msgstr "Ställ in stilar"
+
+#: src/abilities/add-pages/index.ts:19
+msgid "Creates multiple WordPress pages with generated content from patterns and layouts. Page titles are provided by the backend, and page content is composed from layout blocks. Also updates site navigation."
+msgstr "Skapar flera WordPress-sidor med genererat innehåll från mönster och layouter. Sidrubriker tillhandahålls av back-end och sidinnehållet består av layoutblock. Uppdaterar även webbplatsens navigering."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:82
+msgid "Failed to update styles:"
+msgstr "Misslyckades att uppdatera stilar: "
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:76
+msgid "Failed to update styles. The style variation may be invalid."
+msgstr "Misslyckades att uppdatera stilar. Stilvarianten kan vara ogiltig."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:62
+msgid "Styles updated successfully."
+msgstr "Stilar uppdaterades."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:38
+msgid "Invalid button format. Button must be a string (variation title)."
+msgstr "Ogiltigt knappformat. Knapp måste vara en sträng (rubrik för variant)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:31
+msgid "Invalid font format. Font must be a string (variation title)."
+msgstr "Ogiltigt typsnittsformat. Typsnitt måste vara en sträng (rubrik för variant)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:24
+msgid "Invalid color format. Color must be a string (variation title)."
+msgstr "Ogiltigt färgformat. Färg måste vara en sträng (rubrik för variant)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:17
+msgid "Invalid arguments. Provide at least one of: color, font, or button."
+msgstr "Ogiltiga argument. Ange minst ett av följande: färg, typsnitt eller knapp."
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:169
+msgid "Failed to create pages:"
+msgstr "Misslyckades att skapa sidor: "
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:65
+msgid "Invalid pages. Must provide an array of page objects."
+msgstr "Ogiltiga sidor. Måste ange en array av sidobjekt."
+
+#: src/abilities/site-logo/index.ts:17
+msgid "Set the site logo"
+msgstr "Ställ in webbplatsloggan"
+
+#: src/abilities/site-logo/index.ts:15
+msgid "Set Site Logo"
+msgstr "Ställ in webbplatslogga"
+
+#: src/abilities/update-theme/index.ts:17
+msgid "Update WordPress theme settings and styles using theme.json format"
+msgstr "Uppdatera WordPress temainställningar och stilar med hjälp av formatet theme.json"
+
+#: src/abilities/update-theme/index.ts:15
+msgid "Update Theme"
+msgstr "Uppdatera tema"
+
+#: src/abilities/edit-entity-record/index.ts:17
+msgid "Create, edit, or delete WordPress data entity records using the data layer"
+msgstr "Skapa, redigera eller ta bort WordPress-datatabellposter med hjälp av datalagret"
+
+#: src/abilities/edit-entity-record/index.ts:15
+msgid "Manage Entity Records"
+msgstr "Hantera enhetsposter"
+
+#: src/abilities/show-component/index.ts:23
+msgid "Display a component in the UI with specified props"
+msgstr "Visa en komponent i gränssnittet med specificerade egenskaper"
+
+#: src/abilities/show-component/index.ts:21
+msgid "Show Component"
+msgstr "Visa komponent"
+
+#: src/abilities/client-assistants/index.ts:29
+msgid "Always use this if the user asks for something that requires a client-side assistant. Available assistants:"
+msgstr "Använd alltid detta om användaren frågar efter något som kräver en assistent på klientsidan. Tillgängliga assistenter:"
+
+#: src/abilities/client-assistants/index.ts:27
+msgid "Execute Client Assistant"
+msgstr "Kör klientassistent"
+
+#: src/abilities/set-processing-state/index.ts:18
+msgid "Sets the processing state on a block and scrolls to it to indicate active processing"
+msgstr "Ställer in bearbetningstillståndet för ett block och bläddrar till det för att indikera aktiv bearbetning"
+
+#: src/abilities/set-processing-state/index.ts:16
+msgid "Set Processing State"
+msgstr "Ställ in bearbetningstillstånd"
+
+#: src/abilities/apply-block-edits/index.ts:17
+msgid "Applies a collection of block edits to the canvas"
+msgstr "Tillämpar en samling blockredigeringar på arbetsytan"
+
+#: src/abilities/apply-block-edits/index.ts:15
+msgid "Apply Block Edits"
+msgstr "Tillämpa blockredigeringar"
+
+#: src/abilities/editor-navigate/index.ts:18
+msgid "Saves everything and navigates to the specified path in the editor. Also be used to navigate to a view that shows all the sites pages so use this tool if the user asks to view all their pages."
+msgstr "Sparar allt och navigerar till den angivna sökvägen i redigeraren. Används också för att navigera till en vy som visar alla webbplatssidor, så använd det här verktyget om användaren ber att få visa alla sina sidor."
+
+#: src/abilities/editor-navigate/index.ts:16
+msgid "Navigate"
+msgstr "Navigera"
+
+#: src/abilities/wp-admin-navigate.ts:104
+msgid "Navigate the browser to a different wp-admin page. Use this when the user asks to go to a specific admin page (e.g., \"go to plugins\", \"navigate to settings\"). The page will reload, but the conversation will automatically continue after navigation completes."
+msgstr "Navigera till en annan wp-adminsida i webbläsaren. Använd detta när användaren ber att gå till en specifik adminsida (t.ex. ”gå till tillägg”, ”navigera till inställningar”). Sidan kommer att laddas om, men konversationen fortsätter automatiskt när navigeringen har slutförts."
+
+#: src/abilities/wp-admin-navigate.ts:102
+msgid "Navigate to wp-admin page"
+msgstr "Navigera till wp-adminsida"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:138
+msgid "By updating the query, order posts from %s"
+msgstr "Genom att uppdatera frågan, ordna inlägg från %s"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:135
+msgid "Stop inheriting default query settings and order posts from %s"
+msgstr "Sluta ärva standardfrågeinställningar och ordna inlägg från %s"
+
+#: src/ai/hooks/suggestions-data.ts:130
+msgid "newest to oldest"
+msgstr "nyast till äldst"
+
+#: src/ai/hooks/suggestions-data.ts:129
+msgid "oldest to newest"
+msgstr "äldst till nyast"
+
+#: src/ai/hooks/suggestions-data.ts:124
+msgid "Order posts"
+msgstr "Sortera inlägg"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:117
+msgid "Currently this query is displaying %s posts per page, change it to:"
+msgstr "För närvarande visar denna sökning %s inlägg per sida, ändra det till: "
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:114
+msgid "Stop inheriting default query settings and change the current number of posts displayed per page from %s to:"
+msgstr "Sluta ärva standardsökningsinställningar och ändra det nuvarande antalet inlägg som visas per sida från %s till:"
+
+#: src/ai/hooks/suggestions-data.ts:106
+msgid "Change number of posts"
+msgstr "Ändra antal inlägg"
+
+#: src/ai/hooks/suggestions-data.ts:103
+msgid "Tell me all the ways you can help design or edit my site"
+msgstr "Berätta alla sätt du kan hjälpa till att designa eller redigera min webbplats"
+
+#: src/ai/hooks/suggestions-data.ts:102
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:36
+msgid "What else can you do?"
+msgstr "Vad mer kan du göra?"
+
+#: src/ai/hooks/suggestions-data.ts:84
+msgid "Edit the image to:"
+msgstr "Redigera bilden till: "
+
+#: src/ai/hooks/suggestions-data.ts:83
+msgid "Edit image"
+msgstr "Redigera bild"
+
+#: src/ai/hooks/suggestions-data.ts:73
+msgid "Generate an image of:"
+msgstr "Generera en bild av: "
+
+#: src/ai/hooks/suggestions-data.ts:69
+msgid "Check the grammar of this text"
+msgstr "Kontrollera grammatiken i denna text"
+
+#: src/ai/hooks/suggestions-data.ts:68
+msgid "Check grammar"
+msgstr "Kontrollera grammatik"
+
+#: src/ai/hooks/suggestions-data.ts:65
+msgid "Change the tone of this text to be more:"
+msgstr "Ändra tonen i denna text så att den blir mer: "
+
+#: src/ai/hooks/suggestions-data.ts:61
+msgid "Translate this to:"
+msgstr "Översätt detta till: "
+
+#: src/ai/hooks/suggestions-data.ts:60
+msgid "Translate content"
+msgstr "Översätt innehåll"
+
+#: src/ai/hooks/suggestions-data.ts:56
+msgid "Add another column to the end of these"
+msgstr "Lägg till ytterligare en kolumn i slutet av dessa"
+
+#: src/ai/hooks/suggestions-data.ts:55
+msgid "Add column"
+msgstr "Lägg till kolumn"
+
+#: src/ai/hooks/suggestions-data.ts:51
+msgid "Reverse the order of these columns"
+msgstr "Vänd om ordning på dessa kolumner"
+
+#: src/ai/hooks/suggestions-data.ts:50
+msgid "Swap columns"
+msgstr "Byt kolumner"
+
+#. %s is the button text
+#: src/ai/hooks/suggestions-data.ts:47
+msgid "Change the %s button link to:"
+msgstr "Ändra knapplänken %s till:"
+
+#: src/ai/hooks/suggestions-data.ts:41
+msgid "Create a new page on my site for"
+msgstr "Skapa en ny sida på min webbplats för "
+
+#: src/ai/hooks/suggestions-data.ts:40
+msgid "Add new page"
+msgstr "Skapa ny sida"
+
+#: src/ai/hooks/suggestions-data.ts:37
+msgid "Show me different layouts for this page"
+msgstr "Visa mig olika layouter för denna sida"
+
+#: src/ai/hooks/suggestions-data.ts:36
+msgid "Change page layout"
+msgstr "Ändra sidlayout"
+
+#: src/ai/hooks/suggestions-data.ts:33
+msgid "Show me color palettes for my site that are:"
+msgstr "Visa mig färgpaletter för min webbplats som är: "
+
+#: src/ai/hooks/suggestions-data.ts:32
+msgid "Customize colors"
+msgstr "Anpassa färger"
+
+#: src/ai/hooks/suggestions-data.ts:29
+msgid "Show me new fonts for my site"
+msgstr "Visa mig nya typsnitt för min webbplats"
+
+#: src/ai/hooks/suggestions-data.ts:28
+msgid "Choose new fonts"
+msgstr "Välj nya typsnitt"
+
+#: big-sky.php:376
+msgid "AI-powered site building and navigation abilities."
+msgstr "AI-drivna webbplatsbyggar- och navigeringsfunktioner."
+
+#: src/components/product-card/ProductCard.tsx:90
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:83
+msgid "Edit this image"
+msgstr "Redigera denna bild"
+
+#: src/image-studio/components/index.tsx:268
+msgid "Image Studio"
+msgstr "Bildstudio"
+
+#: src/hooks/use-dock-state.ts:138
+#: src/components/dock/index.js:439
+msgid "Pop out sidebar"
+msgstr "Poppa ut sidopanel"
+
+#: src/hooks/use-dock-state.ts:132
+#: src/components/dock/index.js:459
+msgid "Move to sidebar"
+msgstr "Flytta till sidopanel"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:546
+msgid "Got a different request? Ask away."
+msgstr "Har du en annan förfrågan? Fråga på."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:540
+msgid "Howdy! How can I help you today?"
+msgstr "Hej! Hur kan jag hjälpa dig idag?"
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:61
+msgid "Showing all pages."
+msgstr "Visar alla sidor."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:65
+msgid "Updated:"
+msgstr "Uppdaterad:"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:62
+msgid "Theme updated successfully"
+msgstr "Temat uppdaterades utan problem."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:42
+msgid "Invalid styles format. Styles must be an object."
+msgstr "Ogiltigt format för stilar. Stilar måste vara ett objekt."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:34
+msgid "Invalid settings format. Settings must be an object."
+msgstr "Ogiltigt format för inställningar. Inställningar måste vara ett objekt."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:26
+msgid "Invalid arguments. Provide either settings or styles to update the theme."
+msgstr "Ogiltiga argument. Ange antingen inställningar eller stilar för att uppdatera temat."
+
+#: big-sky.php:1887
+#: big-sky.php:1888
+msgid "AI Editor"
+msgstr "AI-redigerare"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:208
+msgid "Canceled."
+msgstr "Avbruten."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:188
+msgid "Proceed"
+msgstr "Fortsätt"
+
+#: src/image-studio/components/canvas-controls/index.tsx:101
+#: src/components/chat/components/completed-plan.js:136
+#: src/components/chat/message/message-feedback.js:44
+msgid "Bad response"
+msgstr "Dåligt svar"
+
+#: src/image-studio/components/canvas-controls/index.tsx:92
+#: src/components/chat/components/completed-plan.js:128
+#: src/components/chat/message/message-feedback.js:36
+msgid "Good response"
+msgstr "Bra svar"
+
+#: src/ai/hooks/suggestions-data.ts:44
+msgid "Edit link"
+msgstr "Redigera länk"
+
+#: src/abilities/show-component/show-component.tsx:193
+#: src/abilities/site-logo/set-site-logo.ts:74
+msgid "There was an error with this request. Please try again."
+msgstr "Det uppstod ett fel med denna begäran. Försök igen."
+
+#: src/abilities/client-assistants/run-assistant.ts:189
+msgid "No response from assistant"
+msgstr "Ingen respons från assistent"
+
+#: src/abilities/client-assistants/index.ts:89
+msgid "Assistant completed successfully"
+msgstr "Assistent slutförd utan problem"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:608
+msgid "Something went wrong. Please try again."
+msgstr "Något gick fel. Försök igen."
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:589
+msgid "I have completed the edits."
+msgstr "Jag har slutfört redigeringen."
+
+#. %s: error message
+#: src/image-studio/hooks/use-revert-to-original.ts:94
+msgid "Failed to revert image: %s"
+msgstr "Misslyckades att återställa bild: %s"
+
+#. translators: %s is the theme name.
+#: big-sky.php:630
+msgid "The current theme (%s) is a block theme."
+msgstr "Det nuvarande temat (%s) är ett blocktema."
+
+#: big-sky.php:623
+msgid "The current theme is not a block theme. Big Sky requires a block theme to be active."
+msgstr "Det nuvarande temat är inte ett blocktema. Big Sky kräver ett blocktema för att vara aktivt."
+
+#: src/abilities/client-assistants/run-assistant.ts:182
+msgid "Sorry, I've encountered an error. Please try again or let me know if you need help with something else."
+msgstr "Jag har stött på ett fel. Försök igen eller låt mig veta om du behöver hjälp med något annat."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:194
+msgid "I changed my mind"
+msgstr "Jag ändrade mig"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:582
+msgid "I was not able to make the changes you requested. Either I don't have the capability to do so or I didn't understand your request. You can ask me to try again or ask me to do something else."
+msgstr "Jag kunde inte göra de ändringar du begärde. Antingen har jag inte behörighet att göra det eller så förstod jag inte din begäran. Du kan be mig att försöka igen eller be mig att göra något annat."
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:84
+msgid "Navigated to page"
+msgstr "Navigerade till sida"
+
+#: src/ai/hooks/suggestions-data.ts:72
+msgid "Generate image"
+msgstr "Generera bild"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:185
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:22
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:30
+msgid "No"
+msgstr "Nej"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:219
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:16
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:24
+msgid "Yes"
+msgstr "Ja"
+
+#: src/abilities/add-pages/index.ts:17
+msgid "Add Pages"
+msgstr "Lägg till sidor"
+
+#: src/image-studio/components/sidebar/editable-field.tsx:35
+msgid "Regenerate"
+msgstr "Återskapa"
+
+#: src/ai/hooks/suggestions-data.ts:64
+msgid "Change tone"
+msgstr "Ändra ton"
+
+#: src/image-studio/components/sidebar/index.tsx:48
+#: src/components/chat/components/feedback-input.js:126
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/image-studio/components/header/index.tsx:71
+#: src/image-studio/components/index.tsx:281
+msgid "Save"
+msgstr "Spara"
+
+#: big-sky.php:712
+msgid "These checks passed:"
+msgstr "Dessa kontroller godkändes:"
+
+#: big-sky.php:698
+msgid "Big Sky detected the following issues with your site:"
+msgstr "Big Sky upptäckte följande problem med din webbplats:"
+
+#. translators: $d is the number of performance issues found.
+#: big-sky.php:697
+msgid "Big Sky is affected by %d issue"
+msgid_plural "Big Sky is affected by %d issues"
+msgstr[0] "Big Sky påverkas av %d problem"
+msgstr[1] "Big Sky påverkas av %d problem"
+
+#: big-sky.php:687
+msgid "Mapbox API key is set."
+msgstr "Mapbox API-nyckel är inställd."
+
+#: big-sky.php:682
+msgid "Mapbox API key is not set. Big Sky requires a Mapbox API key to be set."
+msgstr "Mapbox API-nyckeln är inte inställd. Big Sky kräver att en Mapbox API-nyckel är inställd."
+
+#: big-sky.php:674
+msgid "Jetpack is connected to an admin."
+msgstr "Jetpack är ansluten till en admin."
+
+#: big-sky.php:669
+msgid "Jetpack does not have a connected admin. Big Sky requires Jetpack to be connected to an admin."
+msgstr "Jetpack har ingen ansluten admin. Big Sky kräver att Jetpack är ansluten till en admin."
+
+#: big-sky.php:660
+msgid "Jetpack is connected."
+msgstr "Jetpack är ansluten."
+
+#: big-sky.php:655
+msgid "Jetpack is not connected. Big Sky requires Jetpack to be connected."
+msgstr "Jetpack är inte anslutet. Big Sky kräver att Jetpack är anslutet."
+
+#: big-sky.php:644
+msgid "Jetpack is installed."
+msgstr "Jetpack är installerat."
+
+#: big-sky.php:639
+msgid "Jetpack is not installed. Big Sky requires Jetpack to be installed and active."
+msgstr "Jetpack är inte installerat. Big Sky kräver att Jetpack är installerat och aktivt."
+
+#: big-sky.php:613
+msgid "Big Sky did not find any known issues with your site."
+msgstr "Big Sky hittade inga kända problem med din webbplats."
+
+#: big-sky.php:605
+msgid "Big Sky Checks"
+msgstr "Big Sky-kontroller"
+
+#: big-sky.php:580
+#: big-sky.php:581
+msgid "Big Sky checks"
+msgstr "Big Sky-kontroller"
+
+#: big-sky.php:411
+msgid "AI Features"
+msgstr "AI-funktioner"
+
+#: big-sky.php:403
+msgid "Enable AI-powered site building experience"
+msgstr "Aktivera AI-styrd upplevelse för webbplatsbyggnad"
+
+#. Author of the plugin
+#: big-sky.php
+msgid "Automattic, Inc."
+msgstr "Automattic, Inc."
+
+#. Description of the plugin
+#: big-sky.php
+msgid "The Big Sky AI Site Builder."
+msgstr "Big Sky AI-webbplatsbyggare."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: big-sky.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com"
+
+#. Plugin Name of the plugin
+#: big-sky.php
+#: big-sky.php:375
+#: big-sky.php:608
+msgid "Big Sky"
+msgstr "Big Sky"

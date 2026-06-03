@@ -1,0 +1,89 @@
+.directorist-authors__card{
+   &.__details__top{
+      h2{
+         font-weight: 700;
+         text-transform: capitalize;
+      }
+   }
+   &__info-list{
+      font-size: 16px;
+      > li{
+         i{
+            margin-top: 5px!important;
+            margin-right: 6px!important;
+            &:after{
+               background: $theme-color;
+               width: 19px!important;
+               height: 19px!important;
+            }
+         }
+      }
+   }
+   &__desc{
+      margin: 18px 0 15px;
+      font-size: 15px;
+   }
+   .directorist-author-social{
+      margin-top: 20px!important;
+      margin-bottom: 25px!important;
+   }
+}
+
+.directorist-content-active .directorist-authors__cards{
+   margin-top: 0!important;
+   .directorist-authors__card{
+      margin-bottom: 30px;
+   }
+}
+
+.directorist-author-profile-content{
+   font-size: 16px;
+   .directorist-card{
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      .directorist-card__header{
+         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+         h3{
+            font-weight: 600;
+         }
+      }
+   }
+   .directorist-author-profile{
+      &__wrap{
+         .directorist-author-name{
+            font-weight: 700;
+            text-transform: capitalize;
+         }
+      }
+   }
+   .directorist-author-avatar__info{
+      p{
+         font-size: 15px;
+      }
+   }
+   .directorist-author-info-list{
+      > li{
+         i{
+            &:after{
+               width: 18px!important;
+               height: 18px!important;
+               background: $theme-color!important;
+            }
+         }
+      }
+   }
+   .directorist-author-listing-content{
+      margin-bottom: 20px;
+   }
+   .directorist-author-listing-top{
+      .directorist-author-listing-top__title{
+         font-weight: 600;
+         margin: 0 0 30px;
+         text-align: left;
+         display: none;
+      }
+   }
+   .directorist-row.directorist-mb-80{
+      margin-bottom: 20px!important;
+   }
+}

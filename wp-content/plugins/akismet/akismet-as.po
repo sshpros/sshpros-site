@@ -1,0 +1,974 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Assamese
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-08 10:41:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: as_IN\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#: class.akismet-admin.php:739
+msgid "Akismet provisionally cleared this comment."
+msgstr "Akismet-এ এই মন্তব্যটো সাময়িকভাৱে চফা কৰিছে।"
+
+#: views/compatible-plugins.php:111
+msgid "Show less"
+msgstr "কমাই দেখুৱাওক"
+
+#. translators: %d: number of compatible plugins, which is guaranteed to be
+#. more than 1.
+#: views/compatible-plugins.php:107 views/compatible-plugins.php:115
+msgid "Show all %d plugins"
+msgstr "আটাই %dটা প্লাগিন দেখুৱাওক"
+
+#: views/compatible-plugins.php:92
+msgid "View documentation"
+msgstr "তথ্যপত্ৰ চাওক"
+
+#. translators: The placeholder is the name of a plugin, like "Jetpack" .
+#: views/compatible-plugins.php:86
+msgid "Documentation for %s"
+msgstr "%s-ৰ তথ্যপত্ৰ"
+
+#. translators: The placeholder is the name of a plugin, like "Jetpack" .
+#: views/compatible-plugins.php:61
+msgid "%s logo"
+msgstr "%s-ৰ ল’গ’"
+
+#: views/compatible-plugins.php:28
+msgid "See supported integrations"
+msgstr "সমৰ্থিত ইণ্টিগ্ৰেশ্যনবোৰ চাওক"
+
+#: views/compatible-plugins.php:21
+msgid "Akismet works with other plugins to keep spam away."
+msgstr "Akismet-এ স্পেম আঁতৰাই ৰাখিবলৈ অন্য প্লাগিনবোৰৰ সৈতে কাম কৰে।"
+
+#: views/compatible-plugins.php:13
+msgid "Compatible plugins"
+msgstr "সংগতিপূৰ্ণ প্লাগিনবোৰ"
+
+#: class-akismet-compatible-plugins.php:81
+msgid "Error getting compatible plugins."
+msgstr "সংগতিপূৰ্ণ প্লাগিনবোৰ পাওঁতে ত্ৰুটি ঘটিছে।"
+
+#: views/notice.php:73
+msgid "Upgrade plan"
+msgstr "প্লেন আপগ্ৰে’ড কৰক"
+
+#: views/notice.php:54
+msgid "We detected commercial activity on your site"
+msgstr "আমি আপোনাৰ ছাইটত বাণিজ্যিক কাৰ্যকলাপ ধৰা পেলাইছোঁ"
+
+#: views/notice.php:28
+msgid "Almost done! Configure Akismet and say goodbye to spam"
+msgstr "হ’লেই প্ৰায়! Akismet কনফিগাৰ কৰি স্পেমক বিদায় জনাওক"
+
+#: class.akismet-admin.php:800
+msgid "This comment was not sent to Akismet when it was submitted because it was caught by something else."
+msgstr "এই মন্তব্যটো দাখিল কৰোঁতে Akismet-লৈ পঠিওৱা হোৱা নাই কাৰণ এইটো আন কিহবাৰ দ্বাৰা ধৰা হৈছে।"
+
+#: class.akismet-admin.php:803
+msgid "This comment was not sent to Akismet when it was submitted because it was caught by the comment disallowed list."
+msgstr "এই মন্তব্যটো দাখিল কৰোঁতে Akismet-লৈ পঠিওৱা হোৱা নাই কাৰণ এইটো অস্বীকৃত মন্তব্যৰ তালিকাৰ দ্বাৰা ধৰা হৈছে।"
+
+#: class.akismet-rest-api.php:506
+msgid "Could not find matching comment."
+msgstr "মিলা মন্তব্য বিচাৰি পোৱা নগ’ল।"
+
+#: class.akismet-rest-api.php:464
+msgid "The 'comments' parameter must be an array."
+msgstr "'comments' পেৰামিটাৰটো এটা এৰে’ হ’বই লাগিব।"
+
+#: class.akismet-rest-api.php:516
+msgid "Multiple comments matched request."
+msgstr "একাধিক মন্তব্য অনুৰোধৰ সৈতে মিলিছে।"
+
+#: class.akismet-admin.php:794
+msgid "Akismet determined this comment was spam during a recheck. It did not update the comment status because it had already been modified by another user or plugin."
+msgstr "Akismet-এ এক পুনঃপৰীক্ষাৰ সময়ত এই মন্তব্যটো স্পেম বুলি নিৰ্ধাৰণ কৰিছিল। ই মন্তব্যৰ স্থিতি আপডে’ট কৰা নাই কাৰণ ইয়াক আগতেই আন ব্যৱহাৰকাৰী বা প্লাগিনে সলনি কৰি থৈছে।"
+
+#: class.akismet-admin.php:788
+msgid "Akismet caught this comment as spam and updated its status via webhook."
+msgstr "Akismet-এ এই মন্তব্যটো স্পেম হিচাপে ধৰিছে আৰু ৱেবহুকৰ জৰিয়তে ইয়াৰ স্থিতি আপডে’ট কৰিছে।"
+
+#: class.akismet-admin.php:797
+msgid "Akismet cleared this comment during a recheck. It did not update the comment status because it had already been modified by another user or plugin."
+msgstr "Akismet-এ এক পুনঃপৰীক্ষাৰ সময়ত এই মন্তব্যটো চফা কৰিছে। ই মন্তব্যৰ স্থিতি আপডে’ট কৰা নাই কাৰণ ইয়াক আগতেই আন ব্যৱহাৰকাৰী বা প্লাগিনে সলনি কৰি থৈছে।"
+
+#: class.akismet-admin.php:791
+msgid "Akismet cleared this comment and updated its status via webhook."
+msgstr "Akismet-এ এই মন্তব্যটো চফা কৰিছে আৰু ৱেবহুকৰ জৰিয়তে ইয়াৰ স্থিতি আপডে’ট কৰিছে।"
+
+#: views/config.php:197
+msgid "spam folder"
+msgstr "স্পেম ফ’ল্ডাৰ"
+
+#: views/notice.php:206
+msgid "Akismet is now protecting your site from spam."
+msgstr "Akismet-এ এতিয়া আপোনাৰ ছাইটটোক স্পেমৰ পৰা সুৰক্ষা দি আছে।"
+
+#: views/config.php:331
+msgid "Account overview"
+msgstr "একাউণ্টৰ অৱলোকন"
+
+#. translators: %1$s: spam folder link, %2$d: delete interval in days
+#: views/config.php:202
+msgid "Spam in the %1$s older than %2$d day is deleted automatically."
+msgid_plural "Spam in the %1$s older than %2$d days is deleted automatically."
+msgstr[0] "%2$d দিনতকৈ পুৰণি %1$sৰ স্পেম স্বয়ংক্ৰিয়ভাৱে মচি পেলোৱা হয়।"
+msgstr[1] "%2$d দিনতকৈ পুৰণি %1$sৰ স্পেমবোৰ স্বয়ংক্ৰিয়ভাৱে মচি পেলোৱা হয়।"
+
+#: views/config.php:303
+msgid "Subscription type"
+msgstr "ছাবস্ক্ৰিপশ্যনৰ প্ৰকাৰ"
+
+#: views/stats.php:15
+msgid "Akismet detailed stats"
+msgstr "Akismet-ৰ বিস্তৃত পৰিসংখ্যা"
+
+#: views/stats.php:9
+msgid "Back to settings"
+msgstr "ছেটিংছলৈ ঘূৰি যাওক"
+
+#: views/config.php:42
+msgid "Akismet stats"
+msgstr "Akismet পৰিসংখ্যা"
+
+#: views/config.php:164
+msgid "Spam filtering"
+msgstr "স্পেম ফিল্টাৰিং"
+
+#: views/config.php:99 views/enter.php:9
+msgid "API key"
+msgstr "API চাবি"
+
+#: views/config.php:242
+msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms."
+msgstr "GDPR-ৰ দৰে গোপনীয়তাৰ আইনৰ অধীনত স্বচ্ছতা বজাই ৰখাত আপোনাৰ ছাইটক সহায় কৰিবলৈ Akismet-এ আপোনাৰ মন্তব্যৰ প্ৰ-পত্ৰৰ তলত আপোনাৰ ব্যৱহাৰকাৰীসকলক এটা জাননী দেখুৱাব পাৰে।"
+
+#. Author of the plugin
+#: akismet.php
+msgid "Automattic - Anti-spam Team"
+msgstr "Automattic - এণ্টি-স্পেম দল"
+
+#. Plugin Name of the plugin
+#: akismet.php
+msgid "Akismet Anti-spam: Spam Protection"
+msgstr "Akismet এণ্টি-স্পেম: স্পেম সুৰক্ষা"
+
+#: views/notice.php:47
+msgid "WP-Cron has been disabled using the DISABLE_WP_CRON constant. Comment rechecks may not work properly."
+msgstr "DISABLE_WP_CRON ধ্ৰুৱক ব্যৱহাৰ কৰি WP-Cron নিষ্ক্ৰিয় কৰা হৈছে। মন্তব্যৰ পুনঃপৰীক্ষা সঠিকভাৱে কাম নকৰিবও পাৰে।"
+
+#. translators: %1$s is a human-readable time difference, like "3 hours ago",
+#. and %2$s is an already-translated phrase describing how a comment's status
+#. changed, like "This comment was reported as spam."
+#: class.akismet-admin.php:835
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: views/get.php:31
+msgid "(opens in a new tab)"
+msgstr "(নতুন টেব এটাত খোল খায়)"
+
+#. translators: The placeholder is the name of a subscription level, like
+#. "Akismet Business" or "Akismet Enterprise" .
+#: views/notice.php:359
+msgid "Upgrade to %s"
+msgstr "%sলৈ আপগ্ৰে’ড কৰক"
+
+#. translators: The first placeholder is a date, the second is a (formatted)
+#. number, the third is another formatted number.
+#: views/notice.php:293
+msgid "Since %1$s, your account made %2$s API calls, compared to your plan&#8217;s limit of %3$s."
+msgstr "%1$sৰ পৰা আপোনাৰ একাউণ্টে আপোনাৰ প্লেনৰ %3$sটাৰ সীমাৰ তুলনাত %2$sটা API কল কৰিছে।"
+
+#: views/notice.php:280
+msgid "Your account has been restricted"
+msgstr "আপোনাৰ একাউণ্ট সীমাবদ্ধ কৰা হৈছে"
+
+#: views/notice.php:276
+msgid "Your Akismet account usage is approaching your plan&#8217;s limit"
+msgstr "আপোনাৰ Akismet একাউণ্টৰ ব্যৱহাৰ আপোনাৰ প্লেনৰ সীমাৰ ওচৰ চাপিছে"
+
+#: views/notice.php:273
+msgid "Your Akismet account usage is over your plan&#8217;s limit"
+msgstr "আপোনাৰ Akismet একাউণ্টৰ ব্যৱহাৰ আপোনাৰ প্লেনৰ সীমা চেৰাইছে"
+
+#: views/notice.php:230
+msgid "Your API key is no longer valid."
+msgstr "আপোনাৰ API চাবিটো বৈধ হৈ থকা নাই।"
+
+#. translators: The placeholder is for showing how much of the process has
+#. completed, as a percent. e.g., "Checking for Spam (40%)"
+#: class.akismet-admin.php:520
+msgid "Checking for Spam (%1$s%)"
+msgstr "স্পেমৰ বাবে পৰীক্ষা কৰি থকা হৈছে (%1$s%)"
+
+#: class.akismet-admin.php:851
+msgid "No comment history."
+msgstr "কোনো মন্তব্যৰ ইতিহাস নাই।"
+
+#: class.akismet-admin.php:784
+msgid "Akismet was unable to recheck this comment."
+msgstr "Akismet-এ এই মন্তব্যটো পুনঃপৰীক্ষা কৰিব পৰা নাই।"
+
+#. translators: The placeholder is a WordPress PHP function name.
+#: class.akismet-admin.php:745
+msgid "Comment was caught by %s."
+msgstr "মন্তব্যটো %s-ৰ দ্বাৰা ধৰা হৈছিল।"
+
+#: abilities/class-akismet-ability-comment-check.php:185 class.akismet.php:1120
+msgid "Akismet is not configured. Please enter an API key."
+msgstr "Akismet কনফিগাৰ কৰা হোৱা নাই। অনুগ্ৰহ কৰি এটা API চাবি লিখক।"
+
+#: class.akismet-admin.php:776
+msgid "Akismet was unable to check this comment but will automatically retry later."
+msgstr "Akismet-এ এই মন্তব্যটো পৰীক্ষা কৰিব পৰা নাই যদিও পাছত স্বয়ংক্ৰিয়ভাৱে আকৌ চেষ্টা কৰিব।"
+
+#: class.akismet-admin.php:553
+msgid "You don&#8217;t have permission to do that."
+msgstr "সেইটো কৰিবলৈ আপোনাৰ অনুমতি নাই।"
+
+#: views/enter.php:7
+msgid "Enter your API key"
+msgstr "আপোনাৰ API চাবি লিখক"
+
+#: class.akismet-admin.php:1396
+msgid "Akismet could not recheck your comments for spam."
+msgstr "Akismet-এ আপোনাৰ মন্তব্যবোৰ স্পেমৰ বাবে পুনঃপৰীক্ষা কৰিব পৰা নাই।"
+
+#: class.akismet-cli.php:167
+msgid "Stats response could not be decoded."
+msgstr "পৰিসংখ্যাৰ সঁহাৰি ডিক’ড কৰিব পৰা নগ’ল।"
+
+#: class.akismet-cli.php:135
+msgid "API key must be set to fetch stats."
+msgstr "পৰিসংখ্যা গোটাই আনিবলৈ API চাবি নিৰ্ধাৰণ কৰিবই লাগিব।"
+
+#: class.akismet-cli.php:161
+msgid "Currently unable to fetch stats. Please try again."
+msgstr "বৰ্তমান পৰিসংখ্যা গোটাই আনিব পৰা নাই। অনুগ্ৰহ কৰি আকৌ চেষ্টা কৰক।"
+
+#: views/config.php:216
+msgid "Privacy"
+msgstr "গোপনীয়তা"
+
+#: views/config.php:235
+msgid "Do not display privacy notice."
+msgstr "গোপনীয়তাৰ জাননী নেদেখুৱাব।"
+
+#: views/config.php:227
+msgid "Display a privacy notice under your comment forms."
+msgstr "আপোনাৰ মন্তব্যৰ প্ৰ-পত্ৰৰ তলত এটা গোপনীয়তাৰ জাননী দেখুৱাওক।"
+
+#: views/config.php:221
+msgid "Akismet privacy notice"
+msgstr "Akismet-ৰ গোপনীয়তাৰ জাননী"
+
+#. translators: %s: Akismet privacy URL
+#: class.akismet.php:2280
+msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed.</a>"
+msgstr "এই ছাইটে স্পেম কমাবলৈ Akismet ব্যৱহাৰ কৰে। <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">আপোনাৰ মন্তব্যৰ ডেটা কেনেকৈ সংসাধিত কৰা হয়— জানি লওক।</a>"
+
+#: class.akismet-admin.php:108
+msgid "We collect information about visitors who comment on Sites that use our Akismet Anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
+msgstr "আমি আমাৰ Akismet এণ্টি-স্পেম সেৱা ব্যৱহাৰ কৰা ছাইটবোৰত মন্তব্য কৰা দৰ্শকসকলৰ বিষয়ে তথ্য সংগ্ৰহ কৰোঁ। আমি সংগ্ৰহ কৰা তথ্যবোৰ ব্যৱহাৰকাৰীয়ে ছাইটৰ বাবে Akismet কেনেকৈ ছেট আপ কৰে তাৰ ওপৰত নিৰ্ভৰ কৰে, কিন্তু সাধাৰণতে মন্তব্যকাৰীৰ IP ঠিকনা, ব্যৱহাৰকাৰীৰ এজেণ্ট, ৰেফাৰাৰ আৰু ছাইটৰ URL (মন্তব্যকাৰীয়ে পোনচাতে প্ৰদান কৰা অন্য তথ্য যেনে তেওঁৰ নাম, ব্যৱহাৰকাৰী-নাম, ইমেইল ঠিকনা আৰু মন্তব্যটোৰ লগতে) অন্তৰ্ভুক্ত থাকে।"
+
+#: class.akismet.php:621
+msgid "Comment discarded."
+msgstr "মন্তব্য খাৰিজ কৰা হ’ল।"
+
+#: class.akismet-rest-api.php:211
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr "এই ছাইটৰ API চাবি হাৰ্ডক’ড কৰা আছে আৰু মচিব নোৱাৰি।"
+
+#: class.akismet-rest-api.php:195
+msgid "The value provided is not a valid and registered API key."
+msgstr "প্ৰদান কৰা মানটো এটা বৈধ আৰু পঞ্জীভুক্ত API চাবি নহয়।"
+
+#: class.akismet-rest-api.php:189
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr "এই ছাইটৰ API চাবি হাৰ্ডক’ড কৰা আছে আৰু API-ৰ জৰিয়তে সলনি কৰিব নোৱাৰি।"
+
+#: class.akismet-rest-api.php:89 class.akismet-rest-api.php:102
+msgid "The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr "পৰিসংখ্যা আনিবলগীয়া কালদৈৰ্ঘ্য। বিকল্প: 60-দিন, 6-মাহ, সকলো"
+
+#: class.akismet-rest-api.php:60
+msgid "If true, Akismet will automatically discard the worst spam automatically rather than putting it in the spam folder."
+msgstr "যদি true, তেনেহ’লে Akismet-এ আটাইতকৈ বেয়া স্পেমটো স্পেম ফ’ল্ডাৰত ৰখাৰ সলনি স্বয়ংক্ৰিয়ভাৱে খাৰিজ কৰি দিব।"
+
+#: class.akismet-rest-api.php:65
+msgid "If true, show the number of approved comments beside each comment author in the comments list page."
+msgstr "যদি true, তেনেহ’লে মন্তব্যৰ তালিকাৰ পৃষ্ঠাত প্ৰতিগৰাকী মন্তব্য লিখোঁতাৰ কাষত অনুমোদিত মন্তব্যৰ সংখ্যা দেখুৱাব।"
+
+#: views/notice.php:128
+msgid "Your site can&#8217;t connect to the Akismet servers."
+msgstr "আপোনাৰ ছাইটটোৱে Akismet ছাৰ্ভাৰবোৰৰ সৈতে সংযোগ কৰিব নোৱাৰে।"
+
+#. translators: %s is the wp-config.php file
+#: views/predefined.php:7
+msgid "An Akismet API key has been defined in the %s file for this site."
+msgstr "এই ছাইটৰ বাবে %s ফাইলত এটা Akismet API চাবি নিৰ্ধাৰণ কৰা হৈছে।"
+
+#: class.akismet-admin.php:300
+msgid "On this page, you are able to update your Akismet settings and view spam stats."
+msgstr "এইখন পৃষ্ঠাত আপুনি আপোনাৰ Akismet ছেটিংছ আপডে’ট কৰিব পাৰে আৰু স্পেমৰ পৰিসংখ্যা চাব পাৰে।"
+
+#: views/enter.php:10
+msgid "Connect with API key"
+msgstr "API কীৰে সংযোগ কৰক"
+
+#: class-akismet-connector.php:129 class.akismet-admin.php:159
+#: class.akismet-admin.php:161
+msgid "Akismet Anti-spam"
+msgstr "Akismet এণ্টি-স্পেম"
+
+#. Description of the plugin
+#: akismet.php
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
+msgstr "লাখ লাখ লোকে ব্যৱহাৰ কৰা Akismet <strong>আপোনাৰ ব্লগক স্পেমৰ পৰা সুৰক্ষা দিয়াৰ</strong> ক্ষেত্ৰত সম্ভৱতঃ বিশ্বৰ সৰ্বোত্তম উপায়। Akismet এণ্টি-স্পেমে আপুনি শুই থাকোঁতেও আপোনাৰ ছাইটটো সুৰক্ষিত কৰি ৰাখে। আৰম্ভ হৈ পৰিবলৈ: Akismet প্লাগিনটো সক্ৰিয় কৰক আৰু তাৰপাছত আপোনাৰ API চাবি ছেট আপ কৰিবলৈ আপোনাৰ Akismet ছেটিংছৰ পৃষ্ঠালৈ যাওক।"
+
+#: views/config.php:35
+msgid "Statistics"
+msgstr "পৰিসংখ্যা"
+
+#: views/notice.php:26
+msgid "Set up your Akismet account"
+msgstr "আপোনাৰ Akismet একাউণ্ট ছেট আপ কৰক"
+
+#: views/setup-jetpack.php:69
+msgid "Connect with Jetpack"
+msgstr "Jetpack-ৰ সৈতে সংযোগ কৰক"
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:1383
+msgid "Akismet checked %s comment."
+msgid_plural "Akismet checked %s comments."
+msgstr[0] "Akismet-এ %sটা মন্তব্য পৰীক্ষা কৰিছে।"
+msgstr[1] "Akismet-এ %sটা মন্তব্য পৰীক্ষা কৰিছে।"
+
+#: views/setup.php:13
+msgid "Eliminate spam from your site"
+msgstr "আপোনাৰ ছাইটৰ পৰা স্পেম আঁতৰ কৰক"
+
+#: class.akismet-admin.php:1525
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
+msgstr "লাখ লাখ লোকে ব্যৱহাৰ কৰা Akismet <strong>আপোনাৰ ব্লগক স্পেমৰ পৰা সুৰক্ষা দিয়াৰ</strong> ক্ষেত্ৰত সম্ভৱতঃ বিশ্বৰ সৰ্বোত্তম উপায়। ই আপুনি শুই থাকোঁতেও আপোনাৰ ছাইটটো সুৰক্ষিত কৰি ৰাখে। আৰম্ভ হৈ পৰিবলৈ মাথোঁ <a href=\"admin.php?page=akismet-key-config\">আপোনাৰ Akismet ছেটিংছৰ পৃষ্ঠা</a>লৈ গৈ আপোনাৰ API চাবি ছেট আপ কৰক।"
+
+#: class.akismet-admin.php:1380
+msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
+msgstr "পৰীক্ষা কৰিবলগীয়া কোনো মন্তব্য নাছিল। Akismet-এ কেৱল মডাৰেশ্যনৰ বাবে ৰৈ থকা মন্তব্যবোৰ পৰীক্ষা কৰিব।"
+
+#: class.akismet-admin.php:1523
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
+msgstr "লাখ লাখ লোকে ব্যৱহাৰ কৰা Akismet <strong>আপোনাৰ ব্লগক স্পেমৰ পৰা সুৰক্ষা দিয়াৰ</strong> ক্ষেত্ৰত সম্ভৱতঃ বিশ্বৰ সৰ্বোত্তম উপায়। আপুনি শুই থাকোঁতেও আপোনাৰ ছাইটটো সম্পূৰ্ণৰূপে কনফিগাৰ কৰা আৰু সুৰক্ষিত।"
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:1390
+msgid "%s comment was caught as spam."
+msgid_plural "%s comments were caught as spam."
+msgstr[0] "%sটা মন্তব্য স্পেম হিচাপে ধৰা হৈছে।"
+msgstr[1] "%sটা মন্তব্য স্পেম হিচাপে ধৰা থৈছে।"
+
+#: class.akismet-admin.php:1387
+msgid "No comments were caught as spam."
+msgstr "কোনো মন্তব্য স্পেম হিচাপে ধৰা হোৱা নাই।"
+
+#: class.akismet.php:1126
+msgid "Comment not found."
+msgstr "মন্তব্য পোৱা নগ'ল।"
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:45
+msgid "Comment #%d could not be checked."
+msgstr "মন্তব্য #%dৰ পৰীক্ষা কৰিব পৰা নগ'ল।"
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:42
+msgid "Failed to connect to Akismet."
+msgstr "Akismet-লৈ সংযোগ কৰাত বিফল।"
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:89
+msgid "%d comment could not be checked."
+msgid_plural "%d comments could not be checked."
+msgstr[0] "%dটা মন্তব্য পৰীক্ষা কৰিব পৰা নগ’ল।"
+msgstr[1] "%dটা মন্তব্য পৰীক্ষা কৰিব পৰা নগ’ল।"
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:85
+msgid "%d comment moved to Spam."
+msgid_plural "%d comments moved to Spam."
+msgstr[0] "%dটা মন্তব্য স্পেমলৈ নিয়া হ’ল।"
+msgstr[1] "%dটা মন্তব্য স্পেমলৈ নিয়া হ’ল।"
+
+#. translators: %d: Number of comments.
+#: class.akismet-cli.php:82
+msgid "Processed %d comment."
+msgid_plural "Processed %d comments."
+msgstr[0] "%dটা মন্তব্য সংসাধিত হ’ল।"
+msgstr[1] "%dটা মন্তব্য সংসাধিত হ’ল।"
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:39
+msgid "Comment #%d is not spam."
+msgstr "মন্তব্য #%d স্পেম নহয়।"
+
+#. translators: %d: Comment ID.
+#: class.akismet-cli.php:36
+msgid "Comment #%d is spam."
+msgstr "মন্তব্য #%d স্পেম।"
+
+#. translators: %s: number of false positive spam flagged by Akismet
+#: views/config.php:64
+msgid "%s false positive"
+msgid_plural "%s false positives"
+msgstr[0] "%sটা ভুল ইতিবাচক"
+msgstr[1] "%sটা ভুল ইতিবাচক"
+
+#. translators: %s: number of spam missed by Akismet
+#: views/config.php:62
+msgid "%s missed spam"
+msgid_plural "%s missed spam"
+msgstr[0] "%sটা বাদ-পৰা স্পেম"
+msgstr[1] "%sটা বাদ-পৰা স্পেম"
+
+#: views/notice.php:183
+msgid "You don&#8217;t have an Akismet plan."
+msgstr "আপোনাৰ কোনো Akismet প্লেন নাই।"
+
+#: views/notice.php:139
+msgid "Your Akismet plan has been cancelled."
+msgstr "আপোনাৰ Akismet প্লেন বাতিল কৰা হৈছে।"
+
+#: views/notice.php:150
+msgid "Your Akismet subscription is suspended."
+msgstr "আপোনাৰ Akismet ছাবস্ক্ৰিপশ্যন নিলম্বিত কৰা হৈছে।"
+
+#. translators: %s: Number of days.
+#: class.akismet-admin.php:1280
+msgid "Akismet has saved you %s day!"
+msgid_plural "Akismet has saved you %s days!"
+msgstr[0] "Akismet-এ আপোনাৰ %sটা দিন বচাইছে!"
+msgstr[1] "Akismet-এ আপোনাৰ %sটা দিন বচাইছে!"
+
+#. translators: %s: Number of hours.
+#: class.akismet-admin.php:1283
+msgid "Akismet has saved you %d hour!"
+msgid_plural "Akismet has saved you %d hours!"
+msgstr[0] "Akismet-এ আপোনাৰ %d ঘণ্টা বচাইছে!"
+msgstr[1] "Akismet-এ আপোনাৰ %d ঘণ্টা বচাইছে!"
+
+#. translators: %s: Number of minutes.
+#: class.akismet-admin.php:1286
+msgid "Akismet has saved you %d minute!"
+msgid_plural "Akismet has saved you %d minutes!"
+msgstr[0] "Akismet-এ আপোনাৰ %d মিনিট বচাইছে!"
+msgstr[1] "Akismet-এ আপোনাৰ %d মিনিট বচাইছে!"
+
+#: class.akismet-admin.php:249 class.akismet-admin.php:287
+#: class.akismet-admin.php:299
+msgid "Akismet filters out spam, so you can focus on more important things."
+msgstr "Akismet-এ স্পেম ফিল্টাৰ কৰে, যাতে আপুনি অধিক গুৰুত্বপূৰ্ণ বিষয়ত মনোযোগ দিব পাৰে।"
+
+#: views/notice.php:247
+msgid "The API key you entered could not be verified."
+msgstr "আপুনি লিখা API চাবিটো সত্যাপন কৰিব পৰা নগ’ল।"
+
+#: views/config.php:118
+msgid "SSL status"
+msgstr "SSL স্থিতি"
+
+#: views/config.php:131
+msgid "All systems functional."
+msgstr "সকলো ছিষ্টেম কাৰ্যকৰী।"
+
+#: views/config.php:130
+msgid "Enabled."
+msgstr "সক্ৰিয় কৰা হ’ল।"
+
+#: views/config.php:127
+msgid "Temporarily disabled."
+msgstr "অস্থায়ীভাৱে নিষ্ক্ৰিয় কৰা হ’ল।"
+
+#: views/config.php:122
+msgid "Your Web server cannot make SSL requests; contact your Web host and ask them to add support for SSL requests."
+msgstr "আপোনাৰ ৱেব ছাৰ্ভাৰে SSL অনুৰোধ কৰিব নোৱাৰে; আপোনাৰ ৱেব হ’ষ্টৰ সৈতে যোগাযোগ কৰি তেওঁলোকক SSL অনুৰোধৰ সমৰ্থন যোগ কৰিবলৈ কওক।"
+
+#: views/config.php:121
+msgid "Disabled."
+msgstr "নিষ্ক্ৰিয় কৰা হ’ল।"
+
+#: class.akismet-admin.php:762
+msgid "This comment was reported as not spam."
+msgstr "এই মন্তব্যটো স্পেম নহয় বুলি সদৰী কৰা হৈছে।"
+
+#: views/config.php:128
+msgid "Akismet encountered a problem with a previous SSL request and disabled it temporarily. It will begin using SSL for requests again shortly."
+msgstr "Akismet-এ আগৰ SSL অনুৰোধৰ সৈতে এটা সমস্যাৰ সন্মুখীন হৈছে আৰু ইয়াক অস্থায়ীভাৱে নিষ্ক্ৰিয় কৰিছে। ই সোনকালেই আকৌ অনুৰোধৰ বাবে SSL ব্যৱহাৰ কৰিবলৈ আৰম্ভ কৰিব।"
+
+#: class.akismet-admin.php:754
+msgid "This comment was reported as spam."
+msgstr "এই মন্তব্যটো স্পেম বুলি সদৰী কৰা হৈছে।"
+
+#: class.akismet-admin.php:311 views/config.php:141
+msgid "Comments"
+msgstr "মন্তব্যসমূহ"
+
+#: class.akismet-widget.php:39
+msgid "Title:"
+msgstr "শিৰোনাম:"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:1540
+msgid "Akismet"
+msgstr "Akismet"
+
+#: class.akismet-admin.php:210
+msgid "Remove this URL"
+msgstr "এই URL আঁতৰাওক"
+
+#: class.akismet-admin.php:211
+msgid "Removing..."
+msgstr "আঁতৰাই থকা হৈছে..."
+
+#: class.akismet-admin.php:213
+msgid "(undo)"
+msgstr "(পূৰ্বৰ দৰে কৰক)"
+
+#: class.akismet-widget.php:20
+msgid "Akismet Widget"
+msgstr "Akismet ৱিজেট"
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:831
+msgid "%s ago"
+msgstr "%s আগতে"
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:703
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%sটা অনুমোদিত"
+msgstr[1] "%sটা অনুমোদিত"
+
+#: class.akismet-admin.php:677
+msgid "History"
+msgstr "ইতিহাস"
+
+#: class.akismet-admin.php:677 class.akismet-admin.php:685
+msgid "View comment history"
+msgstr "মন্তব্যৰ ইতিহাস চাওক"
+
+#: class.akismet-admin.php:248 class.akismet-admin.php:259
+#: class.akismet-admin.php:271
+msgid "Akismet Setup"
+msgstr "Akismet ছেটআপ"
+
+#: class.akismet-admin.php:246 class.akismet-admin.php:284
+#: class.akismet-admin.php:296
+msgid "Overview"
+msgstr "অৱলোকন"
+
+#: class.akismet-admin.php:257
+msgid "New to Akismet"
+msgstr "Akismet-ত নতুন"
+
+#: class.akismet-admin.php:320 views/config.php:297
+msgid "Account"
+msgstr "একাউণ্ট"
+
+#: class.akismet-admin.php:336
+msgid "Akismet Support"
+msgstr "Akismet সাহায্য"
+
+#: class.akismet-admin.php:335
+msgid "Akismet FAQ"
+msgstr "Akismet FAQ"
+
+#: class.akismet-admin.php:333
+msgid "For more information:"
+msgstr "অধিক তথ্যৰ বাবে:"
+
+#: class.akismet-admin.php:152 class.akismet-admin.php:307
+#: class.akismet-admin.php:858 views/config.php:88
+msgid "Settings"
+msgstr "ছেটিংছ"
+
+#: class.akismet-admin.php:324 views/config.php:306
+msgid "Status"
+msgstr "স্থিতি"
+
+#: class.akismet-admin.php:342
+msgid "Cheatin&#8217; uh?"
+msgstr "ঠগবাজী কৰিছে?"
+
+#. Plugin URI of the plugin
+#: akismet.php
+msgid "https://akismet.com/"
+msgstr "https://akismet.com/"
+
+#: views/notice.php:172
+msgid "There is a problem with your API key."
+msgstr "আপোনাৰ API কীটোৰ কিবা এটা সমস্যা আছে।"
+
+#: views/config.php:314
+msgid "Missing"
+msgstr "নিৰুদ্দেশ"
+
+#: views/config.php:312
+msgid "Suspended"
+msgstr "বৰ্খাস্ত"
+
+#: views/config.php:310
+msgid "Cancelled"
+msgstr "বাতিল কৰা হৈছে"
+
+#. Author URI of the plugin
+#: akismet.php
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr "https://automattic.com/wordpress-plugins/"
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "নিজ হাতেৰে API কী এটা প্ৰবিষ্ট কৰক"
+
+#: views/config.php:339
+msgid "Change"
+msgstr "সলনি কৰক"
+
+#: views/config.php:339
+msgid "Upgrade"
+msgstr "আপগ্ৰেড কৰক"
+
+#: views/config.php:47
+msgid "Past six months"
+msgstr "বিগত ছমাহ"
+
+#: class.akismet-admin.php:323
+msgid "Subscription Type"
+msgstr "ছাবস্ক্ৰিপশ্যনৰ প্ৰকাৰ"
+
+#: class.akismet-admin.php:323
+msgid "The Akismet subscription plan"
+msgstr "Akismet ছাবস্ক্ৰিপশ্যন প্লেন"
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:811
+msgid "Comment status was changed to %s"
+msgstr "মন্তব্যৰ স্থিতি %sলৈ সলনি কৰা হৈছে।"
+
+#: views/notice.php:341
+msgid "Contact Akismet support"
+msgstr "Akismet সাহায্যৰ সৈতে যোগাযোগ কৰক"
+
+#: views/notice.php:36 views/notice.php:46
+msgid "Akismet has detected a problem."
+msgstr "Akismet-এ এটা সমস্যা ধৰা পেলাইছে।"
+
+#: views/config.php:318
+msgid "Active"
+msgstr "সক্ৰিয়"
+
+#: views/config.php:190
+msgid "Note:"
+msgstr "টোকা:"
+
+#: class.akismet-admin.php:312
+msgid "Strictness"
+msgstr "কঠোৰতা"
+
+#: class.akismet-admin.php:298 class.akismet-admin.php:309
+#: class.akismet-admin.php:322
+msgid "Akismet Configuration"
+msgstr "Akismet কনফিগাৰেশ্যন"
+
+#: class.akismet-admin.php:212
+msgid "URL removed"
+msgstr "URL আঁতৰোৱা হ’ল"
+
+#: class.akismet-admin.php:250
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "এইখন পৃষ্ঠাত আপুনি Akismet প্লাগিন ছেট আপ কৰিব পাৰে।"
+
+#: class.akismet-admin.php:260
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "আপোনাৰ ছাইটত Akismet সেৱা সক্ৰিয় কৰিবলৈ আপুনি এটা API চাবি লিখিব লাগিব।"
+
+#. translators: %s: a link to the signup page with the text 'Akismet.com'.
+#: class.akismet-admin.php:262
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "API চাবি পাবলৈ %s-ত একাউণ্টৰ বাবে ছাইন আপ কৰক।"
+
+#: class.akismet-admin.php:269
+msgid "Enter an API Key"
+msgstr "এটা API চাবি লিখক"
+
+#: class.akismet-admin.php:272
+msgid "If you already have an API key"
+msgstr "যদি আপোনাৰ ইতিমধ্যে এটা API চাবি আছে"
+
+#: class.akismet-admin.php:274
+msgid "Copy and paste the API key into the text field."
+msgstr "API চাবিটো পাঠৰ ক্ষেত্ৰত কপি কৰি পে’ষ্ট কৰক।"
+
+#: class.akismet-admin.php:275
+msgid "Click the Use this Key button."
+msgstr "\"এই চাবি ব্যৱহাৰ কৰক\" বুটামটোত ক্লিক কৰক।"
+
+#: class.akismet-admin.php:286
+msgid "Akismet Stats"
+msgstr "Akismet-ৰ পৰিসংখ্যা"
+
+#: class.akismet-admin.php:288
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "এইখন পৃষ্ঠাত আপুনি আপোনাৰ ছাইটত ফিল্টাৰ কৰা স্পেমৰ পৰিসংখ্যা চাব পাৰে।"
+
+#: class.akismet-admin.php:310
+msgid "API Key"
+msgstr "API চাবি"
+
+#: class.akismet-admin.php:310
+msgid "Enter/remove an API key."
+msgstr "এটা API চাবি লিখক/আঁতৰাওক।"
+
+#: views/notice.php:225
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "আপুনি লিখা চাবিটো অবৈধ। অনুগ্ৰহ কৰি আকৌ পৰীক্ষা কৰক।"
+
+#: views/config.php:57
+msgid "Accuracy"
+msgstr "সঠিকতা"
+
+#: views/config.php:52
+msgid "All time"
+msgstr "সৰ্বকাল"
+
+#: views/config.php:169
+msgid "Akismet Anti-spam strictness"
+msgstr "Akismet এণ্টি-স্পেমৰ কঠোৰতা"
+
+#: views/config.php:183
+msgid "Always put spam in the Spam folder for review."
+msgstr "স্পেম সদায় পৰ্যালোচনাৰ বাবে স্পেম ফ’ল্ডাৰত ৰাখিব।"
+
+#: views/config.php:175
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "আটাইতকৈ বেয়া আৰু সৰ্বব্যাপী স্পেম নীৰৱে খাৰিজ কৰি দিব যাতে মই সেইটো কেতিয়াও দেখা নাপাওঁ।"
+
+#. translators: 1: Current Akismet version number, 2: Minimum WordPress version
+#. number required.
+#: class.akismet.php:2093
+msgid "Akismet %1$s requires WordPress %2$s or higher."
+msgstr "Akismet %1$sক WordPress %2$s বা তাতকৈ ওপৰৰ সংস্কৰণৰ প্ৰয়োজন।"
+
+#: views/config.php:286
+msgid "Save changes"
+msgstr "সালসলনি সাঁচি থওক"
+
+#: views/config.php:316
+msgid "No subscription found"
+msgstr "কোনো ছাবস্ক্ৰিপশ্যন পোৱা নগ’ল"
+
+#. translators: The placeholder is an error code returned by Akismet.
+#: views/notice.php:86
+msgid "Akismet error code: %s"
+msgstr "Akismet ত্ৰুটিৰ ক’ড: %s"
+
+#: views/config.php:324
+msgid "Next billing date"
+msgstr "পৰৱৰ্তী বিল দিয়াৰ তাৰিখ"
+
+#: views/config.php:278
+msgid "Disconnect this account"
+msgstr "এই একাউণ্টৰ সংযোগ বিচ্ছিন্ন কৰক"
+
+#: views/config.php:156
+msgid "Show the number of approved comments beside each comment author."
+msgstr "প্ৰতিগৰাকী মন্তব্য লিখোঁতাৰ কাষত অনুমোদিত মন্তব্যৰ সংখ্যা দেখুৱাওক।"
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:752
+msgid "%s reported this comment as spam."
+msgstr "%s-এ এই মন্তব্যটো স্পেম বুলি সদৰী কৰিছে।"
+
+#: class.akismet-admin.php:311
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "মন্তব্যৰ তালিকাৰ পৃষ্ঠাত প্ৰতিগৰাকী মন্তব্য লিখোঁতাৰ কাষত অনুমোদিত মন্তব্যৰ সংখ্যা দেখুৱাব।"
+
+#: views/notice.php:112
+msgid "Network functions are disabled."
+msgstr "নেটৱৰ্ক ফাংশ্যনবোৰ নিষ্ক্ৰিয় কৰা হৈছে।"
+
+#. translators: %1$s is a username; %2$s is a short string (like 'spam' or
+#. 'approved') denoting the new comment status.
+#: class.akismet-admin.php:817
+msgid "%1$s changed the comment status to %2$s."
+msgstr "%1$s-এ মন্তব্যৰ স্থিতি %2$sলৈ সলনি কৰিছে।"
+
+#: class.akismet-admin.php:730
+msgid "Akismet caught this comment as spam."
+msgstr "Akismet-এ এই মন্তব্যটো স্পেম হিচাপে ধৰিছে।"
+
+#: class.akismet-widget.php:21
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Akismet-এ ধৰা স্পেম মন্তব্যৰ সংখ্যা দেখুৱাওক"
+
+#: class.akismet-admin.php:1276
+msgid "Cleaning up spam takes time."
+msgstr "স্পেম চাফা কৰোঁতে সময় লাগে।"
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:1148
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "অনুগ্ৰহ কৰি আপোনাৰ <a href=\"%s\">Akismet কনফিগাৰেশ্যন</a> পৰীক্ষা কৰক আৰু সমস্যা হৈয়েই থাকিলে আপোনাৰ ৱেব হ’ষ্টৰ সৈতে যোগাযোগ কৰক।"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:661
+msgid "Flagged as spam by %s"
+msgstr "%s-ৰ দ্বাৰা স্পেম বুলি চিন দিয়া হৈছে"
+
+#: class.akismet-admin.php:653
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet-ৰ দ্বাৰা স্পেম বুলি চিন দিয়া হৈছে"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:782
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr "Akismet-এ এই মন্তব্যটো পুনঃপৰীক্ষা কৰিব পৰা নাই (সঁহাৰি: %s)।"
+
+#: class.akismet-admin.php:727
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr "Akismet-এ পুনঃপৰীক্ষা কৰি এই মন্তব্যটো স্পেম হিচাপে ধৰিছে।"
+
+#: class.akismet-admin.php:733
+msgid "Akismet re-checked and cleared this comment."
+msgstr "Akismet-এ পুনঃপৰীক্ষা কৰি এই মন্তব্যটো চফা কৰিছে।"
+
+#: class.akismet-admin.php:769
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet-এ এক স্বয়ংক্ৰিয় পুনঃচেষ্টাৰ সময়ত এই মন্তব্যটো চফা কৰিছে।"
+
+#: class.akismet-admin.php:736
+msgid "Akismet cleared this comment."
+msgstr "Akismet-এ এই মন্তব্য চফা কৰিছে।"
+
+#: class.akismet-admin.php:655
+msgid "Cleared by Akismet"
+msgstr "Akismet-এ চফা কৰিছে"
+
+#: views/notice.php:37
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "কিছুমান মন্তব্য এতিয়াও Akismet-এ স্পেমৰ বাবে পৰীক্ষা কৰা নাই। সেইবোৰক অস্থায়ীভাৱে মডাৰেশ্যনৰ বাবে ৰখা হৈছে আৰু পাছত স্বয়ংক্ৰিয়ভাৱে পুনঃপৰীক্ষা কৰা হ’ব।"
+
+#: class.akismet-admin.php:766
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet-এ এক স্বয়ংক্ৰিয় পুনঃচেষ্টাৰ সময়ত এই মন্তব্যটো স্পেম হিচাপে ধৰিছে।"
+
+#. translators: The placeholder is an error response returned by the API
+#. server.
+#: class.akismet-admin.php:774
+msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
+msgstr "Akismet-এ এই মন্তব্যটো পৰীক্ষা কৰিব পৰা নাই (সহাঁৰি: %s) যদিও পাছত স্বয়ংক্ৰিয়ভাৱে আকৌ চেষ্টা কৰিব।"
+
+#: class.akismet-admin.php:214
+msgid "Re-adding..."
+msgstr "আকৌ যোগ কৰি থকা হৈছে..."
+
+#. translators: The placeholder is a username.
+#: class.akismet-admin.php:760
+msgid "%s reported this comment as not spam."
+msgstr "%s-এ এই মন্তব্যটো স্পেম নহয় বুলি সদৰী কৰিছে।"
+
+#. translators: %s: Akismet website URL.
+#: class.akismet-admin.php:455
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a>-এ স্পেমক আপোনাৰ ব্লগলৈ গৈ পোৱাত বাধা দিয়ে। "
+
+#. translators: 1: Akismet website URL, 2: Number of spam comments.
+#: class.akismet-admin.php:444
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a>-এ ইতিমধ্যে %2$sটা স্পেম মন্তব্যৰ পৰা আপোনাৰ ছাইটক ৰক্ষা কৰিছে। "
+msgstr[1] "<a href=\"%1$s\">Akismet</a>-এ ইতিমধ্যে %2$sটা স্পেম মন্তব্যৰ পৰা আপোনাৰ ছাইটক ৰক্ষা কৰিছে। "
+
+#: class.akismet-admin.php:324
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "ছাবস্ক্ৰিপশ্যনৰ স্থিতি - সক্ৰিয়, বাতিল বা নিলম্বিত"
+
+#: class.akismet-admin.php:312
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "আটাইতকৈ বেয়া স্পেম স্বয়ংক্ৰিয়ভাৱে খাৰিজ কৰা নাইবা সকলো স্পেম সদায় স্পেম ফ’ল্ডাৰত ৰখাৰ মাজৰ পৰা এটা বাছি লওক।"
+
+#. translators: 1: WordPress documentation URL, 2: Akismet download URL.
+#: class.akismet.php:2095
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "অনুগ্ৰহ কৰি WordPress-ক বৰ্তমানৰ সংস্কৰণলৈ <a href=\"%1$s\">আপগ্ৰে’ড কৰক</a> নাইবা <a href=\"%2$s\">Akismet প্লাগিনৰ 2.4 সংস্কৰণলৈ ডাউনগ্ৰে’ড কৰক</a>।"
+
+#: views/config.php:49 views/config.php:54
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "স্পেম অৱৰোধ কৰা হ’ল"
+msgstr[1] "স্পেম অৱৰোধ কৰা হ’ল"
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:146
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong>Akismet</strong>-এ <strong class=\"count\">%1$sটা স্পেম</strong> অৱৰোধ কৰিছে"
+msgstr[1] "<strong>Akismet</strong>-এ <strong class=\"count\">%1$sটা স্পেম</strong> অৱৰোধ কৰিছে"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:664
+msgid "Un-spammed by %s"
+msgstr "%s-ৰ দ্বাৰা স্পেম-মুক্ত কৰা হৈছে"
+
+#: class.akismet-admin.php:649
+msgid "Awaiting spam check"
+msgstr "স্পেম পৰীক্ষাৰ বাবে ৰৈ আছে"
+
+#: class.akismet-widget.php:34 class.akismet-widget.php:69
+msgid "Spam Blocked"
+msgstr "স্পেম অৱৰোধ কৰা হৈছে"
+
+#: class.akismet-admin.php:537
+msgid "Check for Spam"
+msgstr "স্পেম আছে নেকি— চাওক"
+
+#. translators: %s: Comments page URL.
+#: class.akismet-admin.php:474
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "এইমুহূৰ্তত আপোনাৰ <a href='%s'>স্পেম শাৰী</a>ত একো নাই।"
+
+#. translators: 1: Number of comments, 2: Comments page URL.
+#: class.akismet-admin.php:463
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "আপোনাৰ স্পেম শাৰীত বৰ্তমান <a href=\"%2$s\">%1$sটা মন্তব্য</a> আছে।"
+msgstr[1] "আপোনাৰ স্পেম শাৰীত বৰ্তমান <a href=\"%2$s\">%1$sটা মন্তব্য</a> আছে।"
+
+#. translators: 1: Akismet website URL, 2: Comments page URL, 3: Number of spam
+#. comments.
+#: class.akismet-admin.php:427
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a>-এ <a href=\"%2$s\">%3$sটা স্পেম মন্তব্য</a>ৰ পৰা আপোনাৰ ছাইটক ৰক্ষা কৰিছে।"
+msgstr[1] "<a href=\"%1$s\">Akismet</a>-এ <a href=\"%2$s\">%3$sটা স্পেম মন্তব্য</a>ৰ পৰা আপোনাৰ ছাইটক ৰক্ষা কৰিছে।"
+
+#: class.akismet-admin.php:423
+msgctxt "comments"
+msgid "Spam"
+msgstr "স্পেম"
+
+#: class.akismet-admin.php:103
+msgid "Comment History"
+msgstr "মন্তব্যৰ ইতিহাস"

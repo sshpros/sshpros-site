@@ -1,0 +1,1197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Big Sky\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-21T10:49:11+00:00\n"
+"PO-Revision-Date: 2026-05-06 18:10:10+0000\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:409
+#: src/components/dock/index.js:428
+msgid "New chat"
+msgstr "Trò chuyện mới"
+
+#: src/image-studio/components/header/index.tsx:82
+msgid "Save and apply image"
+msgstr "Lưu và áp dụng Ảnh"
+
+#: src/image-studio/components/header/index.tsx:68
+msgid "Save & Apply"
+msgstr "Lưu & Áp dụng"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+#: big-sky.php:1515
+msgid "Edit with AI"
+msgstr "Sửa với AI"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:59
+msgid "How can you help me?"
+msgstr "Bạn có thể giúp tôi như thế nào?"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:53
+msgid "What should I do next?"
+msgstr "Tôi nên làm gì tiếp theo?"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:424
+msgid "Welcome to your new store! I'm your personal AI assistant. How can I help you?"
+msgstr "Chào mừng bạn đến với cửa hàng mới của bạn! Mình là trợ lý AI cá nhân của bạn. Mình có thể giúp gì cho bạn?"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:93
+msgid "Cannot delete - no image found"
+msgstr "Không thể xoá - không tìm thấy Ảnh"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:135
+msgid "Failed to delete image. Please try again."
+msgstr "Xoá Ảnh không thành công. Vui lòng thử lại."
+
+#: src/image-studio/components/sidebar/index.tsx:65
+msgid "You are about to permanently delete this item from your site. This action cannot be undone."
+msgstr "Bạn sắp xoá mục này khỏi Web của bạn. Hành động này không thể hoàn tác."
+
+#: src/image-studio/components/sidebar/index.tsx:53
+msgid "Delete permanently"
+msgstr "Xóa vĩnh viễn"
+
+#: src/image-studio/components/sidebar/index.tsx:46
+msgid "Delete this item"
+msgstr "Xóa mục này"
+
+#: src/image-studio/components/header/index.tsx:90
+#: src/image-studio/components/sidebar/index.tsx:25
+msgid "Save or discard your changes"
+msgstr "Lưu hoặc bỏ qua thay đổi của bạn"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File name:"
+msgstr "Tên tập tin:"
+
+#: src/image-studio/components/header/index.tsx:147
+msgid "View or edit information about the image"
+msgstr "xem hoặc sửa thông tin về Ảnh"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:127
+msgid "Next image %s→"
+msgstr "Hình ảnh tiếp theo %s→"
+
+#: src/image-studio/components/header/index.tsx:124
+#: src/image-studio/components/sidebar/file-details.tsx:82
+#: src/image-studio/utils/get-image-data.ts:27
+msgid "Untitled"
+msgstr "Không có tựa đề"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:123
+msgid "Previous image %s←"
+msgstr "Hình ảnh trước %s←"
+
+#: src/components/product-card/ProductCard.tsx:51
+msgid "Loading…"
+msgstr "Đang tải…"
+
+#: src/image-studio/components/index.tsx:127
+msgid "Generating suggestions…"
+msgstr "Đang tạo gợi ý…"
+
+#: src/image-studio/components/style-picker/index.tsx:41
+msgid "Vivid"
+msgstr "Sống động"
+
+#: src/image-studio/components/style-picker/index.tsx:39
+msgid "None"
+msgstr "Không có"
+
+#: src/image-studio/components/header/index.tsx:85
+msgid "Save displayed image to Media Library"
+msgstr "Lưu ảnh hiển thị vào Media"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:88
+msgid "Reverted to original"
+msgstr "Quay lại bản gốc"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:77
+msgid "Cannot revert - failed to load original image"
+msgstr "Không thể hoàn tác - không tải được ảnh gốc"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:67
+msgid "Cannot revert - original image not found"
+msgstr "Không thể hoàn tác - Ảnh gốc không được tìm thấy"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:34
+msgid "More options"
+msgstr "Tùy chọn khác"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:24
+msgid "Revert to original"
+msgstr "Quay lại bản gốc"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:18
+msgid "Save to media library"
+msgstr "Lưu vào Media"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision →"
+msgstr "Bản thảo tiếp theo →"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision ←"
+msgstr "Bản thảo trước ←"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:41
+msgid "Aspect Ratio"
+msgstr "Giữ tỉ lệ:"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:23
+msgid "3:4"
+msgstr "3:4"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:22
+msgid "4:3"
+msgstr "4:3"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:21
+msgid "9:16"
+msgstr "9:16"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:20
+msgid "16:9"
+msgstr "16:9"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:19
+msgid "1:1"
+msgstr "1:1"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision"
+msgstr "Bản thảo tiếp theo"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision"
+msgstr "Bản thảo trước"
+
+#: src/image-studio/components/style-picker/index.tsx:97
+msgid "Craft Clay"
+msgstr "Đất sét thủ công"
+
+#: src/image-studio/components/style-picker/index.tsx:92
+msgid "Line Art"
+msgstr "Tranh đường nét"
+
+#: src/image-studio/components/style-picker/index.tsx:87
+msgid "Origami"
+msgstr "Nghệ thuật gấp giấy"
+
+#: src/image-studio/components/style-picker/index.tsx:82
+msgid "Lowpoly"
+msgstr "Lowpoly"
+
+#: src/image-studio/components/style-picker/index.tsx:77
+msgid "Isometric"
+msgstr "Đẳng phương"
+
+#: src/image-studio/components/style-picker/index.tsx:72
+msgid "Neonpunk"
+msgstr "Neonpunk"
+
+#: src/image-studio/components/style-picker/index.tsx:67
+msgid "Analog Film"
+msgstr "Phim Analog"
+
+#: src/image-studio/components/style-picker/index.tsx:62
+msgid "Fantasy Art"
+msgstr "Tranh Nghệ Thuật Huyền Bí"
+
+#: src/image-studio/components/style-picker/index.tsx:57
+msgid "Comicbook"
+msgstr "Truyện tranh"
+
+#: src/image-studio/components/style-picker/index.tsx:52
+msgid "Digital Art"
+msgstr "Nghệ thuật kỹ thuật số"
+
+#: src/image-studio/components/style-picker/index.tsx:47
+msgid "Photographic"
+msgstr "Chụp ảnh"
+
+#: src/image-studio/components/style-picker/index.tsx:45
+msgid "Anime"
+msgstr "Anime"
+
+#: src/image-studio/components/style-picker/index.tsx:38
+msgid "Select style"
+msgstr "Chọn kiểu"
+
+#: src/image-studio/components/style-picker/index.tsx:150
+msgid "Styles"
+msgstr "Kiểu hiển thị"
+
+#: src/image-studio/components/style-picker/index.tsx:117
+msgid "Texture"
+msgstr "Kết cấu"
+
+#: src/image-studio/components/style-picker/index.tsx:112
+msgid "Pixel Art"
+msgstr "Pixel Art"
+
+#: src/image-studio/components/style-picker/index.tsx:107
+msgid "3D Model"
+msgstr "Mô hình 3D"
+
+#: src/image-studio/components/style-picker/index.tsx:102
+msgid "Cinematic"
+msgstr "Điện ảnh"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:99
+msgid "Help me to connect PayPal Payments to my store"
+msgstr "Giúp tôi kết nối thanh toán PayPal với cửa hàng của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:98
+msgid "Connect PayPal Payments to my store"
+msgstr "Kết nối thanh toán PayPal với cửa hàng của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:93
+msgid "Recommend shipping zones and methods for my store"
+msgstr "Đề xuất các khu vực và phương thức vận chuyển cho cửa hàng của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:92
+msgid "Set up shipping rates"
+msgstr "Thiết lập mức phí vận chuyển"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:87
+msgid "Set my product pricing"
+msgstr "Đặt giá sản phẩm của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:81
+msgid "Help me to write a product description"
+msgstr "Giúp tôi viết một mô tả sản phẩm"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:80
+msgid "Write a product description"
+msgstr "Viết một mô tả sản phẩm"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:75
+msgid "Help me to create a product"
+msgstr "Giúp tôi tạo ra một sản phẩm"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:21
+msgid "Failed to make the theme update. Please try again."
+msgstr "Không thể thực hiện cập nhật giao diện. Vui lòng thử lại."
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:95
+msgid "Add to post"
+msgstr "Thêm vào bài viết"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:88
+msgid "Replace selected image"
+msgstr "Thay thế Ảnh đã chọn"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat"
+msgstr "Bắt đầu một cuộc trò chuyện mới"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat to begin"
+msgstr "Bắt đầu một cuộc trò chuyện mới để bắt đầu"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "No past conversations"
+msgstr "Không có cuộc trò chuyện nào trước đây"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Failed to load conversations. Please try again."
+msgstr "Không tải được cuộc trò chuyện. Vui lòng thử lại."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:416
+msgid "Past chats"
+msgstr "Những cuộc trò chuyện trước đây"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:274
+msgid "Failed to upload images. Please try again."
+msgstr "Không tải lên Ảnh được. Vui lòng thử lại."
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:37
+msgid "Tell me what you can do for me"
+msgstr "Nói cho mình biết bạn có thể làm gì cho mình"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:74
+msgid "Create a product"
+msgstr "Tạo sản phẩm"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:31
+msgid "Show me recent comments"
+msgstr "Cho tôi xem bình luận gần đây"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:30
+msgid "Review comments"
+msgstr "Bình luận đánh giá"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:25
+msgid "Show me my site health status"
+msgstr "Cho tôi xem trạng thái sức khỏe trang web của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:24
+msgid "Check site health"
+msgstr "Kiểm tra tình trạng trang web"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:19
+msgid "Help me create a new post"
+msgstr "Giúp mình tạo một bài viết mới"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:18
+msgid "Create content"
+msgstr "Tạo nội dung"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:13
+msgid "Show me my recent posts"
+msgstr "Cho tôi xem các bài viết gần đây của tôi"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:12
+msgid "Manage posts"
+msgstr "Quản lý bài viết"
+
+#: src/image-studio/index.tsx:179
+msgid "Image doesn't exist"
+msgstr "Ảnh không tồn tại"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:131
+msgid "Redo ⇧%sZ"
+msgstr "Làm lại ⇧%sZ"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:129
+msgid "Undo %sZ"
+msgstr "Hoàn tác %sZ"
+
+#: src/image-studio/components/header/index.tsx:138
+msgid "Failed to save changes. Please try again or use the Save button."
+msgstr "Không lưu được thay đổi. Vui lòng thử lại hoặc sử dụng nút Lưu."
+
+#: src/image-studio/components/index.tsx:89
+msgid "Failed to send message."
+msgstr "Không gửi được tin nhắn."
+
+#: src/image-studio/hooks/suggestions-data.ts:67
+msgid "Draw annotation"
+msgstr "Vẽ chú thích"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Beta"
+msgstr "Bản beta"
+
+#: src/image-studio/hooks/suggestions-data.ts:55
+msgid "Enhance only the region marked by the blue annotation. Preserve everything else unchanged."
+msgstr "Chỉ cải thiện khu vực được đánh dấu bằng chú thích màu xanh. Giữ nguyên mọi thứ khác."
+
+#: src/image-studio/hooks/suggestions-data.ts:50
+msgid "Remove only the region marked by the blue annotation. Do not change anything else"
+msgstr "Gỡ bỏ chỉ khu vực được đánh dấu bằng chú thích màu xanh. Đừng thay đổi bất kỳ điều gì khác."
+
+#: src/image-studio/hooks/suggestions-data.ts:45
+msgid "Replace only the region marked by the blue annotation with:"
+msgstr "Thay thế chỉ khu vực được đánh dấu bằng chú thích màu xanh bằng: "
+
+#: src/ai/hooks/suggestions-data.ts:98
+msgid "Remove the background from this image"
+msgstr "Xoá nền khỏi Ảnh này"
+
+#: src/ai/hooks/suggestions-data.ts:97
+msgid "Remove background"
+msgstr "Gỡ bỏ nền"
+
+#: src/image-studio/extensions/generate-button-extension.tsx:56
+#: src/image-studio/index.tsx:154
+msgid "Generate Image"
+msgstr "Tạo ảnh"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit image with AI"
+msgstr "Sửa Ảnh bằng AI"
+
+#: src/image-studio/components/index.tsx:285
+msgid "Do you want to save this image?"
+msgstr "Bạn có muốn lưu ảnh này không?"
+
+#: src/image-studio/components/index.tsx:275
+msgid "Discard"
+msgstr "Bỏ"
+
+#: src/image-studio/components/index.tsx:273
+msgid "Unsaved changes"
+msgstr "Thay đổi chưa lưu"
+
+#: src/image-studio/components/index.tsx:223
+msgid "Image being edited"
+msgstr "Ảnh đang được sửa"
+
+#: src/image-studio/components/index.tsx:213
+msgid "Image saved to Media Library"
+msgstr "Ảnh đã lưu vào Media"
+
+#: src/image-studio/hooks/suggestions-data.ts:54
+msgid "Enhance this"
+msgstr "Cải thiện cái này"
+
+#: src/image-studio/hooks/suggestions-data.ts:49
+msgid "Remove this"
+msgstr "Gỡ bỏ cái này"
+
+#: src/image-studio/hooks/suggestions-data.ts:44
+msgid "Replace this"
+msgstr "Thay thế cái này"
+
+#: src/image-studio/hooks/suggestions-data.ts:35
+msgid "A professional workspace scene with natural lighting"
+msgstr "Một cảnh không gian làm việc chuyên nghiệp với ánh sáng tự nhiên"
+
+#: src/image-studio/hooks/suggestions-data.ts:34
+msgid "Professional workspace"
+msgstr "Không gian làm việc chuyên nghiệp"
+
+#: src/image-studio/hooks/suggestions-data.ts:30
+msgid "A serene mountain landscape at sunrise with misty valleys"
+msgstr "Một cảnh quan núi non yên bình vào lúc bình minh với những thung lũng mù sương"
+
+#: src/image-studio/hooks/suggestions-data.ts:29
+msgid "Mountain landscape"
+msgstr "Cảnh núi"
+
+#: src/image-studio/hooks/suggestions-data.ts:25
+msgid "A warm and inviting cafe scene with coffee, pastries, and natural lighting"
+msgstr "Một cảnh quán cà phê ấm cúng và mời gọi với cà phê, bánh ngọt và ánh sáng tự nhiên"
+
+#: src/image-studio/hooks/suggestions-data.ts:24
+msgid "Cozy cafe scene"
+msgstr "Cảnh quán cà phê ấm cúng"
+
+#: src/image-studio/hooks/suggestions-data.ts:15
+msgid "Increase the overall brightness of this image while keeping it natural"
+msgstr "Tăng độ sáng tổng thể của Ảnh này trong khi giữ cho nó tự nhiên"
+
+#: src/image-studio/hooks/suggestions-data.ts:14
+msgid "Brighten image"
+msgstr "Thắp sáng Ảnh"
+
+#: src/image-studio/hooks/suggestions-data.ts:10
+msgid "Enhance this image with balanced lighting, sharpness, and color while keeping it natural"
+msgstr "Cải thiện Ảnh này với ánh sáng cân bằng, độ sắc nét và màu sắc trong khi giữ cho nó tự nhiên"
+
+#: src/image-studio/hooks/suggestions-data.ts:9
+msgid "Enhance image"
+msgstr "Nâng cao Ảnh"
+
+#: src/image-studio/components/index.tsx:68
+msgid "Describe your image"
+msgstr "Mô tả Ảnh của bạn"
+
+#: src/image-studio/components/index.tsx:67
+msgid "Describe what you want to add, remove, or replace…"
+msgstr "Mô tả những gì bạn muốn Thêm, gỡ bỏ, hoặc thay thế…"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt text describes the image's purpose. Leave it blank if the image is purely decorative."
+msgstr "Văn bản thay thế mô tả mục đích của Ảnh. Để trống nếu Ảnh chỉ mang tính trang trí."
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt Text"
+msgstr "Văn bản thay thế"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Description"
+msgstr "Miêu tả"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Caption"
+msgstr "Chú thích"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: src/image-studio/components/sidebar/index.tsx:19
+msgid "Close sidebar"
+msgstr "Đóng sidebar"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Dimensions:"
+msgstr "Kích thước:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Size:"
+msgstr "Kích thước:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File type:"
+msgstr "Loại tập tin:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded by:"
+msgstr "Tải lên bởi:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded to:"
+msgstr "Đã tải lên:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded on:"
+msgstr "Tải lên vào:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File Details"
+msgstr "Chi tiết File"
+
+#. %1$d: Image width, %2$d: Image height
+#: src/image-studio/components/sidebar/file-details.tsx:79
+msgid "%1$d × %2$d"
+msgstr "%1$d × %2$d"
+
+#. %.1f: File size in kilobytes
+#: src/image-studio/components/sidebar/file-details.tsx:29
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+#. %.1f: File size in megabytes
+#: src/image-studio/components/sidebar/file-details.tsx:25
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. %.1f: File size in gigabytes
+#: src/image-studio/components/sidebar/file-details.tsx:20
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/image-studio/components/sidebar/file-details.tsx:80
+msgid "Unknown"
+msgstr "Không hiểu"
+
+#: src/image-studio/components/index.tsx:121
+#: src/image-studio/components/sidebar/editable-field.tsx:23
+msgid "An error occurred while generating content."
+msgstr "Đã xảy ra một lỗi trong quá trình tạo nội dung."
+
+#: src/image-studio/components/header/index.tsx:156
+msgid "Close image editor"
+msgstr "Đóng công cụ soạn thảo Ảnh"
+
+#: src/image-studio/components/header/index.tsx:155
+msgid "Saving…"
+msgstr "Đang lưu…"
+
+#: src/image-studio/components/header/index.tsx:154
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Image Info"
+msgstr "Thông tin Ảnh"
+
+#: src/image-studio/components/header/index.tsx:145
+msgid "Select"
+msgstr "Chọn"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Select an area of the image to edit"
+msgstr "Chọn một khu vực của Ảnh để sửa"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Media Library"
+msgstr "Media"
+
+#: src/image-studio/components/header/index.tsx:132
+msgid "Edit this image in the WordPress Media Library"
+msgstr "Sửa Ảnh này trong Media của WordPress"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Image Editor"
+msgstr "Công cụ soạn thảo Ảnh"
+
+#: src/image-studio/components/generate-layout/index.tsx:9
+msgid "Let's create!"
+msgstr "Hãy cùng sáng tạo nào!"
+
+#: src/image-studio/components/edit-layout/index.tsx:51
+msgid "AI has finished editing your image."
+msgstr "AI đã hoàn thành việc sửa Ảnh của bạn."
+
+#: src/image-studio/components/edit-layout/index.tsx:48
+msgid "AI is currently editing your image. Please wait."
+msgstr "AI đang sửa Ảnh của bạn. Vui lòng chờ."
+
+#: src/image-studio/components/edit-layout/index.tsx:46
+msgid "Saving your annotation…"
+msgstr "Đang lưu chú thích của bạn…"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Interactive drawing area for creating image annotations"
+msgstr "Khu vực vẽ tương tác để tạo chú thích Ảnh"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Saved annotation markings"
+msgstr "Đánh dấu chú thích đã lưu"
+
+#: src/ai/wp-orchestrator/index.tsx:54
+msgid "Unable to authenticate with Jetpack. Please try again."
+msgstr "Không thể xác thực với Jetpack. Vui lòng thử lại."
+
+#: src/ai/wp-orchestrator/index.tsx:52
+msgid "Network connection issue. Please check your internet connection and try again."
+msgstr "Vấn đề kết nối mạng. Vui lòng kiểm tra kết nối internet của bạn và thử lại."
+
+#: src/ai/wp-orchestrator/index.tsx:47
+msgid "Unable to connect to Jetpack. Please ensure Jetpack is active and up to date."
+msgstr "Không thể kết nối với Jetpack. Vui lòng đảm bảo Jetpack đang hoạt động và được cập nhật."
+
+#: src/ai/wp-orchestrator/index.tsx:44
+msgid "You don't have permission to access AI features."
+msgstr "Bạn không có quyền truy cập vào các tính năng AI."
+
+#: src/ai/wp-orchestrator/index.tsx:41
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Phiên của bạn đã hết hạn. Vui lòng làm mới trang và thử lại."
+
+#: src/components/product-card/ProductCard.tsx:56
+msgid "Error: Product name is required"
+msgstr "Lỗi: Tên sản phẩm là bắt buộc"
+
+#: src/components/product-card/ProductCard.tsx:87
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: src/components/product-card/ProductCard.tsx:84
+msgid "Service"
+msgstr "Dịch vụ"
+
+#: src/components/product-card/ProductCard.tsx:53
+msgid "Error: Could not render product card"
+msgstr "Lỗi: Không thể hiển thị thẻ sản phẩm"
+
+#: src/components/product-card/ProductCard.tsx:25
+msgid "unit"
+msgid_plural "units"
+msgstr[0] "đơn vị"
+
+#: src/abilities/set-styles/index.ts:20
+msgid "Apply color palette, font pairing, and button style variations to the WordPress site. Accepts variation titles (e.g., \"Professional\", \"Montserrat + Open Sans\") and applies the complete styling including colors, typography, button styles, and all associated theme variations."
+msgstr "Áp dụng bảng màu, cặp font, và các biến thể kiểu nút cho trang web WordPress. Chấp nhận các tiêu đề biến thể (ví dụ: \"Chuyên nghiệp\", \"Montserrat + Open Sans\") và áp dụng toàn bộ kiểu dáng bao gồm màu sắc, kiểu chữ, kiểu nút, và tất cả các biến thể giao diện liên quan."
+
+#: src/abilities/set-styles/index.ts:18
+msgid "Set Styles"
+msgstr "Đặt kiểu"
+
+#: src/abilities/add-pages/index.ts:19
+msgid "Creates multiple WordPress pages with generated content from patterns and layouts. Page titles are provided by the backend, and page content is composed from layout blocks. Also updates site navigation."
+msgstr "Tạo nhiều Trang WordPress với nội dung được tạo ra từ các mẫu và bố cục. Tiêu đề trang được cung cấp bởi backend, và nội dung trang được tạo thành từ các Block bố cục. Cũng cập nhật menu trang web."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:82
+msgid "Failed to update styles:"
+msgstr "Không thể cập nhật kiểu: "
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:76
+msgid "Failed to update styles. The style variation may be invalid."
+msgstr "Không thể cập nhật kiểu. Biến thể kiểu có thể không hợp lệ."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:62
+msgid "Styles updated successfully."
+msgstr "Các kiểu đã được cập nhật thành công."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:38
+msgid "Invalid button format. Button must be a string (variation title)."
+msgstr "Định dạng nút không hợp lệ. Nút phải là một chuỗi (tiêu đề biến thể)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:31
+msgid "Invalid font format. Font must be a string (variation title)."
+msgstr "Định dạng font không hợp lệ. Font phải là một chuỗi (tiêu đề biến thể)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:24
+msgid "Invalid color format. Color must be a string (variation title)."
+msgstr "Định dạng màu không hợp lệ. Màu phải là một chuỗi (tiêu đề biến thể)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:17
+msgid "Invalid arguments. Provide at least one of: color, font, or button."
+msgstr "Tham số không hợp lệ. Cung cấp ít nhất một trong các: màu, font, hoặc nút."
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:169
+msgid "Failed to create pages:"
+msgstr "Không thể tạo Trang: "
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:65
+msgid "Invalid pages. Must provide an array of page objects."
+msgstr "Trang không hợp lệ. Phải cung cấp một mảng các đối tượng trang."
+
+#: src/abilities/site-logo/index.ts:17
+msgid "Set the site logo"
+msgstr "Đặt logo trang web"
+
+#: src/abilities/site-logo/index.ts:15
+msgid "Set Site Logo"
+msgstr "Đặt logo trang web"
+
+#: src/abilities/update-theme/index.ts:17
+msgid "Update WordPress theme settings and styles using theme.json format"
+msgstr "Cập nhật cài đặt và kiểu giao diện WordPress bằng định dạng theme.json"
+
+#: src/abilities/update-theme/index.ts:15
+msgid "Update Theme"
+msgstr "Cập nhật giao diện"
+
+#: src/abilities/edit-entity-record/index.ts:17
+msgid "Create, edit, or delete WordPress data entity records using the data layer"
+msgstr "Tạo, sửa, hoặc xoá các bản ghi thực thể dữ liệu WordPress bằng cách sử dụng lớp dữ liệu"
+
+#: src/abilities/edit-entity-record/index.ts:15
+msgid "Manage Entity Records"
+msgstr "Quản lý hồ sơ thực thể"
+
+#: src/abilities/show-component/index.ts:23
+msgid "Display a component in the UI with specified props"
+msgstr "Hiển thị một thành phần trong giao diện người dùng với các thuộc tính được xác định"
+
+#: src/abilities/show-component/index.ts:21
+msgid "Show Component"
+msgstr "Hiển thị Thành phần"
+
+#: src/abilities/client-assistants/index.ts:29
+msgid "Always use this if the user asks for something that requires a client-side assistant. Available assistants:"
+msgstr "Luôn sử dụng cái này nếu người dùng yêu cầu một cái gì đó cần một trợ lý phía client. Các trợ lý có sẵn: "
+
+#: src/abilities/client-assistants/index.ts:27
+msgid "Execute Client Assistant"
+msgstr "Thực thi Trợ lý Khách hàng"
+
+#: src/abilities/set-processing-state/index.ts:18
+msgid "Sets the processing state on a block and scrolls to it to indicate active processing"
+msgstr "Đặt trạng thái xử lý trên một Block và cuộn đến nó để chỉ ra việc xử lý đang diễn ra"
+
+#: src/abilities/set-processing-state/index.ts:16
+msgid "Set Processing State"
+msgstr "Đặt Trạng Thái Xử Lý"
+
+#: src/abilities/apply-block-edits/index.ts:17
+msgid "Applies a collection of block edits to the canvas"
+msgstr "Áp dụng một tập hợp các sửa đổi Block cho canvas"
+
+#: src/abilities/apply-block-edits/index.ts:15
+msgid "Apply Block Edits"
+msgstr "Áp dụng Block Sửa"
+
+#: src/abilities/editor-navigate/index.ts:18
+msgid "Saves everything and navigates to the specified path in the editor. Also be used to navigate to a view that shows all the sites pages so use this tool if the user asks to view all their pages."
+msgstr "Lưu tất cả và điều hướng đến đường dẫn được xác định trong công cụ soạn thảo. Cũng được sử dụng để điều hướng đến một chế độ xem hiển thị tất cả các Trang của trang web, vì vậy hãy sử dụng công cụ này nếu người dùng yêu cầu xem tất cả các Trang của họ."
+
+#: src/abilities/editor-navigate/index.ts:16
+msgid "Navigate"
+msgstr "Điều hướng"
+
+#: src/abilities/wp-admin-navigate.ts:104
+msgid "Navigate the browser to a different wp-admin page. Use this when the user asks to go to a specific admin page (e.g., \"go to plugins\", \"navigate to settings\"). The page will reload, but the conversation will automatically continue after navigation completes."
+msgstr "Duyệt trình duyệt đến một Trang wp-admin khác. Sử dụng điều này khi người dùng yêu cầu đi đến một Trang admin cụ thể (ví dụ, \"đi đến plugin\", \"duyệt đến cài đặt\"). Trang sẽ tải lại, nhưng cuộc trò chuyện sẽ tự động tiếp tục sau khi menu hoàn tất."
+
+#: src/abilities/wp-admin-navigate.ts:102
+msgid "Navigate to wp-admin page"
+msgstr "Đi tới trang wp-admin"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:138
+msgid "By updating the query, order posts from %s"
+msgstr "Bằng cách cập nhật truy vấn, sắp xếp bài viết từ %s"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:135
+msgid "Stop inheriting default query settings and order posts from %s"
+msgstr "Ngừng kế thừa cài đặt truy vấn mặc định và sắp xếp bài viết từ %s"
+
+#: src/ai/hooks/suggestions-data.ts:130
+msgid "newest to oldest"
+msgstr "mới nhất đến cũ nhất"
+
+#: src/ai/hooks/suggestions-data.ts:129
+msgid "oldest to newest"
+msgstr "cũ nhất đến mới nhất"
+
+#: src/ai/hooks/suggestions-data.ts:124
+msgid "Order posts"
+msgstr "Đơn đặt hàng"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:117
+msgid "Currently this query is displaying %s posts per page, change it to:"
+msgstr "Hiện tại truy vấn này đang hiển thị %s bài viết trên Trang, thay đổi nó thành: "
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:114
+msgid "Stop inheriting default query settings and change the current number of posts displayed per page from %s to:"
+msgstr "Ngừng kế thừa cài đặt truy vấn mặc định và thay đổi số lượng bài viết hiện tại hiển thị trên mỗi Trang từ %s thành:"
+
+#: src/ai/hooks/suggestions-data.ts:106
+msgid "Change number of posts"
+msgstr "Thay đổi số lượng bài viết"
+
+#: src/ai/hooks/suggestions-data.ts:103
+msgid "Tell me all the ways you can help design or edit my site"
+msgstr "Nói cho mình biết tất cả các cách bạn có thể giúp thiết kế hoặc sửa trang web của mình"
+
+#: src/ai/hooks/suggestions-data.ts:102
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:36
+msgid "What else can you do?"
+msgstr "Còn gì khác bạn có thể làm nữa?"
+
+#: src/ai/hooks/suggestions-data.ts:84
+msgid "Edit the image to:"
+msgstr "Sửa Ảnh thành: "
+
+#: src/ai/hooks/suggestions-data.ts:83
+msgid "Edit image"
+msgstr "Sửa ảnh"
+
+#: src/ai/hooks/suggestions-data.ts:73
+msgid "Generate an image of:"
+msgstr "Tạo một Ảnh của: "
+
+#: src/ai/hooks/suggestions-data.ts:69
+msgid "Check the grammar of this text"
+msgstr "Kiểm tra ngữ pháp của văn bản này"
+
+#: src/ai/hooks/suggestions-data.ts:68
+msgid "Check grammar"
+msgstr "Kiểm tra ngữ pháp"
+
+#: src/ai/hooks/suggestions-data.ts:65
+msgid "Change the tone of this text to be more:"
+msgstr "Thay đổi giọng điệu của văn bản này để trở nên: "
+
+#: src/ai/hooks/suggestions-data.ts:61
+msgid "Translate this to:"
+msgstr "Dịch cái này sang: "
+
+#: src/ai/hooks/suggestions-data.ts:60
+msgid "Translate content"
+msgstr "Dịch nội dung"
+
+#: src/ai/hooks/suggestions-data.ts:56
+msgid "Add another column to the end of these"
+msgstr "Thêm một cột nữa vào cuối những cái này"
+
+#: src/ai/hooks/suggestions-data.ts:55
+msgid "Add column"
+msgstr "Thêm cột"
+
+#: src/ai/hooks/suggestions-data.ts:51
+msgid "Reverse the order of these columns"
+msgstr "Đảo ngược thứ tự của các cột này"
+
+#: src/ai/hooks/suggestions-data.ts:50
+msgid "Swap columns"
+msgstr "Hoán đổi cột"
+
+#. %s is the button text
+#: src/ai/hooks/suggestions-data.ts:47
+msgid "Change the %s button link to:"
+msgstr "Thay đổi liên kết nút %s thành: "
+
+#: src/ai/hooks/suggestions-data.ts:41
+msgid "Create a new page on my site for"
+msgstr "Tạo một Trang mới trên trang web của tôi cho "
+
+#: src/ai/hooks/suggestions-data.ts:40
+msgid "Add new page"
+msgstr "Tạo trang mới"
+
+#: src/ai/hooks/suggestions-data.ts:37
+msgid "Show me different layouts for this page"
+msgstr "Cho mình xem các bố cục khác nhau cho Trang này"
+
+#: src/ai/hooks/suggestions-data.ts:36
+msgid "Change page layout"
+msgstr "Thay đổi bố cục Trang"
+
+#: src/ai/hooks/suggestions-data.ts:33
+msgid "Show me color palettes for my site that are:"
+msgstr "Cho tôi xem các bảng màu cho trang web của tôi mà là: "
+
+#: src/ai/hooks/suggestions-data.ts:32
+msgid "Customize colors"
+msgstr "Tuỳ chỉnh màu"
+
+#: src/ai/hooks/suggestions-data.ts:29
+msgid "Show me new fonts for my site"
+msgstr "Cho tôi xem font chữ mới cho trang web của tôi"
+
+#: src/ai/hooks/suggestions-data.ts:28
+msgid "Choose new fonts"
+msgstr "Chọn font chữ mới"
+
+#: big-sky.php:376
+msgid "AI-powered site building and navigation abilities."
+msgstr "Khả năng xây dựng trang web và menu được hỗ trợ bởi AI."
+
+#: src/components/product-card/ProductCard.tsx:90
+msgid "Edit"
+msgstr "Sửa"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:83
+msgid "Edit this image"
+msgstr "Sửa Ảnh này"
+
+#: src/image-studio/components/index.tsx:268
+msgid "Image Studio"
+msgstr "Ảnh Studio"
+
+#: src/hooks/use-dock-state.ts:138
+#: src/components/dock/index.js:439
+msgid "Pop out sidebar"
+msgstr "Pop out sidebar"
+
+#: src/hooks/use-dock-state.ts:132
+#: src/components/dock/index.js:459
+msgid "Move to sidebar"
+msgstr "Di chuyển vào sidebar"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:546
+msgid "Got a different request? Ask away."
+msgstr "Có yêu cầu khác không? Hỏi thoải mái nhé."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:540
+msgid "Howdy! How can I help you today?"
+msgstr "Chào bạn! Hôm nay mình có thể giúp gì cho bạn?"
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:61
+msgid "Showing all pages."
+msgstr "Hiển thị tất cả Trang."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:65
+msgid "Updated:"
+msgstr "Đã cập nhật:"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:62
+msgid "Theme updated successfully"
+msgstr "Giao diện cập nhật thành công."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:42
+msgid "Invalid styles format. Styles must be an object."
+msgstr "Định dạng kiểu không hợp lệ. Kiểu phải là một đối tượng."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:34
+msgid "Invalid settings format. Settings must be an object."
+msgstr "Cài đặt định dạng không hợp lệ. Cài đặt phải là một đối tượng."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:26
+msgid "Invalid arguments. Provide either settings or styles to update the theme."
+msgstr "Tham số không hợp lệ. Cung cấp cài đặt hoặc kiểu để cập nhật giao diện."
+
+#: big-sky.php:1887
+#: big-sky.php:1888
+msgid "AI Editor"
+msgstr "Công cụ soạn thảo AI"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:208
+msgid "Canceled."
+msgstr "Huỷ."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:188
+msgid "Proceed"
+msgstr "Tiếp tục"
+
+#: src/image-studio/components/canvas-controls/index.tsx:101
+#: src/components/chat/components/completed-plan.js:136
+#: src/components/chat/message/message-feedback.js:44
+msgid "Bad response"
+msgstr "Phản hồi xấu"
+
+#: src/image-studio/components/canvas-controls/index.tsx:92
+#: src/components/chat/components/completed-plan.js:128
+#: src/components/chat/message/message-feedback.js:36
+msgid "Good response"
+msgstr "Phản hồi tốt"
+
+#: src/ai/hooks/suggestions-data.ts:44
+msgid "Edit link"
+msgstr "Sửa liên kết"
+
+#: src/abilities/show-component/show-component.tsx:193
+#: src/abilities/site-logo/set-site-logo.ts:74
+msgid "There was an error with this request. Please try again."
+msgstr "Có một lỗi với yêu cầu này. Vui lòng thử lại."
+
+#: src/abilities/client-assistants/run-assistant.ts:189
+msgid "No response from assistant"
+msgstr "Không có phản hồi từ trợ lý"
+
+#: src/abilities/client-assistants/index.ts:89
+msgid "Assistant completed successfully"
+msgstr "Trợ lý đã hoàn thành thành công"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:608
+msgid "Something went wrong. Please try again."
+msgstr "Ôi! Có gì đó không đúng. Vui lòng thử lại."
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:589
+msgid "I have completed the edits."
+msgstr "Tôi đã hoàn thành việc sửa."
+
+#. %s: error message
+#: src/image-studio/hooks/use-revert-to-original.ts:94
+msgid "Failed to revert image: %s"
+msgstr "Không thể hoàn tác Ảnh: %s"
+
+#. translators: %s is the theme name.
+#: big-sky.php:630
+msgid "The current theme (%s) is a block theme."
+msgstr "Giao diện hiện tại (%s) là một Block."
+
+#: big-sky.php:623
+msgid "The current theme is not a block theme. Big Sky requires a block theme to be active."
+msgstr "Giao diện hiện tại không phải là giao diện Block. Big Sky yêu cầu một giao diện Block phải được kích hoạt."
+
+#: src/abilities/client-assistants/run-assistant.ts:182
+msgid "Sorry, I've encountered an error. Please try again or let me know if you need help with something else."
+msgstr "Xin lỗi, mình đã gặp phải một lỗi. Vui lòng thử lại hoặc cho mình biết nếu bạn cần giúp đỡ với điều gì khác."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:194
+msgid "I changed my mind"
+msgstr "Tôi đã thay đổi ý kiến"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:582
+msgid "I was not able to make the changes you requested. Either I don't have the capability to do so or I didn't understand your request. You can ask me to try again or ask me to do something else."
+msgstr "Tôi không thể thực hiện những thay đổi mà bạn yêu cầu. Hoặc là tôi không có khả năng làm như vậy hoặc tôi không hiểu yêu cầu của bạn. Bạn có thể yêu cầu tôi thử lại hoặc yêu cầu tôi làm điều gì khác."
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:84
+msgid "Navigated to page"
+msgstr "Đã điều hướng đến Trang"
+
+#: src/ai/hooks/suggestions-data.ts:72
+msgid "Generate image"
+msgstr "Tạo ảnh"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Learn more"
+msgstr "Học thêm"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:185
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:22
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:30
+msgid "No"
+msgstr "Không"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:219
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:16
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:24
+msgid "Yes"
+msgstr "Vâng"
+
+#: src/abilities/add-pages/index.ts:17
+msgid "Add Pages"
+msgstr "Thêm Trang"
+
+#: src/image-studio/components/sidebar/editable-field.tsx:35
+msgid "Regenerate"
+msgstr "Đổi mới"
+
+#: src/ai/hooks/suggestions-data.ts:64
+msgid "Change tone"
+msgstr "Thay đổi giọng điệu"
+
+#: src/image-studio/components/sidebar/index.tsx:48
+#: src/components/chat/components/feedback-input.js:126
+msgid "Cancel"
+msgstr "Huỷ"
+
+#: src/image-studio/components/header/index.tsx:71
+#: src/image-studio/components/index.tsx:281
+msgid "Save"
+msgstr "Lưu"
+
+#: big-sky.php:712
+msgid "These checks passed:"
+msgstr "Các kiểm tra này đã qua:"
+
+#: big-sky.php:698
+msgid "Big Sky detected the following issues with your site:"
+msgstr "Big Sky phát hiện các vấn đề sau với trang web của bạn:"
+
+#. translators: $d is the number of performance issues found.
+#: big-sky.php:697
+msgid "Big Sky is affected by %d issue"
+msgid_plural "Big Sky is affected by %d issues"
+msgstr[0] "Big Sky bị ảnh hưởng bởi %d vấn đề"
+
+#: big-sky.php:687
+msgid "Mapbox API key is set."
+msgstr "Khóa API Mapbox đã được thiết lập."
+
+#: big-sky.php:682
+msgid "Mapbox API key is not set. Big Sky requires a Mapbox API key to be set."
+msgstr "Khóa API Mapbox chưa được thiết lập. Big Sky yêu cầu phải thiết lập một khóa API Mapbox."
+
+#: big-sky.php:674
+msgid "Jetpack is connected to an admin."
+msgstr "Jetpack được kết nối với một admin."
+
+#: big-sky.php:669
+msgid "Jetpack does not have a connected admin. Big Sky requires Jetpack to be connected to an admin."
+msgstr "Jetpack không có admin kết nối. Big Sky yêu cầu Jetpack phải được kết nối với một admin."
+
+#: big-sky.php:660
+msgid "Jetpack is connected."
+msgstr "Jetpack đã được kết nối."
+
+#: big-sky.php:655
+msgid "Jetpack is not connected. Big Sky requires Jetpack to be connected."
+msgstr "Jetpack không được kết nối. Big Sky yêu cầu Jetpack phải được kết nối."
+
+#: big-sky.php:644
+msgid "Jetpack is installed."
+msgstr "Jetpack đã được cài."
+
+#: big-sky.php:639
+msgid "Jetpack is not installed. Big Sky requires Jetpack to be installed and active."
+msgstr "Jetpack chưa được cài. Big Sky yêu cầu Jetpack phải được cài và hoạt động."
+
+#: big-sky.php:613
+msgid "Big Sky did not find any known issues with your site."
+msgstr "Big Sky không tìm thấy bất kỳ vấn đề nào với Web của bạn."
+
+#: big-sky.php:605
+msgid "Big Sky Checks"
+msgstr "Big Sky Checks"
+
+#: big-sky.php:580
+#: big-sky.php:581
+msgid "Big Sky checks"
+msgstr "Big Sky kiểm tra"
+
+#: big-sky.php:411
+msgid "AI Features"
+msgstr "Tính năng AI"
+
+#: big-sky.php:403
+msgid "Enable AI-powered site building experience"
+msgstr "Bật trải nghiệm xây dựng trang web bằng AI"
+
+#. Author of the plugin
+#: big-sky.php
+msgid "Automattic, Inc."
+msgstr "Automattic, Inc."
+
+#. Description of the plugin
+#: big-sky.php
+msgid "The Big Sky AI Site Builder."
+msgstr "Trình xây dựng trang web AI Big Sky."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: big-sky.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Plugin Name of the plugin
+#: big-sky.php
+#: big-sky.php:375
+#: big-sky.php:608
+msgid "Big Sky"
+msgstr "Trời Rộng"

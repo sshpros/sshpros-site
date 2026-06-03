@@ -1,0 +1,899 @@
+<style type="text/css">
+<?php
+// If this file is called directly, abort.
+if (!defined('ABSPATH')) {
+	exit;
+}
+?>
+	/* Root Variables - Dashboard Color Scheme */
+	:root {
+		--dashboard-bg: #0f1419;
+		--dashboard-card-bg: #1a1f26;
+		--dashboard-card-hover: #222831;
+		--dashboard-text-primary: #ffffff;
+		--dashboard-text-secondary: #9ca3af;
+		--dashboard-accent: #3b82f6;
+		--dashboard-accent-hover: #2563eb;
+		--dashboard-success: #10b981;
+		--dashboard-warning: #f59e0b;
+		--dashboard-error: #ef4444;
+		--dashboard-border: #374151;
+		--dashboard-gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		--dashboard-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+		--dashboard-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+
+	.column-cb {
+		width: 2.2em;
+	}
+
+	.wrap .wp-list-table th.check-column,
+	.wrap .wp-list-table td.check-column {
+		width: 2.2em;
+		padding: 8px 0 0 3px;
+		vertical-align: middle;
+	}
+
+	.wrap .wp-list-table th.check-column input[type="checkbox"],
+	.wrap .wp-list-table td.check-column input[type="checkbox"] {
+		margin: 0;
+		padding: 0;
+		vertical-align: middle;
+	}
+
+	.column-sources_from {
+		width: 25%;
+	}
+
+	.column-url_redirect_to {
+		width: 25%;
+	}
+
+	.column-http_code {
+		width: 10%;
+	}
+
+	.column-pattern_type {
+		width: 12%;
+	}
+
+	.column-hits_count {
+		width: 8%;
+	}
+
+	.column-status {
+		width: 10%;
+	}
+
+	.column-last_accessed_at {
+		width: 10%;
+	}
+
+	/* Page background */
+	body {
+		background: var(--dashboard-bg) !important;
+	}
+
+	.wrap {
+		background: var(--dashboard-bg) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	/* Enhanced table styling with higher specificity */
+	.wrap .wp-list-table {
+		background: var(--dashboard-card-bg) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		border-radius: 12px !important;
+		overflow: hidden !important;
+		box-shadow: var(--dashboard-shadow) !important;
+	}
+
+	.wrap .wp-list-table th {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-bottom: 1px solid var(--dashboard-border) !important;
+		font-weight: 600 !important;
+	}
+
+	.wrap .wp-list-table td {
+		background: var(--dashboard-card-bg) !important;
+		border-bottom: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-secondary) !important;
+	}
+
+	.wrap .wp-list-table tr:hover td {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	.wrap .wp-list-table tr:nth-child(even) td {
+		background: var(--dashboard-card-bg) !important;
+	}
+
+	.wrap .wp-list-table tr:nth-child(odd) td {
+		background: rgba(255, 255, 255, 0.05) !important;
+	}
+
+	.wrap .wp-list-table tr:nth-child(even):hover td {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	.wrap .wp-list-table tr:nth-child(odd):hover td {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	/* Optimized table row backgrounds - alternating pattern for all rows */
+	.wrap .wp-list-table tbody tr:nth-child(odd) td {
+		background: var(--dashboard-card-bg) !important;
+	}
+
+	.wrap .wp-list-table tbody tr:nth-child(even) td {
+		background: rgba(255, 255, 255, 0.05) !important;
+	}
+
+	/* Ensure hover states work correctly */
+	.wrap .wp-list-table tbody tr:nth-child(odd):hover td {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	.wrap .wp-list-table tbody tr:nth-child(even):hover td {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	/* Button styling with higher specificity */
+	.wrap .button-primary, 
+	.wrap .button-primary:visited,
+	.wrap input[type="submit"].button-primary,
+	.wrap input[type="button"].button-primary {
+		background: var(--dashboard-accent) !important;
+		border-color: var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		text-decoration: none !important;
+	}
+
+	.wrap .button-primary:hover, 
+	.wrap .button-primary:focus,
+	.wrap input[type="submit"].button-primary:hover,
+	.wrap input[type="button"].button-primary:hover {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px) !important;
+		box-shadow: var(--dashboard-shadow-hover) !important;
+		color: white !important;
+		text-decoration: none !important;
+	}
+
+	.wrap .button-secondary, 
+	.wrap .button-secondary:visited,
+	.wrap input[type="submit"].button-secondary,
+	.wrap input[type="button"].button-secondary {
+		background: transparent !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-secondary) !important;
+		border-radius: 8px !important;
+		transition: all 0.3s ease !important;
+		text-decoration: none !important;
+	}
+
+	.wrap .button-secondary:hover, 
+	.wrap .button-secondary:focus,
+	.wrap input[type="submit"].button-secondary:hover,
+	.wrap input[type="button"].button-secondary:hover {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-color: var(--dashboard-accent) !important;
+		text-decoration: none !important;
+	}
+
+	/* Specific button targeting */
+	.wrap input[type="submit"]#doaction,
+	.wrap input[type="submit"]#post-query-submit,
+	.wrap input[type="submit"]#search-submit,
+	.wrap input[type="submit"].button {
+		background: var(--dashboard-accent) !important;
+		border-color: var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+	}
+
+	.wrap input[type="submit"]#doaction:hover,
+	.wrap input[type="submit"]#post-query-submit:hover,
+	.wrap input[type="submit"]#search-submit:hover,
+	.wrap input[type="submit"].button:hover {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px) !important;
+		box-shadow: var(--dashboard-shadow-hover) !important;
+		color: white !important;
+	}
+
+	/* Link button styling */
+	.wrap a.button, 
+	.wrap a.button:visited {
+		background: var(--dashboard-accent) !important;
+		border-color: var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		text-decoration: none !important;
+		display: inline-block !important;
+		padding: 8px 16px !important;
+	}
+
+	.wrap a.button:hover, 
+	.wrap a.button:focus {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px) !important;
+		box-shadow: var(--dashboard-shadow-hover) !important;
+		color: white !important;
+		text-decoration: none !important;
+	}
+
+	/* Add Redirection Form Styling — hidden by default, shown via inline style by JS */
+	.wrap #add-redirection-form {
+		display: none;
+		background: var(--dashboard-card-bg) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		border-radius: 12px !important;
+		padding: 24px !important;
+		margin-bottom: 24px !important;
+		box-shadow: var(--dashboard-shadow) !important;
+	}
+
+	.wrap #add-redirection-form h1 {
+		color: var(--dashboard-text-primary) !important;
+		margin-bottom: 20px !important;
+		font-size: 1.5rem !important;
+		font-weight: 600 !important;
+	}
+
+	.wrap #add-redirection-form .form-table {
+		background: transparent !important;
+		border: none !important;
+	}
+
+	.wrap #add-redirection-form .form-table th {
+		background: transparent !important;
+		color: var(--dashboard-text-primary) !important;
+		font-weight: 600 !important;
+		padding: 12px 0 !important;
+		width: 150px !important;
+	}
+
+	.wrap #add-redirection-form .form-table td {
+		background: transparent !important;
+		color: var(--dashboard-text-secondary) !important;
+		padding: 15px !important;
+	}
+
+	.wrap #add-redirection-form input[type="text"],
+	.wrap #add-redirection-form input[type="url"],
+	.wrap #add-redirection-form textarea {
+		background: var(--dashboard-card-hover) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-radius: 8px !important;
+		padding: 8px 12px !important;
+		width: 100% !important;
+		max-width: 500px !important;
+	}
+
+	.wrap #add-redirection-form input[type="text"]:focus,
+	.wrap #add-redirection-form input[type="url"]:focus,
+	.wrap #add-redirection-form textarea:focus {
+		border-color: var(--dashboard-accent) !important;
+		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+		outline: none !important;
+	}
+
+	.wrap #add-redirection-form textarea {
+		min-height: 80px !important;
+		resize: vertical !important;
+	}
+
+	.wrap #add-redirection-form input[type="radio"] {
+		margin-right: 8px !important;
+		accent-color: var(--dashboard-accent) !important;
+	}
+
+	.wrap #add-redirection-form label {
+		color: var(--dashboard-text-secondary) !important;
+		margin-right: 16px !important;
+		font-weight: 500 !important;
+	}
+
+	.wrap #add-redirection-form .source-url-list {
+		background: var(--dashboard-card-hover) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		border-radius: 8px !important;
+		padding: 12px !important;
+		margin: 8px 0 !important;
+	}
+
+	.wrap #add-redirection-form .source-url-list li {
+		background: transparent !important;
+		border: none !important;
+		padding: 8px 0 !important;
+		margin: 0 !important;
+		display: flex !important;
+		align-items: center !important;
+		gap: 12px !important;
+	}
+
+	.wrap #add-redirection-form .source-url-list input[type="text"] {
+		flex: 1 !important;
+		max-width: none !important;
+		margin: 0 !important;
+	}
+
+	/* Target the actual select elements */
+	.wrap #add-redirection-form select[name="search_type[]"],
+	.wrap #add-redirection-form select {
+		background: var(--dashboard-card-hover) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-radius: 6px !important;
+		padding: 6px 8px !important;
+		min-width: 120px !important;
+		appearance: none !important;
+		-moz-appearance: none !important;
+		-webkit-appearance: none !important;
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+		background-repeat: no-repeat !important;
+		background-position: right 8px center !important;
+		background-size: 16px !important;
+		padding-right: 32px !important;
+		cursor: pointer !important;
+		margin-left: 8px !important;
+	}
+
+	.wrap #add-redirection-form select[name="search_type[]"]:focus,
+	.wrap #add-redirection-form select:focus {
+		border-color: var(--dashboard-accent) !important;
+		box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+		outline: none !important;
+	}
+
+	.wrap #add-redirection-form select[name="search_type[]"] option,
+	.wrap #add-redirection-form select option {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+		padding: 8px !important;
+	}
+
+	/* Target the actual remove button class */
+	.wrap #add-redirection-form .source_url_delete,
+	.wrap #add-redirection-form button.source_url_delete {
+		background: var(--dashboard-error) !important;
+		border: 1px solid var(--dashboard-error) !important;
+		color: white !important;
+		border-radius: 6px !important;
+		padding: 6px 12px !important;
+		font-size: 12px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		cursor: pointer !important;
+		display: inline-block !important;
+		margin-left: 8px !important;
+	}
+
+	.wrap #add-redirection-form .source_url_delete:hover,
+	.wrap #add-redirection-form button.source_url_delete:hover {
+		background: #dc2626 !important;
+		border-color: #dc2626 !important;
+		transform: translateY(-1px) !important;
+		color: white !important;
+	}
+
+	.wrap #add-redirection-form .add-source-url {
+		background: var(--dashboard-accent) !important;
+		border: 1px solid var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		padding: 8px 16px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		margin-top: 8px !important;
+	}
+
+	.wrap #add-redirection-form .add-source-url:hover {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px) !important;
+		box-shadow: var(--dashboard-shadow-hover) !important;
+	}
+
+	.wrap #add-redirection-form .form-actions {
+		background: transparent !important;
+		border: none !important;
+		padding: 20px 0 0 0 !important;
+		margin-top: 20px !important;
+		border-top: 1px solid var(--dashboard-border) !important;
+	}
+
+	.wrap #add-redirection-form .form-actions input[type="submit"] {
+		background: var(--dashboard-accent) !important;
+		border: 1px solid var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		padding: 10px 20px !important;
+		font-weight: 500 !important;
+		margin-right: 12px !important;
+		transition: all 0.3s ease !important;
+	}
+
+	.wrap #add-redirection-form .form-actions input[type="submit"]:hover {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px) !important;
+		box-shadow: var(--dashboard-shadow-hover) !important;
+	}
+
+	.wrap #add-redirection-form .form-actions input[type="button"] {
+		background: transparent !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-secondary) !important;
+		border-radius: 8px !important;
+		padding: 10px 20px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+	}
+
+	.wrap #add-redirection-form .form-actions input[type="button"]:hover {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-color: var(--dashboard-accent) !important;
+	}
+
+	/* Additional form element styling */
+	.wrap #add-redirection-form input[type="radio"]:checked {
+		accent-color: var(--dashboard-accent) !important;
+	}
+
+	.wrap #add-redirection-form input[type="radio"]:checked + label {
+		color: var(--dashboard-text-primary) !important;
+		font-weight: 600 !important;
+	}
+
+	/* Ensure all buttons in the form are properly styled */
+	.wrap #add-redirection-form button,
+	.wrap #add-redirection-form input[type="button"],
+	.wrap #add-redirection-form input[type="submit"] {
+		font-family: inherit !important;
+		font-size: 14px !important;
+		line-height: 1.4 !important;
+		vertical-align: middle !important;
+	}
+
+	/* Fix any remaining button styling issues */
+	.wrap #add-redirection-form .button,
+	.wrap #add-redirection-form .button-secondary {
+		background: transparent !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-secondary) !important;
+		border-radius: 8px !important;
+		padding: 8px 16px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		text-decoration: none !important;
+		display: inline-block !important;
+		cursor: pointer !important;
+	}
+
+	.wrap #add-redirection-form .button:hover,
+	.wrap #add-redirection-form .button-secondary:hover {
+		background: var(--dashboard-card-hover) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-color: var(--dashboard-accent) !important;
+		text-decoration: none !important;
+	}
+
+	/* Additional targeting for form elements */
+	.wrap #add-redirection-form #source_urls li {
+		display: flex !important;
+		align-items: center !important;
+		gap: 8px !important;
+		margin-bottom: 8px !important;
+		padding: 8px !important;
+		background: var(--dashboard-card-hover) !important;
+		border-radius: 8px !important;
+		border: 1px solid var(--dashboard-border) !important;
+	}
+
+	.wrap #add-redirection-form #source_urls li input[type="text"] {
+		flex: 1 !important;
+		background: var(--dashboard-card-bg) !important;
+		border: 1px solid var(--dashboard-border) !important;
+		color: var(--dashboard-text-primary) !important;
+		border-radius: 6px !important;
+		padding: 6px 8px !important;
+	}
+
+	/* Force override for any conflicting styles */
+	.wrap #add-redirection-form * {
+		box-sizing: border-box !important;
+	}
+
+	/* Page headers and content */
+	.wp-heading-inline {
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	h1, h2, h3 {
+		color: var(--dashboard-text-primary) !important;
+	}
+
+	/* Tablenav styling */
+	/* ── Tablenav ── */
+	.wrap .tablenav {
+		background: var(--dashboard-card-bg);
+		border: 1px solid var(--dashboard-border);
+		border-radius: 8px;
+		padding: 12px 16px;
+		margin-bottom: 16px;
+		box-shadow: var(--dashboard-shadow);
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	.wrap .tablenav * { box-sizing: border-box; margin: 0; }
+
+	/* Left group: filters / bulk actions — shrinks equally with search */
+	.wrap .tablenav .alignleft,
+	.wrap .tablenav .actions {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		gap: 6px;
+		flex: 1 1 0;
+		min-width: 0;
+	}
+
+	/* Right group: pagination */
+	.wrap .tablenav .alignright {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 6px;
+		margin-left: auto;
+		min-width: 0;
+	}
+
+	/* Search box — sits inline with filters, shrinks to fit */
+	.wrap .tablenav .metasync-search-box {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		gap: 6px;
+		flex: 1 1 0;
+		min-width: 0;
+	}
+	.wrap .tablenav .metasync-search-box input[type="search"] {
+		flex: 1 1 60px;
+		min-width: 0;
+		width: auto;
+	}
+
+	/* ── Shared control height ── */
+	.wrap .tablenav select,
+	.wrap .tablenav input[type="search"],
+	.wrap .tablenav input[type="text"],
+	.wrap .tablenav input[type="submit"],
+	.wrap .tablenav input[type="button"],
+	.wrap .tablenav .button {
+		height: 34px;
+		font-size: 13px;
+		font-weight: 500;
+		border-radius: 6px;
+		padding: 0 10px;
+		line-height: 34px;
+	}
+
+	/* Selects — shrinkable, text truncates when compressed */
+	.wrap .tablenav select {
+		background: var(--dashboard-card-bg);
+		border: 1px solid var(--dashboard-border);
+		color: var(--dashboard-text-primary);
+		appearance: none;
+		-webkit-appearance: none;
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+		background-repeat: no-repeat;
+		background-position: right 6px center;
+		background-size: 14px;
+		padding-right: 28px;
+		cursor: pointer;
+		flex: 1 1 0;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.wrap .tablenav select:focus {
+		border-color: var(--dashboard-accent);
+		box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+		outline: none;
+	}
+	.wrap .tablenav select option {
+		background: var(--dashboard-card-bg);
+		color: var(--dashboard-text-primary);
+	}
+
+	/* Text / search inputs — fully flexible */
+	.wrap .tablenav input[type="search"],
+	.wrap .tablenav input[type="text"] {
+		background: var(--dashboard-card-bg);
+		border: 1px solid var(--dashboard-border);
+		color: var(--dashboard-text-primary);
+		width: auto;
+		min-width: 0;
+		flex: 1 1 80px;
+	}
+	.wrap .tablenav input[type="search"]:focus,
+	.wrap .tablenav input[type="text"]:focus {
+		border-color: var(--dashboard-accent);
+		box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+		outline: none;
+	}
+
+	/* Pagination current-page — narrow */
+	.wrap .tablenav-pages input.current-page,
+	.wrap .tablenav .current-page {
+		width: 3em !important;
+		min-width: 3em !important;
+		flex: 0 0 3em !important;
+		text-align: center;
+		padding: 0 4px;
+	}
+
+	/* Buttons */
+	.wrap .tablenav input[type="submit"],
+	.wrap .tablenav input[type="button"],
+	.wrap .tablenav .button {
+		white-space: nowrap;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+	}
+
+
+	/* Item count badge */
+	.wrap .tablenav .displaying-num {
+		color: var(--dashboard-text-primary);
+		font-size: 12px;
+		font-weight: 500;
+		background: var(--dashboard-card-hover);
+		padding: 0 10px;
+		border-radius: 6px;
+		border: 1px solid var(--dashboard-border);
+		height: 30px;
+		line-height: 28px;
+		white-space: nowrap;
+	}
+
+	/* Pagination controls */
+	.wrap .tablenav-pages {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		margin-left: auto;
+		flex-wrap: wrap;
+	}
+	.wrap .tablenav-pages .paging-input {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+	}
+	.wrap .tablenav .alignright span,
+	.wrap .tablenav .alignright p {
+		color: var(--dashboard-text-primary);
+		font-size: 12px;
+		padding: 0;
+		border: none;
+		background: transparent;
+		height: auto;
+	}
+
+	.wrap .tablenav label {
+		padding: 0;
+		white-space: nowrap;
+		font-weight: 500;
+		color: var(--dashboard-text-primary);
+		font-size: 13px;
+	}
+
+	/* Page title action styling */
+	.page-title-action {
+		background: var(--dashboard-accent) !important;
+		border-color: var(--dashboard-accent) !important;
+		color: white !important;
+		border-radius: 8px !important;
+		font-weight: 500 !important;
+		transition: all 0.3s ease !important;
+		text-decoration: none !important;
+		padding: 8px 16px !important;
+		display: inline-flex !important;
+		align-items: center !important;
+		gap: 8px !important;
+	}
+	.page-title-action:hover {
+		background: var(--dashboard-accent-hover) !important;
+		border-color: var(--dashboard-accent-hover) !important;
+		transform: translateY(-1px);
+		box-shadow: var(--dashboard-shadow-hover) !important;
+		color: white !important;
+	}
+
+	/* Status indicators */
+	.status-active { color: var(--dashboard-success) !important; font-weight: 600; }
+	.status-inactive { color: var(--dashboard-text-secondary) !important; font-weight: 600; }
+
+	/* HTTP code styling */
+	.http-code-301, .http-code-302, .http-code-307 { color: var(--dashboard-accent) !important; font-weight: 600; }
+	.http-code-410, .http-code-451 { color: var(--dashboard-warning) !important; font-weight: 600; }
+
+	/* Duplicate element guards */
+	.wrap .wp-list-table + .wp-list-table { display: none !important; }
+	.wrap .tablenav + .tablenav { display: none !important; }
+	.wrap .wp-list-table thead:not(:first-of-type) { display: none !important; }
+
+	/* ── Responsive ── */
+	@media (max-width: 1200px) {
+		.wrap .tablenav { padding: 10px 12px; gap: 6px; }
+		.wrap .tablenav select,
+		.wrap .tablenav input[type="search"],
+		.wrap .tablenav input[type="text"],
+		.wrap .tablenav input[type="submit"],
+		.wrap .tablenav .button {
+			height: 30px; font-size: 12px; line-height: 30px; padding: 0 8px;
+		}
+		.wrap .tablenav select { padding-right: 22px; background-size: 12px; }
+	}
+
+	@media (max-width: 782px) {
+		.wrap .tablenav { padding: 10px; gap: 8px; }
+		.wrap .tablenav .alignleft,
+		.wrap .tablenav .alignright,
+		.wrap .tablenav .actions,
+		.wrap .tablenav .metasync-search-box { width: 100%; flex: 1 1 100%; }
+		.wrap .tablenav select { flex: 1 1 0%; }
+		.wrap .tablenav-pages { margin-left: 0; width: 100%; justify-content: center; }
+	}
+
+	/* Description text styling */
+	.wrap .description,
+	.wrap p.description {
+		color: var(--dashboard-text-secondary, #9ca3af) !important;
+		font-size: 13px !important;
+		line-height: 1.5 !important;
+	}
+
+	/* Health status column */
+	.column-health_status { width: 7%; text-align: center; }
+	.health-status-cell { display: inline-block; cursor: default; font-size: 16px; }
+
+	/* Body-appended floating tooltip — escapes all table stacking contexts */
+	.health-tooltip-floating {
+		position: fixed;
+		display: block;
+		background: #1e293b;
+		border: 1px solid #475569;
+		border-radius: 6px;
+		padding: 6px 12px;
+		z-index: 999999;
+		white-space: nowrap;
+		font-size: 12px;
+		color: #cbd5e1;
+		box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+		pointer-events: none;
+	}
+	.wrap .wp-list-table thead tr:first-child th:first-child { border-top-left-radius: 12px; }
+	.wrap .wp-list-table thead tr:first-child th:last-child { border-top-right-radius: 12px; }
+	.wrap .wp-list-table tbody tr:last-child td:first-child { border-bottom-left-radius: 12px; }
+	.wrap .wp-list-table tbody tr:last-child td:last-child { border-bottom-right-radius: 12px; }
+</style>
+
+<div class="wrap">
+	<a href="<?php echo esc_url(admin_url('admin.php?page=' . Metasync_Admin::$page_slug . '-redirections&action=add')); ?>" class="page-title-action">Add New Redirect</a>
+
+	<!-- Import from SEO Plugins Button -->
+	<a href="<?php echo esc_url(admin_url('admin.php?page=' . Metasync_Admin::$page_slug . '-import-external&tab=redirections')); ?>" class="page-title-action" style="background: #10b981 !important; border-color: #10b981 !important;">
+		<span>📥</span> Import from SEO Plugins
+	</a>
+
+	<!-- Check Health Button -->
+	<button type="button" id="metasync-check-health-btn" class="page-title-action" style="background: #f59e0b !important; border-color: #f59e0b !important; color: #000 !important;">
+		Check Health
+	</button>
+
+	<!-- Allow External Redirects Setting -->
+	<?php
+	if (isset($_POST['metasync_save_external_redirects']) && current_user_can('manage_options') && wp_verify_nonce($_POST['_metasync_external_nonce'], 'metasync_external_redirects_toggle')) {
+		$allow_external = isset($_POST['metasync_allow_external_redirects']) ? 1 : 0;
+		update_option('metasync_allow_external_redirects', $allow_external, true);
+		echo '<div class="notice notice-success is-dismissible"><p>External redirects setting updated.</p></div>';
+	}
+	$allow_external_current = get_option('metasync_allow_external_redirects', 0);
+	?>
+	<div style="background: var(--dashboard-card-bg, #1a1f26); border: 1px solid var(--dashboard-border, #374151); border-radius: 8px; padding: 12px 16px; margin: 15px 0; display: flex; align-items: center; gap: 12px;">
+		<form method="post" style="display: flex; align-items: center; gap: 12px; margin: 0;">
+			<?php wp_nonce_field('metasync_external_redirects_toggle', '_metasync_external_nonce'); ?>
+			<label style="display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--dashboard-text-primary, #fff); font-weight: 500;">
+				<input type="checkbox" name="metasync_allow_external_redirects" value="1" <?php checked($allow_external_current, 1); ?> onchange="this.form.submit();" style="width: 16px; height: 16px;">
+				Allow External Redirects
+			</label>
+			<input type="hidden" name="metasync_save_external_redirects" value="1">
+			<?php if ($allow_external_current) : ?>
+				<span style="color: var(--dashboard-warning, #f59e0b); font-size: 13px;">External redirects are enabled. Redirects can point to other websites.</span>
+			<?php else : ?>
+				<span style="color: var(--dashboard-text-secondary, #9ca3af); font-size: 13px;">External redirects are disabled. All redirects will stay on your site for security.</span>
+			<?php endif; ?>
+		</form>
+	</div>
+
+	<!-- Forms are NOT created automatically, so you need to wrap the table in one to use features like bulk actions -->
+	<form id="redirection-form" method="post" action="">
+		<?php wp_nonce_field('metasync_redirection_form', 'metasync_redirection_nonce'); ?>
+		<?php include "metasync-add-redirection.php";
+		$request_data = metasync_sanitize_input_array($_REQUEST); ?>
+		<!-- For plugins, we also need to ensure that the form posts back to our current page -->
+		<input type="hidden" name="page" value="<?php echo esc_attr($request_data['page']) ?>" />
+		
+		<!-- Search and Filter Controls -->
+		<div class="tablenav top">
+			
+			<div class="alignleft actions">
+				<label for="status-filter" class="screen-reader-text">Filter by status</label>
+				<select name="status_filter" id="status-filter">
+					<option value="">All Statuses</option>
+					<option value="active" <?php selected(isset($_REQUEST['status_filter']) ? $_REQUEST['status_filter'] : '', 'active'); ?>>Active</option>
+					<option value="inactive" <?php selected(isset($_REQUEST['status_filter']) ? $_REQUEST['status_filter'] : '', 'inactive'); ?>>Inactive</option>
+				</select>
+				
+				<label for="pattern-filter" class="screen-reader-text">Filter by pattern type</label>
+				<select name="pattern_filter" id="pattern-filter">
+					<option value="">All Patterns</option>
+					<option value="exact" <?php selected(isset($_REQUEST['pattern_filter']) ? $_REQUEST['pattern_filter'] : '', 'exact'); ?>>Exact Match</option>
+					<option value="start" <?php selected(isset($_REQUEST['pattern_filter']) ? $_REQUEST['pattern_filter'] : '', 'start'); ?>>Starts With</option>
+					<option value="end" <?php selected(isset($_REQUEST['pattern_filter']) ? $_REQUEST['pattern_filter'] : '', 'end'); ?>>Ends With</option>
+					<option value="wildcard" <?php selected(isset($_REQUEST['pattern_filter']) ? $_REQUEST['pattern_filter'] : '', 'wildcard'); ?>>Wildcard (*)</option>
+					<option value="regex" <?php selected(isset($_REQUEST['pattern_filter']) ? $_REQUEST['pattern_filter'] : '', 'regex'); ?>>Regex Pattern</option>
+				</select>
+				
+				<label for="http-code-filter" class="screen-reader-text">Filter by HTTP code</label>
+				<select name="http_code_filter" id="http-code-filter">
+					<option value="">All Types</option>
+					<option value="301" <?php selected(isset($_REQUEST['http_code_filter']) ? $_REQUEST['http_code_filter'] : '', '301'); ?>>301 Permanent</option>
+					<option value="302" <?php selected(isset($_REQUEST['http_code_filter']) ? $_REQUEST['http_code_filter'] : '', '302'); ?>>302 Temporary</option>
+					<option value="307" <?php selected(isset($_REQUEST['http_code_filter']) ? $_REQUEST['http_code_filter'] : '', '307'); ?>>307 Temporary</option>
+					<option value="410" <?php selected(isset($_REQUEST['http_code_filter']) ? $_REQUEST['http_code_filter'] : '', '410'); ?>>410 Gone</option>
+					<option value="451" <?php selected(isset($_REQUEST['http_code_filter']) ? $_REQUEST['http_code_filter'] : '', '451'); ?>>451 Unavailable</option>
+				</select>
+				
+				<input type="submit" name="filter_action" id="post-query-submit" class="button" value="Filter">
+			</div>
+			
+			<div class="metasync-search-box">
+				<label class="screen-reader-text" for="post-search-input">Search Redirections:</label>
+				<input type="search" id="post-search-input" name="s" value="<?php echo esc_attr(isset($_REQUEST['s']) ? $_REQUEST['s'] : ''); ?>" placeholder="Search redirections...">
+				<input type="submit" id="search-submit" class="button" value="Search">
+			</div>
+		</div>
+		
+		<!-- Now we can render the completed list table -->
+		<?php $MetasyncRedirection->display() ?>
+	</form>
+	
+</div>
+

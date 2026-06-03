@@ -1,0 +1,209 @@
+.wpcf7-form, .wpcf7{
+	.row{
+		margin: 0 -10px;
+		> div{
+			padding: 0 10px;
+		}
+	}
+	p{
+		margin-bottom: 20px;
+		font-weight: 600;
+	}
+	.wpcf7-form-control-wrap{
+		display: block;
+		margin-bottom: 22px;
+	} 
+	label{
+		display: inline-block;
+		font-weight: 500;
+		color: $black;
+		margin-bottom: 5px;
+	}
+	input[type*="email"], input[type*="text"], input[type*="tel"]{
+		width: 100%;
+		height: 50px;
+		padding: 0 20px;
+		border: 1px solid rgba(0, 0, 0, 0.16)!important;
+		background: transparent;
+		font-size: 14px;
+		border-radius: 10px;
+		transition: all 0.35s;
+		&:focus, &:active{
+			border-color: $theme-color!important;
+		}
+	}
+	select{ 
+		border: 1px solid rgba(0, 0, 0, 0.16)!important;
+		background: transparent;
+		line-height: 50px;
+		height: 50px;
+		width: 100%;
+		color: $body-color;
+		border-radius: 10px;
+		font-size: 14px;
+		&:focus, &:active{
+			border-color: $theme-color!important;
+		}
+	}
+	textarea{
+		width: 100%;
+		padding: 10px 20px;
+		max-height: 180px;
+		border: 1px solid rgba(46, 87, 87, 0.3)!important;
+		background: transparent;
+		font-size: 14px;
+		border-radius: 10px;
+		&::-webkit-input-placeholder { 
+		  color: $body-color;
+		}
+		&::-moz-placeholder {
+		  color: $body-color;
+		}
+		&:-ms-input-placeholder { 
+		  color: $body-color;
+		}
+		&:-moz-placeholder { 
+		  color: $body-color;
+		}
+		&:focus, &:active{
+			border-color: $theme-color!important;
+		}
+		&.size-medium{
+			max-height: 135px;
+		}
+	}
+	.form-action{
+		text-align: center;
+		padding: 0;
+		position: relative;
+		input{
+			padding: 22px 50px 22px!important;
+		}
+		.ajax-loader{
+		  position: absolute;
+		  right: 0;
+		  top: 50%;
+		  margin-top: -8px;
+		}
+	}
+}
+
+.skin-border-white{
+   .wpcf7-form{
+      input[type*="email"], input[type*="text"], input[type*="tel"], textarea{
+         border: 1px solid rgba(255, 255, 255, 0.1)!important;
+         &::-webkit-input-placeholder { 
+           color: rgba(255, 255, 255, 0.8);
+         }
+         &::-moz-placeholder {
+           color: rgba(255, 255, 255, 0.8);
+         }
+         &:-ms-input-placeholder { 
+           color: rgba(255, 255, 255, 0.8);
+         }
+         &:-moz-placeholder { 
+           color: rgba(255, 255, 255, 0.8);
+         }
+      }
+      select{ 
+         border: 1px solid rgba(255, 255, 255, 0.1)!important;
+         -webkit-appearance: none;
+         appearance: none;
+         background-image: linear-gradient(45deg, transparent 50%, $theme-color 50%), linear-gradient(135deg, $theme-color 50%, transparent 50%)!important;
+         background-size: 8px 7px, 8px 7px!important;
+         background-repeat: no-repeat!important;
+         background-position: calc(100% - 17px),calc(100% - 10px)!important;
+         line-height: 20px;
+          color: rgba(255, 255, 255, 0.8);
+         option{
+            color: $headings-color;
+         }
+      }
+      input[type*="submit"]:not(.fa):not(.btn-theme):not(.newsletter-submit):not(.las){
+         background: transparent;
+         border: 1px solid $theme-color-3;
+         color: $theme-color-3;
+         &:hover, &:focus{
+            background: $theme-color;
+            border-color: $theme-color;
+            color: $white;
+         }
+      }
+   }
+}
+
+.form-white{
+	.wpcf7-form{
+		input[type*="email"], input[type*="text"], input[type*="tel"]{
+		background: $white;
+		border: 1px solid $border-color!important;
+		border-radius: 6px;
+		}
+	}
+	select{ 
+		background: $white;
+		border: 1px solid $border-color!important;
+		border-radius: 6px;
+	}
+	textarea{
+		border-radius: 6px;
+		background: $white;
+		border: 1px solid $border-color!important;
+		&:focus, &:active{
+			border-color: $theme-color!important;
+		}
+	}
+}
+
+.newsletter-form{
+  	position: relative;
+  	max-width: 710px;
+  	overflow: hidden;
+  	margin: 0 auto;
+  	.content-form{
+  		position: relative;
+	  	input[type="email"]{
+		 	padding: 0 15px;
+		 	text-align: left;
+		 	line-height: 55px;
+		 	width: 100%;
+		 	border: none;
+		 	transition: all 0.35s;
+		 	font-size: 14px;
+		 	border-radius: 4px;
+		 	background: $white;
+		 	&::-webkit-input-placeholder { 
+			  color: $body-color;
+			}
+			&::-moz-placeholder {
+			  color: $body-color;
+			}
+			&:-ms-input-placeholder { 
+			  color: $body-color;
+			}
+			&:-moz-placeholder { 
+			  color: $body-color;
+			}
+	  	}
+	 	input.newsletter-submit{
+	 		font-size: 14px;
+			background: $black;
+			border: none;
+			color: $white;
+			padding: 10px 36px;
+			border-radius: 6px;
+			font-weight: 700;
+			margin-top: 20px;
+			transition: all 0.35s;
+			&:hover{
+				opacity: 0.9;
+			}
+	 	}
+	}
+}
+
+.newsletter-v2{
+	input.newsletter-submit{
+		background: $theme-color!important;
+	}
+}

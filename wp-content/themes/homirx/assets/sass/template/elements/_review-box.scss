@@ -1,0 +1,93 @@
+.review-box{
+   .custormer-reviews{
+      max-width: 580px;
+      margin: 0 auto;
+      border-radius: 20px 20px 0 0;
+      padding: 30px 25px 0;
+      overflow: hidden;
+      position: relative;
+      background: rgba(255, 255, 255, 0.16); /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      backdrop-filter: blur(21px);
+      display: flex;
+      @media (max-width: 1199px){
+         max-width: 460px;
+      }
+      @media(max-width: 767px){
+         max-width: 280px;
+      }
+      @media(max-width: 1024px){
+         padding: 20px 15px 0;
+      }
+      &:before{
+         content: "";
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         height: 63px;
+         width: 1px;
+         background: rgba(255,255,255,0.3);
+         display: block;
+         @media(max-width: 767px){
+            content: none;
+         }
+      }
+      .box-review-item{
+         flex: 0 0 50%;
+         width: 0 0 50%;
+         padding: 0 15px;
+         margin-bottom: 30px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         @media(max-width: 1024px){
+            margin-bottom: 20px;
+         }
+      }
+      .title{
+         color: $white;
+         font-size: 20px;
+         margin: 0 0 15px;
+         i{
+            color: #00B67A;
+            font-size: 16px;
+            margin-right: 4px;
+            position: relative;
+            top: -2px;
+            @media(max-width: 767px){
+               display: block;
+            }
+         }
+      }
+      .box-content{
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+      }
+      .image{
+         margin-right: 10px;
+      }
+      .content{
+         padding-top: 6px;
+      }
+      .star{
+         color: #FBB03B;
+         font-size: 10px;
+         line-height: 1;
+         letter-spacing: 1px;
+      }
+      .review{
+         font-size: 13px;
+         color: #fff;
+      }
+   }
+   &.style-2{
+      .custormer-reviews{
+         margin: 0 -1px 0 0;
+         border-radius: 20px 20px 20px 0;
+         @media(max-width: 1024px){
+            border-radius: 20px;
+         }
+      }
+   }
+}

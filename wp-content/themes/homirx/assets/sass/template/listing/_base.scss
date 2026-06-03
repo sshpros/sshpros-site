@@ -1,0 +1,80 @@
+.directorist-row, .directorist-row > *{
+   margin-top: 0!important;
+}
+.directorist-archive-notfound{
+   font-weight: 700;
+   color: $headings-color;
+}
+.directorist-btn{
+   font-weight: 700;
+}
+.directorist-authors .directorist-authors__nav{
+   ul{
+      li{
+         a{
+            padding-left: 15px; 
+            padding-right: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            position: relative;
+            @media(max-width: 1024px){
+               padding-left: 10px;
+               padding-right: 10px;
+            }
+            &:after{
+               content: '';
+               position: absolute;
+               bottom: 5px;
+               left: 12px;
+               right: 12px;
+               height: 3px;
+               background: $theme-color;
+               opacity: 0;
+               transition: all 0.35s;
+            }
+            &:hover{
+               color: $theme-color;
+            }
+         }
+         &.active{
+            a{
+               color: $theme-color;
+               &:after{
+                  opacity: 1;
+               }
+            }
+         }
+      }
+   }
+}
+
+.view-as-hide{
+   .directorist-viewas-dropdown{
+      display: none!important;
+   }
+   .directorist-listings-header{
+      > div{
+         flex: 0 0 50%;
+         @media(max-width: 480px){
+            flex: 0 0 100%;
+         }
+      }
+   }
+   .directorist-listings-header__right{
+      justify-content: flex-end;
+   }
+}
+
+.directorist-alert{
+   &.directorist-alert-warning{
+      color: $headings-color;
+      font-weight: 500;
+      a{
+         color: $theme-color;
+         &:hover{
+            text-decoration: underline;
+         }
+      }
+   }
+}

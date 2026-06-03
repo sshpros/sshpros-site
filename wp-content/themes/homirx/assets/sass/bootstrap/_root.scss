@@ -1,0 +1,45 @@
+:root {
+  // Custom variable values only support SassScript inside `#{}`.
+  // @each $color, $value in $colors {
+  //   --#{$variable-prefix}#{$color}: #{$value};
+  // }
+
+  // @each $color, $value in $theme-colors {
+  //   --#{$variable-prefix}#{$color}: #{$value};
+  // }
+ 
+  // Use `inspect` for lists so that quoted items keep the quotes.
+  // See https://github.com/sass/sass/issues/2383#issuecomment-336349172
+  --#{$variable-prefix}font-sans-serif: #{inspect($font-family-sans-serif)};
+  //--#{$variable-prefix}font-monospace: #{inspect($font-family-monospace)};
+
+  --e-global-color-primary        : #E3572B; //21A46E //32ABC7 // 16BE99
+  --e-global-color-secondary      : #16243E;
+  --e-global-color-text           : #6C6E76;
+
+  --#{$variable-prefix}color-three:  #C2DF93;  
+
+  
+
+  --#{$variable-prefix}link-color:      #16243E;  
+  --#{$variable-prefix}hover-color:     #E3572B; 
+  --#{$variable-prefix}body-color:      #6C6E76; 
+  --#{$variable-prefix}heading-color:   #16243E;//20323c //1D3638 // 213435
+  --#{$variable-prefix}heading-font-family: "Manrope", sans-serif; 
+  --#{$variable-prefix}gradient: #{$gradient};
+
+  --#{$variable-prefix}footer-bg-color:           #16243E;
+  --#{$variable-prefix}footer-color:              #D9D9D9;  
+  --#{$variable-prefix}footer-color-link:         #D9D9D9;
+  --#{$variable-prefix}footer-color-link-hover:   #F35D22; 
+
+  --tec-font-family-sans-serif: var(--#{$variable-prefix}heading-font-family);
+  --tec-color-accent-primary  : var(--e-global-color-primary);
+  --tec-font-size-4: 16px;
+  --tec-line-height-2: 28px;
+  --tec-spacer-14: 60px;
+  --tec-spacer-13: 60px;
+
+  --directorist-color-border: #D7D7D7;
+}
+ 

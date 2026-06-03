@@ -1,0 +1,581 @@
+<?php
+/**
+ * The Report Issue admin page view
+ *
+ * @link       https://searchatlas.com
+ * @since      1.0.0
+ *
+ * @package    Metasync
+ * @subpackage Metasync/views
+ */
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
+}
+
+$plugin_name = Metasync::get_effective_plugin_name();
+
+# Get general options (same way as used throughout the plugin)
+$general_options = Metasync::get_option('general');
+if (!is_array($general_options)) {
+    $general_options = array();
+}
+$project_uuid = isset($general_options['otto_pixel_uuid']) ? sanitize_text_field($general_options['otto_pixel_uuid']) : '';
+
+# Get WordPress and plugin information with error handling
+global $wp_version;
+$active_theme = wp_get_theme();
+$theme_name = is_object($active_theme) ? $active_theme->get('Name') : get_template();
+
+# Collect system information
+$system_info = array(
+    'website_url' => esc_url(home_url()),
+    'site_title' => esc_html(get_bloginfo('name')),
+    'admin_email' => sanitize_email(get_bloginfo('admin_email')),
+    'plugin_version' => defined('METASYNC_VERSION') ? esc_html(METASYNC_VERSION) : '1.0.0',
+    'wordpress_version' => esc_html($wp_version),
+    'php_version' => esc_html(PHP_VERSION),
+    'active_theme' => esc_html($theme_name),
+    'memory_limit' => esc_html(ini_get('memory_limit')),
+    'multisite' => is_multisite() ? 'Yes' : 'No'
+);
+?>
+
+<?php $this->render_layout_open('Report Issue', 'report_issue', 'Submit a support ticket or report a bug to our team.'); ?>
+
+    <div class="metasync-report-issue-container">
+
+        <!-- System Information Card -->
+        <div class="dashboard-card metasync-system-info-card">
+            <h2>System Information</h2>
+            <p>This information will be automatically included with your report.</p>
+
+            <div class="metasync-system-info-grid">
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">Website URL:</span>
+                    <span class="metasync-info-value"><?php echo esc_html($system_info['website_url']); ?></span>
+                </div>
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">Plugin Version:</span>
+                    <span class="metasync-info-value"><?php echo esc_html($system_info['plugin_version']); ?></span>
+                </div>
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">WordPress Version:</span>
+                    <span class="metasync-info-value"><?php echo esc_html($system_info['wordpress_version']); ?></span>
+                </div>
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">PHP Version:</span>
+                    <span class="metasync-info-value"><?php echo esc_html($system_info['php_version']); ?></span>
+                </div>
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">Active Theme:</span>
+                    <span class="metasync-info-value"><?php echo esc_html($system_info['active_theme']); ?></span>
+                </div>
+                <div class="metasync-info-item">
+                    <span class="metasync-info-label">Project UUID:</span>
+                    <span class="metasync-info-value metasync-uuid-value">
+                        <?php if (!empty($project_uuid)): ?>
+                            <?php echo esc_html($project_uuid); ?>
+                        <?php else: ?>
+                            <em style="opacity: 0.6;">Not configured yet</em>
+                        <?php endif; ?>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Report Form Card -->
+        <div class="dashboard-card metasync-report-form-card">
+            <h2>Report an Issue</h2>
+            <p>Describe the issue you're experiencing and we'll receive it in our monitoring system.</p>
+            
+            <?php if (!empty($project_uuid)): ?>
+                <div class="metasync-report-title-info">
+                    <p><strong>Report Title:</strong> <code>Client Report <?php echo esc_html($project_uuid); ?></code></p>
+                    <p class="metasync-form-help-text" style="margin-top: 5px;">This standardized title helps us prioritize your issue in our monitoring system.</p>
+                </div>
+            <?php endif; ?>
+
+            <form id="metasync-report-issue-form" method="post">
+                <?php wp_nonce_field('metasync_report_issue', 'metasync_report_issue_nonce'); ?>
+
+                <div class="metasync-form-group">
+                    <label for="metasync_issue_message" class="metasync-form-label">
+                        <strong>Issue Description</strong>
+                        <span class="metasync-required-badge">Required</span>
+                    </label>
+                    <textarea 
+                        id="metasync_issue_message" 
+                        name="issue_message" 
+                        class="metasync-form-textarea"
+                        placeholder="Please describe the issue in detail. Include any error messages, steps to reproduce, or relevant information..."
+                        rows="8"
+                        maxlength="1000"
+                        required
+                    ></textarea>
+                    <span id="metasync_char_counter" class="metasync-char-counter">0/1000</span>
+                    <div class="metasync-char-counter-wrapper">
+                        <p class="metasync-form-help-text">Minimum 10 characters, maximum 1000 characters</p>
+                    </div>
+                </div>
+
+                <div class="metasync-form-group">
+                    <label for="metasync_issue_severity" class="metasync-form-label">
+                        <strong>Severity Level</strong>
+                    </label>
+                    <select id="metasync_issue_severity" name="issue_severity" class="metasync-form-select">
+                        <option value="info">Info - General question or feedback</option>
+                        <option value="warning" selected>Warning - Non-critical issue</option>
+                        <option value="error">Error - Affecting functionality</option>
+                        <option value="fatal">Critical - Site breaking issue</option>
+                    </select>
+                </div>
+
+                <div class="metasync-form-group">
+                    <label for="metasync_issue_attachment" class="metasync-form-label">
+                        <strong>Attachment</strong>
+                        <span class="metasync-optional-badge">Optional</span>
+                    </label>
+                    <input 
+                        type="file" 
+                        id="metasync_issue_attachment" 
+                        name="issue_attachment" 
+                        class="metasync-form-file-input"
+                        accept="image/jpeg,image/jpg,image/png,image/gif,image/webp"
+                    />
+                    <p class="metasync-form-help-text">Upload a screenshot or image (JPEG, PNG, GIF, WebP). Max 5MB.</p>
+                </div>
+
+                <div class="metasync-form-group">
+                    <label class="metasync-checkbox-label">
+                        <input type="checkbox" id="metasync_include_user_info" name="include_user_info" checked />
+                        <span>Include current user information (username, email)</span>
+                    </label>
+                </div>
+
+                <!-- Temporary Support Access Section -->
+                <div class="metasync-form-group metasync-support-access-section" style="padding-top: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+                    <div class="metasync-support-access-header">
+                        <label class="metasync-form-label">
+                            <strong>Grant Temporary Support Access</strong>
+                            <span class="metasync-optional-badge" style="background: rgba(255, 255, 255, 0.1); padding: 2px 8px; border-radius: 3px; font-size: 11px; margin-left: 8px; color: #888;">Optional</span>
+                        </label>
+                        <p class="metasync-form-help-text" style="color: #888; font-size: 13px; margin-top: 8px; line-height: 1.5;">
+                            Allow <?php echo esc_html($plugin_name); ?> support staff to temporarily access your WordPress admin to investigate and resolve this issue.
+                        </p>
+                    </div>
+
+                    <div class="metasync-checkbox-wrapper" style="margin: 20px 0;">
+                        <label class="metasync-checkbox-label">
+                            <input type="checkbox" id="metasync_grant_support_access" name="grant_support_access" />
+                            <span>I consent to grant temporary admin access to <?php echo esc_html($plugin_name); ?> support</span>
+                        </label>
+                    </div>
+
+                    <div id="metasync_support_access_options" class="metasync-support-access-options" style="display: none; margin-top: 20px; padding: 20px; background: rgba(255, 255, 255, 0.03); border-radius: 5px; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <label for="metasync_access_duration" class="metasync-form-label" style="display: block; margin-bottom: 10px;">
+                            <strong>Access Duration</strong>
+                        </label>
+                        <select id="metasync_access_duration" name="access_duration" class="metasync-form-select" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.05); color: #fff;">
+                            <option value="3600">1 hour</option>
+                            <option value="14400">4 hours</option>
+                            <option value="28800">8 hours</option>
+                            <option value="86400" selected>24 hours (Recommended)</option>
+                            <option value="172800">48 hours</option>
+                            <option value="604800">7 days</option>
+                            <option value="1209600">14 days</option>
+                            <option value="2592000">30 days</option>
+                        </select>
+
+                        <div class="metasync-security-notice" style="margin-top: 20px; padding: 15px; background: rgba(30, 144, 255, 0.1); border-left: 4px solid #1e90ff; border-radius: 4px;">
+                            <div style="display: flex; gap: 10px;">
+                                <span class="metasync-security-icon"><span class="dashicons dashicons-lock" style="font-size:20px;width:20px;height:20px;color:#1e90ff;"></span></span>
+                                <div class="metasync-security-text" style="flex: 1;">
+                                    <strong style="color: #1e90ff; display: block; margin-bottom: 8px;">Security Information:</strong>
+                                    <ul style="margin: 0; padding-left: 20px; font-size: 13px; color: #aaa; line-height: 1.6;">
+                                        <li>Access expires automatically after the selected duration</li>
+                                        <li>You can revoke access at any time from Settings → Support Access</li>
+                                        <li>A secure JWT token will be sent with your report</li>
+                                        <li>Token is valid only for this WordPress site</li>
+                                        <li>All authentication attempts are logged</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="metasync-form-actions">
+                    <button type="submit" class="button button-primary button-large" id="metasync-submit-report-btn">
+                        <span class="metasync-btn-text"><span class="dashicons dashicons-upload" style="margin-top:9px;font-size:15px;width:15px;height:15px;"></span> Submit Report</span>
+                        <span class="metasync-btn-loading">
+                            <span class="spinner is-active metasync-spinner"></span>
+                            Sending...
+                        </span>
+                    </button>
+                </div>
+
+                <div id="metasync-report-response-message" class="metasync-report-response"></div>
+            </form>
+        </div>
+
+        <!-- Help Card -->
+        <div class="dashboard-card metasync-help-card">
+            <h3>Tips for Reporting Issues</h3>
+            <ul class="metasync-help-list">
+                <li>✅ Be as specific as possible about the issue</li>
+                <li>✅ Include steps to reproduce the problem</li>
+                <li>✅ Mention any error messages you see</li>
+                <li>✅ Include screen recording video link if possible (e.g., Loom, Jam.dev, or similar)</li>
+                <li>✅ Note when the issue started occurring</li>
+            </ul>
+        </div>
+
+    </div>
+
+<?php $this->render_layout_close(); ?>
+
+<style>
+/* MetaSync Report Issue Styles - Matches plugin theme */
+.metasync-report-issue-container {
+    max-width: 1200px;
+    margin: 20px 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Card styling matching plugin dashboard cards */
+.metasync-report-issue-container .dashboard-card {
+    background: var(--dashboard-card-bg, #1a1f26);
+    border: 1px solid var(--dashboard-border, #374151);
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+    box-shadow: var(--dashboard-shadow, 0 10px 15px -3px rgba(0, 0, 0, 0.3));
+    transition: none; /* No hover effect */
+}
+
+.metasync-report-issue-container .dashboard-card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-report-issue-container .dashboard-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-report-issue-container .dashboard-card p {
+    color: var(--dashboard-text-secondary, #9ca3af);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-system-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.metasync-info-item {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 8px;
+    border-left: 3px solid var(--dashboard-accent, #3b82f6);
+    transition: none; /* No hover effect */
+}
+
+.metasync-info-label {
+    font-weight: 600;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-info-value {
+    color: var(--dashboard-text-secondary, #9ca3af);
+    font-size: 14px;
+    word-break: break-all;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-report-title-info {
+    padding: 16px;
+    background: rgba(59, 130, 246, 0.08);
+    border-radius: 8px;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    margin-bottom: 24px;
+}
+
+.metasync-report-title-info p {
+    margin: 0;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-size: 14px;
+}
+
+.metasync-report-title-info code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: var(--dashboard-accent, #3b82f6);
+    font-size: 13px;
+}
+
+.metasync-form-group {
+    margin-bottom: 24px;
+}
+
+.metasync-form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-required-badge {
+    color: var(--dashboard-error, #ef4444);
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 6px;
+}
+
+.metasync-optional-badge {
+    color: var(--dashboard-text-secondary, #9ca3af);
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 6px;
+}
+
+.metasync-form-input,
+.metasync-form-textarea,
+.metasync-form-select {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid var(--dashboard-border, #374151);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: rgba(15, 20, 25, 0.5);
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+.metasync-form-input:focus,
+.metasync-form-textarea:focus,
+.metasync-form-select:focus {
+    border-color: var(--dashboard-accent, #3b82f6);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.metasync-form-input::placeholder,
+.metasync-form-textarea::placeholder {
+    color: var(--dashboard-text-secondary, #9ca3af);
+    opacity: 0.6;
+}
+
+.metasync-form-textarea {
+    resize: vertical;
+    min-height: 150px;
+    line-height: 1.6;
+}
+
+.metasync-form-select {
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+.metasync-form-select option {
+    color: #ffffff;
+    background: var(--dashboard-card-bg, #1a1f26);
+}
+
+.metasync-form-file-input {
+    display: block;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid var(--dashboard-border, #374151);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: rgba(15, 20, 25, 0.5);
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    cursor: pointer;
+}
+
+.metasync-form-file-input::-webkit-file-upload-button {
+    background: var(--dashboard-accent, #3b82f6);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.metasync-form-file-input::-webkit-file-upload-button:hover {
+    background: var(--dashboard-accent-hover, #2563eb);
+}
+
+.metasync-form-file-input::file-selector-button {
+    background: var(--dashboard-accent, #3b82f6);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.metasync-form-file-input::file-selector-button:hover {
+    background: var(--dashboard-accent-hover, #2563eb);
+}
+
+.metasync-form-help-text {
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    color: var(--dashboard-text-secondary, #9ca3af);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-char-counter-wrapper {
+    margin-top: 8px;
+}
+
+.metasync-char-counter {
+    display: block;
+    font-size: 13px;
+    color: var(--dashboard-text-secondary, #9ca3af);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin-top: 4px;
+}
+
+.metasync-char-counter-warning {
+    color: #f59e0b;
+}
+
+.metasync-char-counter-limit {
+    color: var(--dashboard-error, #ef4444);
+    font-weight: 600;
+}
+
+.metasync-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--dashboard-text-primary, #ffffff);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.metasync-checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.metasync-report-issue-container .button-large {
+    padding: 12px 28px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    transition: opacity 0.2s ease;
+}
+
+.metasync-report-issue-container .button-large:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.metasync-btn-loading {
+    display: flex;
+    align-items: center;
+}
+
+.metasync-report-response {
+    margin-top: 24px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.metasync-report-response.success {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid var(--dashboard-success, #10b981);
+    color: var(--dashboard-success, #10b981);
+}
+
+.metasync-report-response.error {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid var(--dashboard-error, #ef4444);
+    color: var(--dashboard-error, #ef4444);
+}
+
+.metasync-help-list {
+    margin: 16px 0;
+    padding-left: 24px;
+}
+
+.metasync-help-list li {
+    margin-bottom: 10px;
+    color: var(--dashboard-text-secondary, #9ca3af);
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* UUID value styling */
+.metasync-uuid-value {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+}
+
+/* Button loading state */
+.metasync-btn-loading {
+    display: none;
+}
+
+.metasync-btn-loading .metasync-spinner {
+    float: none;
+    margin: 0 5px 0 0;
+}
+
+/* Response message hidden by default */
+.metasync-report-response {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .metasync-system-info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metasync-report-issue-container .dashboard-card {
+        padding: 20px;
+    }
+}
+</style>
+
+

@@ -1,0 +1,1199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Big Sky\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-21T10:49:11+00:00\n"
+"PO-Revision-Date: 2026-05-06 18:10:11+0000\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:409
+#: src/components/dock/index.js:428
+msgid "New chat"
+msgstr "צ'אט חדש"
+
+#: src/image-studio/components/header/index.tsx:82
+msgid "Save and apply image"
+msgstr "שמירה והחלה של תמונה"
+
+#: src/image-studio/components/header/index.tsx:68
+msgid "Save & Apply"
+msgstr "לשמור ולהגיש מועמדות"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+#: big-sky.php:1515
+msgid "Edit with AI"
+msgstr "לערוך באמצעות בינה מלאכותית"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:59
+msgid "How can you help me?"
+msgstr "איך אפשר לעזור לי?"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:53
+msgid "What should I do next?"
+msgstr "מה כדאי לי לעשות בשלב הבא?"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:424
+msgid "Welcome to your new store! I'm your personal AI assistant. How can I help you?"
+msgstr "ברוך בואך לחנות החדשה שלך! אני עוזרת הבינה המלאכותית האישית שלך. איך אוכל לעזור?"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:93
+msgid "Cannot delete - no image found"
+msgstr "לא ניתן למחוק - לא נמצאה תמונה"
+
+#: src/image-studio/hooks/use-delete-permanently.ts:135
+msgid "Failed to delete image. Please try again."
+msgstr "מחיקת התמונה נכשלה. יש לנסות שוב."
+
+#: src/image-studio/components/sidebar/index.tsx:65
+msgid "You are about to permanently delete this item from your site. This action cannot be undone."
+msgstr "הפעולה הזאת תמחק לצמיתות את הפריט הזה מהאתר שלך. לא ניתן לבטל פעולה זו."
+
+#: src/image-studio/components/sidebar/index.tsx:53
+msgid "Delete permanently"
+msgstr "מחק לצמיתות"
+
+#: src/image-studio/components/sidebar/index.tsx:46
+msgid "Delete this item"
+msgstr "למחוק את הפריט הזה"
+
+#: src/image-studio/components/header/index.tsx:90
+#: src/image-studio/components/sidebar/index.tsx:25
+msgid "Save or discard your changes"
+msgstr "לשמור או למחוק את השינויים שביצעת"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File name:"
+msgstr "שם הקובץ:"
+
+#: src/image-studio/components/header/index.tsx:147
+msgid "View or edit information about the image"
+msgstr "להציג או לערוך מידע אודות התמונה"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:127
+msgid "Next image %s→"
+msgstr "התמונה הבאה %s→"
+
+#: src/image-studio/components/header/index.tsx:124
+#: src/image-studio/components/sidebar/file-details.tsx:82
+#: src/image-studio/utils/get-image-data.ts:27
+msgid "Untitled"
+msgstr "ללא כותרת"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:123
+msgid "Previous image %s←"
+msgstr "תמונה קודמת %s←"
+
+#: src/components/product-card/ProductCard.tsx:51
+msgid "Loading…"
+msgstr "טוען..."
+
+#: src/image-studio/components/index.tsx:127
+msgid "Generating suggestions…"
+msgstr "יוצר המלצות..."
+
+#: src/image-studio/components/style-picker/index.tsx:41
+msgid "Vivid"
+msgstr "Vivid"
+
+#: src/image-studio/components/style-picker/index.tsx:39
+msgid "None"
+msgstr "כלל לא"
+
+#: src/image-studio/components/header/index.tsx:85
+msgid "Save displayed image to Media Library"
+msgstr "שמור את התמונה המוצגת בספריית המדיה"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:88
+msgid "Reverted to original"
+msgstr "הוחזר למקור"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:77
+msgid "Cannot revert - failed to load original image"
+msgstr "לא ניתן לחזור למצב קודם - הטעינה של התמונה המקורית נכשלה"
+
+#: src/image-studio/hooks/use-revert-to-original.ts:67
+msgid "Cannot revert - original image not found"
+msgstr "לא ניתן לחזור למצב קודם - התמונה המקורית לא נמצאה"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:34
+msgid "More options"
+msgstr "אפשרויות נוספות"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:24
+msgid "Revert to original"
+msgstr "חזור למקור"
+
+#: src/image-studio/components/image-actions-menu/index.tsx:18
+msgid "Save to media library"
+msgstr "לשמור בספריית המדיה"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision →"
+msgstr "→ המהדורה הבאה"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision ←"
+msgstr "← המהדורה הקודמת"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:41
+msgid "Aspect Ratio"
+msgstr "יחס היבט:"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:23
+msgid "3:4"
+msgstr "3:4"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:22
+msgid "4:3"
+msgstr "4:3"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:21
+msgid "9:16"
+msgstr "9:16"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:20
+msgid "16:9"
+msgstr "16:9"
+
+#: src/image-studio/components/aspect-ratio-picker/index.tsx:19
+msgid "1:1"
+msgstr "1:1"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Next revision"
+msgstr "הגרסה הבאה"
+
+#: src/image-studio/components/canvas-controls/revision-navigator.tsx:94
+msgid "Previous revision"
+msgstr "גרסה קודמת"
+
+#: src/image-studio/components/style-picker/index.tsx:97
+msgid "Craft Clay"
+msgstr "חימר ליצירה"
+
+#: src/image-studio/components/style-picker/index.tsx:92
+msgid "Line Art"
+msgstr "ציור קווים"
+
+#: src/image-studio/components/style-picker/index.tsx:87
+msgid "Origami"
+msgstr "אוריגאמי"
+
+#: src/image-studio/components/style-picker/index.tsx:82
+msgid "Lowpoly"
+msgstr "לוופול"
+
+#: src/image-studio/components/style-picker/index.tsx:77
+msgid "Isometric"
+msgstr "איזומטרי"
+
+#: src/image-studio/components/style-picker/index.tsx:72
+msgid "Neonpunk"
+msgstr "נאונפאנק"
+
+#: src/image-studio/components/style-picker/index.tsx:67
+msgid "Analog Film"
+msgstr "צילום אנלוגי"
+
+#: src/image-studio/components/style-picker/index.tsx:62
+msgid "Fantasy Art"
+msgstr "אומנות פנטזיה"
+
+#: src/image-studio/components/style-picker/index.tsx:57
+msgid "Comicbook"
+msgstr "קומיקס"
+
+#: src/image-studio/components/style-picker/index.tsx:52
+msgid "Digital Art"
+msgstr "אמנות דיגיטלית"
+
+#: src/image-studio/components/style-picker/index.tsx:47
+msgid "Photographic"
+msgstr "צילום"
+
+#: src/image-studio/components/style-picker/index.tsx:45
+msgid "Anime"
+msgstr "אנימה"
+
+#: src/image-studio/components/style-picker/index.tsx:38
+msgid "Select style"
+msgstr "בחירת סגנון"
+
+#: src/image-studio/components/style-picker/index.tsx:150
+msgid "Styles"
+msgstr "סגנונות עיצוב"
+
+#: src/image-studio/components/style-picker/index.tsx:117
+msgid "Texture"
+msgstr "מרקם"
+
+#: src/image-studio/components/style-picker/index.tsx:112
+msgid "Pixel Art"
+msgstr "אומנות פיקסלים"
+
+#: src/image-studio/components/style-picker/index.tsx:107
+msgid "3D Model"
+msgstr "מודל תלת-ממדי"
+
+#: src/image-studio/components/style-picker/index.tsx:102
+msgid "Cinematic"
+msgstr "קולנועי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:99
+msgid "Help me to connect PayPal Payments to my store"
+msgstr "אני רוצה לעזור לך לחבר את PayPal Payments לחנות שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:98
+msgid "Connect PayPal Payments to my store"
+msgstr "לחבר את PayPal Payments לחנות שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:93
+msgid "Recommend shipping zones and methods for my store"
+msgstr "להמליץ על אזורי משלוח ושיטות עבור החנות שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:92
+msgid "Set up shipping rates"
+msgstr "הגדרת תעריפי משלוח"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:87
+msgid "Set my product pricing"
+msgstr "קבע את תמחור המוצר שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:81
+msgid "Help me to write a product description"
+msgstr "תעזרו לי לכתוב תיאור מוצר"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:80
+msgid "Write a product description"
+msgstr "לכתוב תיאור למוצר"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:75
+msgid "Help me to create a product"
+msgstr "עזור לי ליצור מוצר"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:21
+msgid "Failed to make the theme update. Please try again."
+msgstr "נכשל בעדכון ערכת הנושא. יש לנסות שוב."
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:95
+msgid "Add to post"
+msgstr "להוסיף לפוסט"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:88
+msgid "Replace selected image"
+msgstr "החלפת התמונה שנבחרה"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat"
+msgstr "להתחיל צ'אט חדש"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Start a new chat to begin"
+msgstr "התחל צ'אט חדש כדי להתחיל"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "No past conversations"
+msgstr "אין שיחות קודמות"
+
+#: src/ai/wp-orchestrator/shared-dock/components/ConversationHistoryView.tsx:22
+msgid "Failed to load conversations. Please try again."
+msgstr "הטעינה של השיחות נכשלה. יש לנסות שוב."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:416
+msgid "Past chats"
+msgstr "צ'אטים קודמים"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:274
+msgid "Failed to upload images. Please try again."
+msgstr "העלאת התמונות נכשלה. יש לנסות שוב."
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:37
+msgid "Tell me what you can do for me"
+msgstr "מה אפשר לעשות עבורי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:74
+msgid "Create a product"
+msgstr "יצירת מוצר"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:31
+msgid "Show me recent comments"
+msgstr "הצג לי תגובות אחרונות"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:30
+msgid "Review comments"
+msgstr "לבדוק תגובות"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:25
+msgid "Show me my site health status"
+msgstr "הראה לי את מצב הבריאות של האתר שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:24
+msgid "Check site health"
+msgstr "לבדוק את תקינות האתר"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:19
+msgid "Help me create a new post"
+msgstr "תעזרו לי ליצור פוסט חדש"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:18
+msgid "Create content"
+msgstr "ליצור תוכן"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:13
+msgid "Show me my recent posts"
+msgstr "הציגו לי את הפוסטים האחרונים שלי"
+
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:12
+msgid "Manage posts"
+msgstr "לנהל פוסטים"
+
+#: src/image-studio/index.tsx:179
+msgid "Image doesn't exist"
+msgstr "התמונה לא קיימת"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:131
+msgid "Redo ⇧%sZ"
+msgstr "לבצע את הפעולה שוב ⇧%sZ"
+
+#. %s: modifier key (command or control)
+#: src/image-studio/components/header/index.tsx:129
+msgid "Undo %sZ"
+msgstr "לבטל את הפעולה האחרונה %sZ"
+
+#: src/image-studio/components/header/index.tsx:138
+msgid "Failed to save changes. Please try again or use the Save button."
+msgstr "שמירת השינויים נכשלה. יש לנסות שוב או להשתמש בכפתור 'שמירה'."
+
+#: src/image-studio/components/index.tsx:89
+msgid "Failed to send message."
+msgstr "שליחת ההודעה נכשלה."
+
+#: src/image-studio/hooks/suggestions-data.ts:67
+msgid "Draw annotation"
+msgstr "לצייר ביאור"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Beta"
+msgstr "בטא"
+
+#: src/image-studio/hooks/suggestions-data.ts:55
+msgid "Enhance only the region marked by the blue annotation. Preserve everything else unchanged."
+msgstr "יש לשפר רק את האזור שמסומן על ידי ההערה הכחולה. שמירה על כל שאר הפריטים ללא שינוי."
+
+#: src/image-studio/hooks/suggestions-data.ts:50
+msgid "Remove only the region marked by the blue annotation. Do not change anything else"
+msgstr "יש להסיר רק את האזור שמסומן על ידי ההערה הכחולה. אין לשנות שום דבר אחר"
+
+#: src/image-studio/hooks/suggestions-data.ts:45
+msgid "Replace only the region marked by the blue annotation with:"
+msgstr "יש להחליף רק את האזור שמסומן על ידי ההערה הכחולה עם:"
+
+#: src/ai/hooks/suggestions-data.ts:98
+msgid "Remove the background from this image"
+msgstr "להסיר את הרקע מתמונה זו"
+
+#: src/ai/hooks/suggestions-data.ts:97
+msgid "Remove background"
+msgstr "להסיר רקע"
+
+#: src/image-studio/extensions/generate-button-extension.tsx:56
+#: src/image-studio/index.tsx:154
+msgid "Generate Image"
+msgstr "ליצור תמונה"
+
+#: src/image-studio/extensions/image-toolbar-extension.tsx:72
+msgid "Edit image with AI"
+msgstr "לערוך תמונה בעזרת בינה מלאכותית"
+
+#: src/image-studio/components/index.tsx:285
+msgid "Do you want to save this image?"
+msgstr "האם ברצונך לשמור תמונה זו?"
+
+#: src/image-studio/components/index.tsx:275
+msgid "Discard"
+msgstr "ביטול"
+
+#: src/image-studio/components/index.tsx:273
+msgid "Unsaved changes"
+msgstr "שינויים שלא נשמרו"
+
+#: src/image-studio/components/index.tsx:223
+msgid "Image being edited"
+msgstr "התמונה נערכת"
+
+#: src/image-studio/components/index.tsx:213
+msgid "Image saved to Media Library"
+msgstr "התמונה נשמרה בספריית המדיה"
+
+#: src/image-studio/hooks/suggestions-data.ts:54
+msgid "Enhance this"
+msgstr "לשפר את הפריט"
+
+#: src/image-studio/hooks/suggestions-data.ts:49
+msgid "Remove this"
+msgstr "להסיר את הפריט"
+
+#: src/image-studio/hooks/suggestions-data.ts:44
+msgid "Replace this"
+msgstr "להחליף את הפריט"
+
+#: src/image-studio/hooks/suggestions-data.ts:35
+msgid "A professional workspace scene with natural lighting"
+msgstr "סצנה במרחב עבודה מקצועי עם תאורה טבעית"
+
+#: src/image-studio/hooks/suggestions-data.ts:34
+msgid "Professional workspace"
+msgstr "מרחב עבודה מקצועי"
+
+#: src/image-studio/hooks/suggestions-data.ts:30
+msgid "A serene mountain landscape at sunrise with misty valleys"
+msgstr "נוף הרים רגוע בזריחה עם עמקים מלאי ערפל"
+
+#: src/image-studio/hooks/suggestions-data.ts:29
+msgid "Mountain landscape"
+msgstr "נוף הררי"
+
+#: src/image-studio/hooks/suggestions-data.ts:25
+msgid "A warm and inviting cafe scene with coffee, pastries, and natural lighting"
+msgstr "סצנת בית קפה חמה ומזמינה עם קפה, מאפים ותאורה טבעית"
+
+#: src/image-studio/hooks/suggestions-data.ts:24
+msgid "Cozy cafe scene"
+msgstr "סצינת קפה חמימה"
+
+#: src/image-studio/hooks/suggestions-data.ts:15
+msgid "Increase the overall brightness of this image while keeping it natural"
+msgstr "יש להגדיל את הבהירות הכוללת של התמונה הזו ועדיין לשמור על המראה הטבעי שלה"
+
+#: src/image-studio/hooks/suggestions-data.ts:14
+msgid "Brighten image"
+msgstr "להבהיר את התמונה"
+
+#: src/image-studio/hooks/suggestions-data.ts:10
+msgid "Enhance this image with balanced lighting, sharpness, and color while keeping it natural"
+msgstr "לשפר תמונה זו בעזרת תאורה, חדות וצבע מאוזנים, תוך שמירה על מראה טבעי"
+
+#: src/image-studio/hooks/suggestions-data.ts:9
+msgid "Enhance image"
+msgstr "לשפר את התמונה"
+
+#: src/image-studio/components/index.tsx:68
+msgid "Describe your image"
+msgstr "לתאר את התמונה שלך"
+
+#: src/image-studio/components/index.tsx:67
+msgid "Describe what you want to add, remove, or replace…"
+msgstr "יש לתאר את מה שברצונך להוסיף, להסיר או להחליף…"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt text describes the image's purpose. Leave it blank if the image is purely decorative."
+msgstr "טקסט חלופי מתאר את מטרת התמונה. יש להשאיר את השדה ריק אם התמונה נוספה לצורך דקורטיבי בלבד."
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Alt Text"
+msgstr "טקסט אלטרנטיבי"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Description"
+msgstr "תיאור"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Caption"
+msgstr "כיתוב"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Title"
+msgstr "שם"
+
+#: src/image-studio/components/sidebar/index.tsx:19
+msgid "Close sidebar"
+msgstr "סגור סרגל צידי"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Dimensions:"
+msgstr "מידות:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Size:"
+msgstr "גודל:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File type:"
+msgstr "סוג הקובץ:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded by:"
+msgstr "הועלה על ידי:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded to:"
+msgstr "הועלה אל:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "Uploaded on:"
+msgstr "הועלה בתאריך:"
+
+#: src/image-studio/components/sidebar/file-details.tsx:83
+msgid "File Details"
+msgstr "פרטי הקובץ"
+
+#. %1$d: Image width, %2$d: Image height
+#: src/image-studio/components/sidebar/file-details.tsx:79
+msgid "%1$d × %2$d"
+msgstr "‎%1$d × %2$d‎"
+
+#. %.1f: File size in kilobytes
+#: src/image-studio/components/sidebar/file-details.tsx:29
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+#. %.1f: File size in megabytes
+#: src/image-studio/components/sidebar/file-details.tsx:25
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. %.1f: File size in gigabytes
+#: src/image-studio/components/sidebar/file-details.tsx:20
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/image-studio/components/sidebar/file-details.tsx:80
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: src/image-studio/components/index.tsx:121
+#: src/image-studio/components/sidebar/editable-field.tsx:23
+msgid "An error occurred while generating content."
+msgstr "אירעה שגיאה בעת יצירת התוכן."
+
+#: src/image-studio/components/header/index.tsx:156
+msgid "Close image editor"
+msgstr "לסגור את עורך התמונה"
+
+#: src/image-studio/components/header/index.tsx:155
+msgid "Saving…"
+msgstr "שומר..."
+
+#: src/image-studio/components/header/index.tsx:154
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Image Info"
+msgstr "פרטי תמונה"
+
+#: src/image-studio/components/header/index.tsx:145
+msgid "Select"
+msgstr "נבחר"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Select an area of the image to edit"
+msgstr "יש לבחור אזור בתמונה לעריכה"
+
+#: src/image-studio/components/header/index.tsx:141
+msgid "Media Library"
+msgstr "ספריית מדיה"
+
+#: src/image-studio/components/header/index.tsx:132
+msgid "Edit this image in the WordPress Media Library"
+msgstr "לערוך תמונה זו בספריית המדיה של WordPress"
+
+#: src/image-studio/components/header/index.tsx:120
+msgid "Image Editor"
+msgstr "עורך התמונות"
+
+#: src/image-studio/components/generate-layout/index.tsx:9
+msgid "Let's create!"
+msgstr "קדימה, זה הזמן ליצור!"
+
+#: src/image-studio/components/edit-layout/index.tsx:51
+msgid "AI has finished editing your image."
+msgstr "הבינה המלאכותית סיימה לערוך את התמונה שלך."
+
+#: src/image-studio/components/edit-layout/index.tsx:48
+msgid "AI is currently editing your image. Please wait."
+msgstr "הבינה המלאכותית עורכת את התמונה שלך כעת. רק רגע."
+
+#: src/image-studio/components/edit-layout/index.tsx:46
+msgid "Saving your annotation…"
+msgstr "שומר את ההסבר שלך…"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Interactive drawing area for creating image annotations"
+msgstr "אזור ציור אינטראקטיבי ליצירת הסברי תמונה"
+
+#: src/image-studio/components/annotation-canvas/index.tsx:342
+msgid "Saved annotation markings"
+msgstr "סימוני הסבר שמורים"
+
+#: src/ai/wp-orchestrator/index.tsx:54
+msgid "Unable to authenticate with Jetpack. Please try again."
+msgstr "לא ניתן לאמת באמצעות Jetpack. כדאי לנסות שוב."
+
+#: src/ai/wp-orchestrator/index.tsx:52
+msgid "Network connection issue. Please check your internet connection and try again."
+msgstr "בעיה בחיבור לרשת. יש לבדוק את החיבור לאינטרנט ולנסות שוב."
+
+#: src/ai/wp-orchestrator/index.tsx:47
+msgid "Unable to connect to Jetpack. Please ensure Jetpack is active and up to date."
+msgstr "לא ניתן לחבר אל Jetpack. נא לוודא כי Jetpack פעיל ומעודכן."
+
+#: src/ai/wp-orchestrator/index.tsx:44
+msgid "You don't have permission to access AI features."
+msgstr "אין לך הרשאות גישה לכלי בינה מלאכותית."
+
+#: src/ai/wp-orchestrator/index.tsx:41
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "פג תוקף ההפעלה שלך. יש לרענן את העמוד ולנסות שוב."
+
+#: src/components/product-card/ProductCard.tsx:56
+msgid "Error: Product name is required"
+msgstr "שגיאה: חובה לציין את שם המוצר"
+
+#: src/components/product-card/ProductCard.tsx:87
+msgid "Product"
+msgstr "מוצר"
+
+#: src/components/product-card/ProductCard.tsx:84
+msgid "Service"
+msgstr "שירות"
+
+#: src/components/product-card/ProductCard.tsx:53
+msgid "Error: Could not render product card"
+msgstr "שגיאה: לא הצלחנו לעבד את כרטיס המוצר"
+
+#: src/components/product-card/ProductCard.tsx:25
+msgid "unit"
+msgid_plural "units"
+msgstr[0] "יחידה"
+msgstr[1] "יחידות"
+
+#: src/abilities/set-styles/index.ts:20
+msgid "Apply color palette, font pairing, and button style variations to the WordPress site. Accepts variation titles (e.g., \"Professional\", \"Montserrat + Open Sans\") and applies the complete styling including colors, typography, button styles, and all associated theme variations."
+msgstr "להחיל סוגי צבעים, שילוב גופנים וסגנון כפתורים באתר של WordPress. מקבל את שמות הסוגים (לדוגמה, \"Professional\", \"Montserrat + Open Sans\") ומחיל את הסגנון השלם, כולל צבעים, טיפוגרפיה, סגנונות כפתורים וכל הסוגים המשויכים לתבנית."
+
+#: src/abilities/set-styles/index.ts:18
+msgid "Set Styles"
+msgstr "להגדיר סגנונות"
+
+#: src/abilities/add-pages/index.ts:19
+msgid "Creates multiple WordPress pages with generated content from patterns and layouts. Page titles are provided by the backend, and page content is composed from layout blocks. Also updates site navigation."
+msgstr "יוצר מספר עמודים של WordPress עם תוכן שנוצר ממקבצי בלוקים ומפריסות. כותרות העמודים מסופקות על ידי הבק-אנד ותוכן העמוד מורכב מבלוקים של פריסה. מעדכן גם את הניווט באתר."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:82
+msgid "Failed to update styles:"
+msgstr "העדכון של הסגנונות נכשל:"
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:76
+msgid "Failed to update styles. The style variation may be invalid."
+msgstr "העדכון של הסגנונות נכשל. ייתכן שסוג הסגנון אינו תקין."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:62
+msgid "Styles updated successfully."
+msgstr "הסגנונות עודכנו בהצלחה."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:38
+msgid "Invalid button format. Button must be a string (variation title)."
+msgstr "פורמט כפתור לא תקין. כפתור חייב להיות מחרוזת (סוג כותרת)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:31
+msgid "Invalid font format. Font must be a string (variation title)."
+msgstr "פורמט גופן לא תקין. גופן חייב להיות מחרוזת (סוג כותרת)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:24
+msgid "Invalid color format. Color must be a string (variation title)."
+msgstr "פורמט צבע לא תקין. צבע חייב להיות מחרוזת (סוג כותרת)."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:17
+msgid "Invalid arguments. Provide at least one of: color, font, or button."
+msgstr "ארגומנטים לא תקינים. יש לספק לפחות אחד מהבאים: צבע, גופן או כפתור."
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:169
+msgid "Failed to create pages:"
+msgstr "יצירת דפים נכשלה:"
+
+#: src/abilities/add-pages/use-add-pages-tool.ts:65
+msgid "Invalid pages. Must provide an array of page objects."
+msgstr "עמודים לא תקפים. יש לספק מערך של אובייקטי עמוד."
+
+#: src/abilities/site-logo/index.ts:17
+msgid "Set the site logo"
+msgstr "להגדיר את הלוגו של האתר"
+
+#: src/abilities/site-logo/index.ts:15
+msgid "Set Site Logo"
+msgstr "להגדיר לוגו לאתר"
+
+#: src/abilities/update-theme/index.ts:17
+msgid "Update WordPress theme settings and styles using theme.json format"
+msgstr "לעדכן את ההגדרות ואת הסגנונות של התבנית של WordPress באמצעות הפורמט theme.json"
+
+#: src/abilities/update-theme/index.ts:15
+msgid "Update Theme"
+msgstr "עדכון תבניות"
+
+#: src/abilities/edit-entity-record/index.ts:17
+msgid "Create, edit, or delete WordPress data entity records using the data layer"
+msgstr "יצירה, עריכה או מחיקה של רשומות ישות הנתונים של WordPress באמצעות שכבת הנתונים"
+
+#: src/abilities/edit-entity-record/index.ts:15
+msgid "Manage Entity Records"
+msgstr "ניהול רשומות ישות"
+
+#: src/abilities/show-component/index.ts:23
+msgid "Display a component in the UI with specified props"
+msgstr "להציג רכיב בממשק המשתמש עם מאפיינים מוגדרים"
+
+#: src/abilities/show-component/index.ts:21
+msgid "Show Component"
+msgstr "להציג רכיב"
+
+#: src/abilities/client-assistants/index.ts:29
+msgid "Always use this if the user asks for something that requires a client-side assistant. Available assistants:"
+msgstr "יש להשתמש באפשרות זו תמיד אם המשתמש מבקש לבצע פעולה שדורשת סייען בצד הלקוח. סייענים זמינים:"
+
+#: src/abilities/client-assistants/index.ts:27
+msgid "Execute Client Assistant"
+msgstr "להפעיל את סייען הלקוח"
+
+#: src/abilities/set-processing-state/index.ts:18
+msgid "Sets the processing state on a block and scrolls to it to indicate active processing"
+msgstr "מגדיר את מצב העיבוד בבלוק וגולל אליו כדי לציין עיבוד פעיל"
+
+#: src/abilities/set-processing-state/index.ts:16
+msgid "Set Processing State"
+msgstr "הגדרת מצב עיבוד"
+
+#: src/abilities/apply-block-edits/index.ts:17
+msgid "Applies a collection of block edits to the canvas"
+msgstr "מחיל אוסף של עריכות בלוקים על דף הציור"
+
+#: src/abilities/apply-block-edits/index.ts:15
+msgid "Apply Block Edits"
+msgstr "מחיל עריכות של בלוקים"
+
+#: src/abilities/editor-navigate/index.ts:18
+msgid "Saves everything and navigates to the specified path in the editor. Also be used to navigate to a view that shows all the sites pages so use this tool if the user asks to view all their pages."
+msgstr "שומר הכול ומנווט אל הנתיב שצוין בעורך. ניתן להשתמש בו גם כדי לנווט לתצוגה שמציגה את כל עמודי האתרים, לכן יש להשתמש בכלי זה אם המשתמש מבקש להציג את כל העמודים שלו."
+
+#: src/abilities/editor-navigate/index.ts:16
+msgid "Navigate"
+msgstr "לנווט"
+
+#: src/abilities/wp-admin-navigate.ts:104
+msgid "Navigate the browser to a different wp-admin page. Use this when the user asks to go to a specific admin page (e.g., \"go to plugins\", \"navigate to settings\"). The page will reload, but the conversation will automatically continue after navigation completes."
+msgstr "לנווט בדפדפן לעמוד wp-admin אחר. יש להשתמש באפשרות זו כאשר המשתמש מבקש לעבור לעמוד ניהול מסוים (לדוגמה, \"עבור אל תוספים\", \"נווט אל הגדרות\"). העמוד ייטען מחדש, אך השיחה תמשיך באופן אוטומטי לאחר השלמת המעבר."
+
+#: src/abilities/wp-admin-navigate.ts:102
+msgid "Navigate to wp-admin page"
+msgstr "לעבור אל עמוד wp-admin"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:138
+msgid "By updating the query, order posts from %s"
+msgstr "על ידי עדכון השאילתה, ניתן להזמין פוסטים מ-%s"
+
+#. %s is the order. Eg: 'newest to oldest'
+#: src/ai/hooks/suggestions-data.ts:135
+msgid "Stop inheriting default query settings and order posts from %s"
+msgstr "להפסיק לקבל בירושה הגדרות שאילתה המהוות ברירת מחדל ולהזמין פוסטים מ-%s"
+
+#: src/ai/hooks/suggestions-data.ts:130
+msgid "newest to oldest"
+msgstr "מהחדש לישן"
+
+#: src/ai/hooks/suggestions-data.ts:129
+msgid "oldest to newest"
+msgstr "מהישן לחדש"
+
+#: src/ai/hooks/suggestions-data.ts:124
+msgid "Order posts"
+msgstr "להזמין פוסטים"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:117
+msgid "Currently this query is displaying %s posts per page, change it to:"
+msgstr "נכון לעכשיו, השאילתה הזו מציגה %s פוסטים לכל דף, שנה זאת אל:"
+
+#. %s is the number of posts. Eg: '10'
+#: src/ai/hooks/suggestions-data.ts:114
+msgid "Stop inheriting default query settings and change the current number of posts displayed per page from %s to:"
+msgstr "הפסק לקבל בירושה הגדרות שאילתה מסוג ברירת מחדל ושנה את מספר הפוסטים הנוכחי שמוצג בכל עמוד מ-%s אל:"
+
+#: src/ai/hooks/suggestions-data.ts:106
+msgid "Change number of posts"
+msgstr "שינוי מספר הפוסטים"
+
+#: src/ai/hooks/suggestions-data.ts:103
+msgid "Tell me all the ways you can help design or edit my site"
+msgstr "ספר לי על כל הדרכים שבהן אפשר לעזור בעיצוב או בעריכת האתר שלי"
+
+#: src/ai/hooks/suggestions-data.ts:102
+#: src/ai/wp-orchestrator/shared-dock/suggestions.ts:36
+msgid "What else can you do?"
+msgstr "מה עוד ביכולתך לעשות?"
+
+#: src/ai/hooks/suggestions-data.ts:84
+msgid "Edit the image to:"
+msgstr "לערוך את התמונה:"
+
+#: src/ai/hooks/suggestions-data.ts:83
+msgid "Edit image"
+msgstr "עריכת תמונה"
+
+#: src/ai/hooks/suggestions-data.ts:73
+msgid "Generate an image of:"
+msgstr "ליצור תמונה של:"
+
+#: src/ai/hooks/suggestions-data.ts:69
+msgid "Check the grammar of this text"
+msgstr "לבדוק את הדיוק הדקדוקי של הטקסט הזה"
+
+#: src/ai/hooks/suggestions-data.ts:68
+msgid "Check grammar"
+msgstr "בדיקת דקדוק"
+
+#: src/ai/hooks/suggestions-data.ts:65
+msgid "Change the tone of this text to be more:"
+msgstr "לשנות את הנימה של הטקסט הזה כך שתהיה יותר:"
+
+#: src/ai/hooks/suggestions-data.ts:61
+msgid "Translate this to:"
+msgstr "תרגם זאת אל:"
+
+#: src/ai/hooks/suggestions-data.ts:60
+msgid "Translate content"
+msgstr "לתרגם תוכן"
+
+#: src/ai/hooks/suggestions-data.ts:56
+msgid "Add another column to the end of these"
+msgstr "הוסף עמודה נוספת לסוף של אלה"
+
+#: src/ai/hooks/suggestions-data.ts:55
+msgid "Add column"
+msgstr "להוסיף טור"
+
+#: src/ai/hooks/suggestions-data.ts:51
+msgid "Reverse the order of these columns"
+msgstr "הפוך את הסדר של העמודות האלה"
+
+#: src/ai/hooks/suggestions-data.ts:50
+msgid "Swap columns"
+msgstr "החלף עמודות"
+
+#. %s is the button text
+#: src/ai/hooks/suggestions-data.ts:47
+msgid "Change the %s button link to:"
+msgstr "שנה את הקישור של הכפתור %s:"
+
+#: src/ai/hooks/suggestions-data.ts:41
+msgid "Create a new page on my site for"
+msgstr "צור עמוד חדש באתר שלי עבור"
+
+#: src/ai/hooks/suggestions-data.ts:40
+msgid "Add new page"
+msgstr "להוסיף עמוד חדש"
+
+#: src/ai/hooks/suggestions-data.ts:37
+msgid "Show me different layouts for this page"
+msgstr "הראה לי פריסות שונות עבור עמוד זה"
+
+#: src/ai/hooks/suggestions-data.ts:36
+msgid "Change page layout"
+msgstr "שינוי הפריסה של העמוד"
+
+#: src/ai/hooks/suggestions-data.ts:33
+msgid "Show me color palettes for my site that are:"
+msgstr "להציג לי לוחות צבעים לאתר שלי שהם:"
+
+#: src/ai/hooks/suggestions-data.ts:32
+msgid "Customize colors"
+msgstr "להתאים אישית את הצבעים"
+
+#: src/ai/hooks/suggestions-data.ts:29
+msgid "Show me new fonts for my site"
+msgstr "להציג לי גופנים חדשים עבור האתר שלי"
+
+#: src/ai/hooks/suggestions-data.ts:28
+msgid "Choose new fonts"
+msgstr "לבחור גופנים חדשים"
+
+#: big-sky.php:376
+msgid "AI-powered site building and navigation abilities."
+msgstr "בניית אתרים מבוססת בינה מלאכותית ויכולות ניווט."
+
+#: src/components/product-card/ProductCard.tsx:90
+msgid "Edit"
+msgstr "ערוך"
+
+#: src/ai/wp-orchestrator/shared-dock/hooks/useImageRenderingIntegration.ts:83
+msgid "Edit this image"
+msgstr "לערוך תמונה זו"
+
+#: src/image-studio/components/index.tsx:268
+msgid "Image Studio"
+msgstr "סטודיו תמונות"
+
+#: src/hooks/use-dock-state.ts:138
+#: src/components/dock/index.js:439
+msgid "Pop out sidebar"
+msgstr "להקפיץ את הסרגל הצדי"
+
+#: src/hooks/use-dock-state.ts:132
+#: src/components/dock/index.js:459
+msgid "Move to sidebar"
+msgstr "להעביר אל הסרגל הצדי"
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:546
+msgid "Got a different request? Ask away."
+msgstr "יש לך בקשה אחרת? אפשר לשאול הכול."
+
+#: src/ai/wp-orchestrator/shared-dock/OrchestratorDock.tsx:425
+#: src/components/dock/index.js:540
+msgid "Howdy! How can I help you today?"
+msgstr "אהלן! איך אוכל לעזור לך היום?"
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:61
+msgid "Showing all pages."
+msgstr "מציג את כל העמודים."
+
+#: src/abilities/set-styles/use-set-styles-tool.ts:65
+msgid "Updated:"
+msgstr "עודכן:"
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:62
+msgid "Theme updated successfully"
+msgstr "התבנית עודכנה בהצלחה."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:42
+msgid "Invalid styles format. Styles must be an object."
+msgstr "פורמט סגנונות לא תקף. הסגנונות חייבים להיות אובייקט."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:34
+msgid "Invalid settings format. Settings must be an object."
+msgstr "פורמט הגדרות לא תקף. ההגדרות חייבות להיות אובייקט."
+
+#: src/abilities/update-theme/use-update-theme-tool.ts:26
+msgid "Invalid arguments. Provide either settings or styles to update the theme."
+msgstr "ארגומנטים לא תקפים. יש לספק הגדרות או סגנונות כדי לעדכן את התבנית."
+
+#: big-sky.php:1887
+#: big-sky.php:1888
+msgid "AI Editor"
+msgstr "עורך בינה מלאכותית"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:208
+msgid "Canceled."
+msgstr "בוטל."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:188
+msgid "Proceed"
+msgstr "המשך"
+
+#: src/image-studio/components/canvas-controls/index.tsx:101
+#: src/components/chat/components/completed-plan.js:136
+#: src/components/chat/message/message-feedback.js:44
+msgid "Bad response"
+msgstr "תגובה רעה"
+
+#: src/image-studio/components/canvas-controls/index.tsx:92
+#: src/components/chat/components/completed-plan.js:128
+#: src/components/chat/message/message-feedback.js:36
+msgid "Good response"
+msgstr "תגובה טובה"
+
+#: src/ai/hooks/suggestions-data.ts:44
+msgid "Edit link"
+msgstr "לערוך קישור"
+
+#: src/abilities/show-component/show-component.tsx:193
+#: src/abilities/site-logo/set-site-logo.ts:74
+msgid "There was an error with this request. Please try again."
+msgstr "אירעה שגיאה בבקשה זו. יש לנסות שוב."
+
+#: src/abilities/client-assistants/run-assistant.ts:189
+msgid "No response from assistant"
+msgstr "אין תשובה מהעוזר"
+
+#: src/abilities/client-assistants/index.ts:89
+msgid "Assistant completed successfully"
+msgstr "העוזר השלים את הפעולה בהצלחה"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:608
+msgid "Something went wrong. Please try again."
+msgstr "משהו השתבש. יש לנסות שנית."
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:589
+msgid "I have completed the edits."
+msgstr "השלמתי את העריכות."
+
+#. %s: error message
+#: src/image-studio/hooks/use-revert-to-original.ts:94
+msgid "Failed to revert image: %s"
+msgstr "נכשל בביטול התמונה: %s"
+
+#. translators: %s is the theme name.
+#: big-sky.php:630
+msgid "The current theme (%s) is a block theme."
+msgstr "התבנית הנוכחית (%s) היא תבנית בלוק."
+
+#: big-sky.php:623
+msgid "The current theme is not a block theme. Big Sky requires a block theme to be active."
+msgstr "התבנית הנוכחית אינה תבנית בלוק. שירות Big Sky דורש שתבנית בלוק תהיה פעילה."
+
+#: src/abilities/client-assistants/run-assistant.ts:182
+msgid "Sorry, I've encountered an error. Please try again or let me know if you need help with something else."
+msgstr "מצטערים, נתקלתי בשגיאה. כדאי לנסות שוב או לבקש ממני עזרה בכל נושא אחר."
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:194
+msgid "I changed my mind"
+msgstr "שיניתי את דעתי"
+
+#: src/abilities/apply-block-edits/use-apply-block-edits-tool.ts:582
+msgid "I was not able to make the changes you requested. Either I don't have the capability to do so or I didn't understand your request. You can ask me to try again or ask me to do something else."
+msgstr "לא הצלחתי לבצע את השינויים שביקשת. אין לי יכולת לעשות זאת או שלא הבנתי את בקשתך. אפשר לבקש ממני לנסות שוב או לבקש ממני לעשות משהו אחר."
+
+#: src/abilities/editor-navigate/use-navigate-tool.ts:84
+msgid "Navigated to page"
+msgstr "לנווט לעמוד"
+
+#: src/ai/hooks/suggestions-data.ts:72
+msgid "Generate image"
+msgstr "ליצור תמונה"
+
+#: src/image-studio/components/sidebar/index.tsx:45
+msgid "Learn more"
+msgstr "למידע נוסף"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:185
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:22
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:30
+msgid "No"
+msgstr "לא"
+
+#: src/abilities/edit-entity-record/use-edit-entity-record-tool.ts:219
+#: src/ai/assistants/shared/start-over/use-tool-functions.js:16
+#: src/ai/assistants/shared/start-over/use-tool-functions.test.js:24
+msgid "Yes"
+msgstr "כן"
+
+#: src/abilities/add-pages/index.ts:17
+msgid "Add Pages"
+msgstr "להוסיף עמודים"
+
+#: src/image-studio/components/sidebar/editable-field.tsx:35
+msgid "Regenerate"
+msgstr "ייצר מחדש"
+
+#: src/ai/hooks/suggestions-data.ts:64
+msgid "Change tone"
+msgstr "לשנות את הטון"
+
+#: src/image-studio/components/sidebar/index.tsx:48
+#: src/components/chat/components/feedback-input.js:126
+msgid "Cancel"
+msgstr "לבטל"
+
+#: src/image-studio/components/header/index.tsx:71
+#: src/image-studio/components/index.tsx:281
+msgid "Save"
+msgstr "שמור"
+
+#: big-sky.php:712
+msgid "These checks passed:"
+msgstr "הבדיקות האלו עברו:"
+
+#: big-sky.php:698
+msgid "Big Sky detected the following issues with your site:"
+msgstr "שירות Big Sky זיהה את הבעיות הבאות באתר שלך:"
+
+#. translators: $d is the number of performance issues found.
+#: big-sky.php:697
+msgid "Big Sky is affected by %d issue"
+msgid_plural "Big Sky is affected by %d issues"
+msgstr[0] "בעיה %d משפיעה על שירות Big Sky"
+msgstr[1] "%d בעיות משפיעות על שירות Big Sky"
+
+#: big-sky.php:687
+msgid "Mapbox API key is set."
+msgstr "מפתח API של Mapbox מוגדר."
+
+#: big-sky.php:682
+msgid "Mapbox API key is not set. Big Sky requires a Mapbox API key to be set."
+msgstr "מפתח API של Mapbox לא מוגדר. שירות Big Sky דורש להגדיר מפתח API של Mapbox."
+
+#: big-sky.php:674
+msgid "Jetpack is connected to an admin."
+msgstr "שירות Jetpack מחובר למנהל מערכת."
+
+#: big-sky.php:669
+msgid "Jetpack does not have a connected admin. Big Sky requires Jetpack to be connected to an admin."
+msgstr "לא מחובר מנהל מערכת לשירות Jetpack. שירות Big Sky דורש ששירות Jetpack יהיה מחובר למנהל מערכת."
+
+#: big-sky.php:660
+msgid "Jetpack is connected."
+msgstr "Jetpack מחובר."
+
+#: big-sky.php:655
+msgid "Jetpack is not connected. Big Sky requires Jetpack to be connected."
+msgstr "שירות Jetpack לא מחובר. שירות Big Sky דורש ששירות Jetpack יהיה מחובר."
+
+#: big-sky.php:644
+msgid "Jetpack is installed."
+msgstr "שירות Jetpack מותקן."
+
+#: big-sky.php:639
+msgid "Jetpack is not installed. Big Sky requires Jetpack to be installed and active."
+msgstr "שירות Jetpack אינו מותקן. שירות Big Sky דורש ששירות Jetpack יהיה מותקן ופעיל."
+
+#: big-sky.php:613
+msgid "Big Sky did not find any known issues with your site."
+msgstr "שירות Big Sky לא מצא בעיות ידועות באתר שלך."
+
+#: big-sky.php:605
+msgid "Big Sky Checks"
+msgstr "בדיקות של Big Sky"
+
+#: big-sky.php:580
+#: big-sky.php:581
+msgid "Big Sky checks"
+msgstr "בדיקות של Big Sky"
+
+#: big-sky.php:411
+msgid "AI Features"
+msgstr "כלי AI"
+
+#: big-sky.php:403
+msgid "Enable AI-powered site building experience"
+msgstr "להפעיל חוויית בניית אתרים מבוססת בינה מלאכותית"
+
+#. Author of the plugin
+#: big-sky.php
+msgid "Automattic, Inc."
+msgstr "Automattic, Inc.‎"
+
+#. Description of the plugin
+#: big-sky.php
+msgid "The Big Sky AI Site Builder."
+msgstr "בונה האתרים באמצעות בנייה מלאכותית Big Sky."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: big-sky.php
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Plugin Name of the plugin
+#: big-sky.php
+#: big-sky.php:375
+#: big-sky.php:608
+msgid "Big Sky"
+msgstr "Big Sky"

@@ -1,0 +1,383 @@
+# Translation of Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-12 18:03:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
+
+#. translators: The Akismet configuration page URL.
+#: class.akismet-admin.php:1148
+msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgstr "Lütfən <a href=\"%s\">Akismet konfiqurasiyasını</a> yenidən yoxlayın və host provayderinizə problemin həlli üçün müraciət edin."
+
+#: views/notice.php:37
+msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation and will automatically be rechecked later."
+msgstr "Bir neçə şərh Akismet  tərəfindən yoxlanılmamışdır. Onlar hal-hazırda moderasiya sırasına alınmışdır və irəliləyən vaxtlarda təkrar yoxlamadan keçiriləcəkdir."
+
+#: views/config.php:318
+msgid "Active"
+msgstr "Aktiv"
+
+#: views/config.php:310
+msgid "Cancelled"
+msgstr "Ləğv edildi"
+
+#: views/config.php:312
+msgid "Suspended"
+msgstr "Dayandırıldı"
+
+#: views/config.php:314
+msgid "Missing"
+msgstr "Əksik"
+
+#: class.akismet-admin.php:312
+msgid "Strictness"
+msgstr "Rejim"
+
+#: class.akismet-admin.php:312
+msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
+msgstr "Spamları avtomatik olaraq rədd etmək və ya spam qovluğuna yerləşdirmək variantlarından birini seçin."
+
+#: views/config.php:175
+msgid "Silently discard the worst and most pervasive spam so I never see it."
+msgstr "Aşkar spamı avtomatik olaraq rədd et."
+
+#: views/config.php:183
+msgid "Always put spam in the Spam folder for review."
+msgstr "Spamlara baxış etmək üçün &laquo;Spam&raquo; qovluğuna baxın."
+
+#: class.akismet-admin.php:311 views/config.php:141
+msgid "Comments"
+msgstr "Şərhlər"
+
+#: views/notice.php:225
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Daxil etdiyiniz açar etibarsızdır. Lütfən iki dəfə yoxlayın."
+
+#: views/notice.php:112
+msgid "Network functions are disabled."
+msgstr "Şəbəkə funksiyaları qadağan edilmişdir."
+
+#: views/notice.php:36 views/notice.php:46
+msgid "Akismet has detected a problem."
+msgstr "Akismet bir problem tapdı."
+
+#: views/enter.php:2
+msgid "Manually enter an API key"
+msgstr "API açarınızı əllə daxil edin"
+
+#: views/notice.php:341
+msgid "Contact Akismet support"
+msgstr "Akismet dəstək xidməti ilə əlaqə"
+
+#: class.akismet-admin.php:212
+msgid "URL removed"
+msgstr "URL silindi"
+
+#: class.akismet-admin.php:269
+msgid "Enter an API Key"
+msgstr "API Açarını daxil et"
+
+#: views/config.php:190
+msgid "Note:"
+msgstr "Qeyd:"
+
+#: views/config.php:339
+msgid "Upgrade"
+msgstr "Yüksəlt"
+
+#: class.akismet-admin.php:649
+msgid "Awaiting spam check"
+msgstr "Spam yoxlama gözləyir"
+
+#: class.akismet-widget.php:20
+msgid "Akismet Widget"
+msgstr "Akismet Vidceti"
+
+#: class.akismet-widget.php:21
+msgid "Display the number of spam comments Akismet has caught"
+msgstr "Akismet-in ələ keçirdiyi spam şərhlərin miqdarını göstər"
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:146
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong class=\"count\">%1$s spam</strong> şərh <strong>Akismet</strong> tərəfindən əngəlləndi"
+msgstr[1] "<strong class=\"count\">%1$s spam</strong> şərh <strong>Akismet</strong> tərəfindən əngəlləndi"
+
+#: class.akismet-admin.php:342
+msgid "Cheatin&#8217; uh?"
+msgstr "Hiyləkarlıqmı edirsiniz?"
+
+#: class.akismet-admin.php:653
+msgid "Flagged as spam by Akismet"
+msgstr "Akismet tərəfindən spam olaraq işarələnmiş şərh"
+
+#: class.akismet-admin.php:677
+msgid "History"
+msgstr "Keçmiş"
+
+#: class.akismet-admin.php:423
+msgctxt "comments"
+msgid "Spam"
+msgstr "Spam"
+
+#: class.akismet-admin.php:655
+msgid "Cleared by Akismet"
+msgstr "Akismet tərəfindən təmizlənmişdir"
+
+#. translators: %s: Number of comments.
+#: class.akismet-admin.php:703
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s təsdiqlənən"
+msgstr[1] "%s təsdiqlənən"
+
+#: class.akismet-admin.php:766
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "Akismet avtomatik yoxlama sırasında bu şərhi spam olaraq yaxaladı."
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:811
+msgid "Comment status was changed to %s"
+msgstr "Şərhin statusu  %s olaraq dəyişdirildi"
+
+#: class.akismet-admin.php:769
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "Akismet avtomatik təkrar sırasında bu şərhi təmizlədi."
+
+#: class.akismet-admin.php:677 class.akismet-admin.php:685
+msgid "View comment history"
+msgstr "Şərh tarixçəsinə bax"
+
+#: class.akismet-admin.php:107 class.akismet-admin.php:1540
+msgid "Akismet"
+msgstr "Akismet"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:661
+msgid "Flagged as spam by %s"
+msgstr "%s tərəfindən spam olaraq işarələnmiş"
+
+#. translators: %s: Username.
+#: class.akismet-admin.php:664
+msgid "Un-spammed by %s"
+msgstr "%s tərəfindən spam işarəti ləğv edildi"
+
+#: class.akismet-widget.php:34 class.akismet-widget.php:69
+msgid "Spam Blocked"
+msgstr "Spam blok edildi"
+
+#: class.akismet-widget.php:39
+msgid "Title:"
+msgstr "Başlıq:"
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:831
+msgid "%s ago"
+msgstr "%s öncə"
+
+#: class.akismet-admin.php:210
+msgid "Remove this URL"
+msgstr "Bu URL sil"
+
+#: class.akismet-admin.php:211
+msgid "Removing..."
+msgstr "Silinir..."
+
+#: class.akismet-admin.php:336
+msgid "Akismet Support"
+msgstr "Akismet Dəstək"
+
+#: views/config.php:339
+msgid "Change"
+msgstr "Dəyişdir"
+
+#: class.akismet-admin.php:333
+msgid "For more information:"
+msgstr "Daha ətraflı məlumat:"
+
+#: class.akismet-admin.php:335
+msgid "Akismet FAQ"
+msgstr "Akismet SSS"
+
+#: views/config.php:49 views/config.php:54
+msgid "Spam blocked"
+msgid_plural "Spam blocked"
+msgstr[0] "Spam blok edildi"
+msgstr[1] ""
+
+#: views/config.php:52
+msgid "All time"
+msgstr "Bütün zamanlar"
+
+#: views/config.php:278
+msgid "Disconnect this account"
+msgstr "Bu hesabı bağla"
+
+#: class.akismet-admin.php:1276
+msgid "Cleaning up spam takes time."
+msgstr "Spam təmizlənməsi bir xeyli zaman alır."
+
+#: views/config.php:47
+msgid "Past six months"
+msgstr "Altı ay ərzində"
+
+#: views/config.php:57
+msgid "Accuracy"
+msgstr "Dəqiqlik"
+
+#. translators: 1: WordPress documentation URL, 2: Akismet download URL.
+#: class.akismet.php:2095
+msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Lütfən <a href=\"%1$s\">WordPress</a> hazırkı versiyaya qədər yüksəldin, ya da <a href=\"%2$s\">Akismet 2.4 versiyasından istifadə edin </a>."
+
+#: class.akismet-admin.php:324
+msgid "The subscription status - active, cancelled or suspended"
+msgstr "Abunəlik statusu - aktiv, rədd edilmiş və ya susdurulmuşdur"
+
+#. translators: 1: Akismet website URL, 2: Comments page URL, 3: Number of spam
+#. comments.
+#: class.akismet-admin.php:427
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> saytınızı <a href=\"%2$s\">%3$s spam şərhdən</a> qorumuşdur."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> saytınızı <a href=\"%2$s\">%3$s spam şərhdən</a> qorumuşdur."
+
+#. translators: 1: Akismet website URL, 2: Number of spam comments.
+#: class.akismet-admin.php:444
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">Akismet</a> saytınızı %2$s spam şərhdən qorumuşdur."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> saytınızı %2$s spam şərhlərdən qorumuşdur."
+
+#. translators: %s: Akismet website URL.
+#: class.akismet-admin.php:455
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr "<a href=\"%s\">Akismet</a> bloqunuzu spam-şərhlərdən qoruyur. "
+
+#. translators: 1: Number of comments, 2: Comments page URL.
+#: class.akismet-admin.php:463
+msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "Hazırda spam yoxlaması növbəsində <a href=\"%2$s\">%1$s şərh </a> var."
+msgstr[1] "Hazırda spam yoxlaması növbəsində <a href=\"%2$s\">%1$s şərh </a> var."
+
+#. translators: %s: Comments page URL.
+#: class.akismet-admin.php:474
+msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr "Hazırda <a href='%s'>spam yoxlama növbəniz</a> böşdur."
+
+#: class.akismet-admin.php:537
+msgid "Check for Spam"
+msgstr "Spam şərhləri yoxla"
+
+#: class.akismet-admin.php:274
+msgid "Copy and paste the API key into the text field."
+msgstr "API açarını köçürün və mətn sahəsinə yapışdırın."
+
+#: class.akismet-admin.php:275
+msgid "Click the Use this Key button."
+msgstr "Bu İstifadə düyməsinə tıklayın."
+
+#: class.akismet-admin.php:286
+msgid "Akismet Stats"
+msgstr "Akismet Statistikası"
+
+#: class.akismet-admin.php:288
+msgid "On this page, you are able to view stats on spam filtered on your site."
+msgstr "Bu səhifədə, saytınızda filtrlənmiş spam statistikasına baxa bilərsiniz."
+
+#: class.akismet-admin.php:298 class.akismet-admin.php:309
+#: class.akismet-admin.php:322
+msgid "Akismet Configuration"
+msgstr "Akismet Konfiqurasiyası"
+
+#: class.akismet-admin.php:152 class.akismet-admin.php:307
+#: class.akismet-admin.php:858 views/config.php:88
+msgid "Settings"
+msgstr "Parametrlər"
+
+#: class.akismet-admin.php:310
+msgid "API Key"
+msgstr "API Açarı"
+
+#: class.akismet-admin.php:310
+msgid "Enter/remove an API key."
+msgstr "API açarını daxil edin/silin."
+
+#: class.akismet-admin.php:311
+msgid "Show the number of approved comments beside each comment author in the comments list page."
+msgstr "Şərh siyahısında hər bir müəllif ilə bərabər təsdiqlənmiş şərhlərini göstər."
+
+#: class.akismet-admin.php:320 views/config.php:297
+msgid "Account"
+msgstr "Hesab"
+
+#: class.akismet-admin.php:323
+msgid "Subscription Type"
+msgstr "Abunəlik Növü"
+
+#: class.akismet-admin.php:323
+msgid "The Akismet subscription plan"
+msgstr "Akismet abunəlik planı"
+
+#: class.akismet-admin.php:324 views/config.php:306
+msgid "Status"
+msgstr "Status"
+
+#: class.akismet-admin.php:213
+msgid "(undo)"
+msgstr "(imtina)"
+
+#: class.akismet-admin.php:214
+msgid "Re-adding..."
+msgstr "Yenidən əlavə edilir..."
+
+#: class.akismet-admin.php:246 class.akismet-admin.php:284
+#: class.akismet-admin.php:296
+msgid "Overview"
+msgstr "Baxış"
+
+#: class.akismet-admin.php:248 class.akismet-admin.php:259
+#: class.akismet-admin.php:271
+msgid "Akismet Setup"
+msgstr "Akismet Qurulumu"
+
+#: class.akismet-admin.php:272
+msgid "If you already have an API key"
+msgstr "Əgər sizin artıq API açarınız varsa"
+
+#: class.akismet-admin.php:257
+msgid "New to Akismet"
+msgstr "Akismet-də yeni başlayanlar"
+
+#: class.akismet-admin.php:260
+msgid "You need to enter an API key to activate the Akismet service on your site."
+msgstr "Saytınızda  Akismet servisini aktivləşdirmək üçün, API açarınızı daxil edin."
+
+#: views/notice.php:172
+msgid "There is a problem with your API key."
+msgstr "Sizin açarınızla əlaqədar bir problem var."
+
+#: class.akismet-admin.php:250
+msgid "On this page, you are able to set up the Akismet plugin."
+msgstr "Bu səhifədə Akismet qoşmasını qura bilərsiniz."
+
+#. translators: %s: a link to the signup page with the text 'Akismet.com'.
+#: class.akismet-admin.php:262
+msgid "Sign up for an account on %s to get an API Key."
+msgstr "API Açarını əldə etmək üçün %s-də bir hesab yaradın."
+
+#: class.akismet-admin.php:103
+msgid "Comment History"
+msgstr "Şərhlərin tarixçəsi"

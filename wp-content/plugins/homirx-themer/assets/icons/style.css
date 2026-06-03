@@ -1,0 +1,625 @@
+@font-face {
+  font-family: 'hicomoon';
+  src:  url('./icomoon.eot?922q2t');
+  src:  url('./icomoon.eot?922q2t#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?922q2t') format('truetype'),
+    url('./icomoon.woff?922q2t') format('woff'),
+    url('./icomoon.svg?922q2t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hicon-"], [class*=" hicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hicomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hicon-selection:before {
+  content: "\e900";
+}
+.hicon-delete:before {
+  content: "\e901";
+}
+.hicon-focus:before {
+  content: "\e906";
+}
+.hicon-star:before {
+  content: "\e90f";
+}
+.hicon-plus:before {
+  content: "\e912";
+}
+.hicon-support:before {
+  content: "\e914";
+}
+.hicon-shopping-cart:before {
+  content: "\e918";
+}
+.hicon-address:before {
+  content: "\e91a";
+}
+.hicon-fast-food:before {
+  content: "\e91f";
+}
+.hicon-user:before {
+  content: "\e927";
+}
+.hicon-plane:before {
+  content: "\e928";
+}
+.hicon-online-booking:before {
+  content: "\e92a";
+}
+.hicon-travel:before {
+  content: "\e92b";
+}
+.hicon-landscape:before {
+  content: "\e92c";
+}
+.hicon-recovery:before {
+  content: "\e92e";
+}
+.hicon-coronavirus:before {
+  content: "\e930";
+}
+.hicon-travel-1:before {
+  content: "\e931";
+}
+.hicon-car:before {
+  content: "\e932";
+}
+.hicon-travel-2:before {
+  content: "\e933";
+}
+.hicon-passport:before {
+  content: "\e934";
+}
+.hicon-travel-3:before {
+  content: "\e935";
+}
+.hicon-location:before {
+  content: "\e936";
+}
+.hicon-deer:before {
+  content: "\e939";
+}
+.hicon-paragliding:before {
+  content: "\e93a";
+}
+.hicon-mountains:before {
+  content: "\e93b";
+}
+.hicon-mountain:before {
+  content: "\e93c";
+}
+.hicon-flag:before {
+  content: "\e93d";
+}
+.hicon-hang-gliding:before {
+  content: "\e93e";
+}
+.hicon-summer-holidays:before {
+  content: "\e93f";
+}
+.hicon-summer:before {
+  content: "\e940";
+}
+.hicon-reisekarte:before {
+  content: "\e941";
+}
+.hicon-wegweiser:before {
+  content: "\e942";
+}
+.hicon-lager:before {
+  content: "\e943";
+}
+.hicon-time:before {
+  content: "\e948";
+}
+.hicon-wifi:before {
+  content: "\e949";
+}
+.hicon-paw:before {
+  content: "\e94a";
+}
+.hicon-parking-sign:before {
+  content: "\e94b";
+}
+.hicon-elevator:before {
+  content: "\e94c";
+}
+.hicon-global-1:before {
+  content: "\e94e";
+}
+.hicon-coupon:before {
+  content: "\e94f";
+}
+.hicon-suitcase:before {
+  content: "\e950";
+}
+.hicon-shopping-bags:before {
+  content: "\e951";
+}
+.hicon-food:before {
+  content: "\e952";
+}
+.hicon-plane-1:before {
+  content: "\e953";
+}
+.hicon-purse-with-bill:before {
+  content: "\e954";
+}
+.hicon-credit-card:before {
+  content: "\e955";
+}
+.hicon-player:before {
+  content: "\e957";
+}
+.hicon-table:before {
+  content: "\e958";
+}
+.hicon-reception:before {
+  content: "\e959";
+}
+.hicon-cctv:before {
+  content: "\e95a";
+}
+.hicon-wheelchair:before {
+  content: "\e95b";
+}
+.hicon-towel:before {
+  content: "\e95c";
+}
+.hicon-shampoo:before {
+  content: "\e95d";
+}
+.hicon-hotel-sign:before {
+  content: "\e95e";
+}
+.hicon-room-service:before {
+  content: "\e95f";
+}
+.hicon-jacuzzi:before {
+  content: "\e960";
+}
+.hicon-single-bed:before {
+  content: "\e961";
+}
+.hicon-review:before {
+  content: "\e962";
+}
+.hicon-bathroom:before {
+  content: "\e963";
+}
+.hicon-room-key:before {
+  content: "\e964";
+}
+.hicon-swimmer:before {
+  content: "\e965";
+}
+.hicon-terrace:before {
+  content: "\e966";
+}
+.hicon-receptionist:before {
+  content: "\e967";
+}
+.hicon-laundry:before {
+  content: "\e968";
+}
+.hicon-translate:before {
+  content: "\e969";
+}
+.hicon-newspaper:before {
+  content: "\e96a";
+}
+.hicon-cutlery:before {
+  content: "\e96c";
+}
+.hicon-cocktail:before {
+  content: "\e96d";
+}
+.hicon-shop:before {
+  content: "\e96f";
+}
+.hicon-car-1:before {
+  content: "\e970";
+}
+.hicon-skincare:before {
+  content: "\e971";
+}
+.hicon-add-group:before {
+  content: "\e973";
+}
+.hicon-blog:before {
+  content: "\e974";
+}
+.hicon-publish:before {
+  content: "\e975";
+}
+.hicon-growth:before {
+  content: "\e976";
+}
+.hicon-price-tag:before {
+  content: "\e97d";
+}
+.hicon-list:before {
+  content: "\e97e";
+}
+.hicon-list-1:before {
+  content: "\e97f";
+}
+.hicon-thumbs-up:before {
+  content: "\e980";
+}
+.hicon-network:before {
+  content: "\e981";
+}
+.hicon-locations:before {
+  content: "\e983";
+}
+.hicon-purse:before {
+  content: "\e987";
+}
+.hicon-group:before {
+  content: "\e988";
+}
+.hicon-home-2:before {
+  content: "\f127";
+}
+.hicon-health-1:before {
+  content: "\f100";
+}
+.hicon-rent:before {
+  content: "\f123";
+}
+.hicon-bed-1:before {
+  content: "\f124";
+}
+.hicon-discount-1:before {
+  content: "\f10e";
+}
+.hicon-extractor-hood:before {
+  content: "\f133";
+}
+.hicon-directory-1:before {
+  content: "\f10c";
+}
+.hicon-check-1:before {
+  content: "\f115";
+}
+.hicon-star-3:before {
+  content: "\f117";
+}
+.hicon-clipboard-1:before {
+  content: "\f10d";
+}
+.hicon-town:before {
+  content: "\f121";
+}
+.hicon-delete-1:before {
+  content: "\f107";
+}
+.hicon-magnifying-glass:before {
+  content: "\f10a";
+}
+.hicon-cityscape:before {
+  content: "\f130";
+}
+.hicon-staircase:before {
+  content: "\f139";
+}
+.hicon-bath:before {
+  content: "\f13a";
+}
+.hicon-shower:before {
+  content: "\f13b";
+}
+.hicon-quote-1:before {
+  content: "\f110";
+}
+.hicon-pet-house:before {
+  content: "\f136";
+}
+.hicon-agent:before {
+  content: "\f131";
+}
+.hicon-assets:before {
+  content: "\f122";
+}
+.hicon-phone-call-1:before {
+  content: "\f11d";
+}
+.hicon-star-1:before {
+  content: "\f118";
+}
+.hicon-shop-1:before {
+  content: "\f104";
+}
+.hicon-shopping-cart-2:before {
+  content: "\f11f";
+}
+.hicon-condominium:before {
+  content: "\f12a";
+}
+.hicon-square-measument:before {
+  content: "\f126";
+}
+.hicon-armchair:before {
+  content: "\f129";
+}
+.hicon-scissors-1:before {
+  content: "\f10f";
+}
+.hicon-cocktail-1:before {
+  content: "\f102";
+}
+.hicon-comment:before {
+  content: "\f116";
+}
+.hicon-plus-1:before {
+  content: "\f11c";
+}
+.hicon-calling-1:before {
+  content: "\f109";
+}
+.hicon-exploration:before {
+  content: "\f108";
+}
+.hicon-tiles:before {
+  content: "\f138";
+}
+.hicon-cutlery-1:before {
+  content: "\f101";
+}
+.hicon-nature:before {
+  content: "\f128";
+}
+.hicon-window:before {
+  content: "\f135";
+}
+.hicon-focus-1:before {
+  content: "\f111";
+}
+.hicon-028-star-2:before {
+  content: "\f119";
+}
+.hicon-selection-2:before {
+  content: "\f106";
+}
+.hicon-home-1:before {
+  content: "\f12f";
+}
+.hicon-car-2:before {
+  content: "\f105";
+}
+.hicon-building:before {
+  content: "\f120";
+}
+.hicon-shower-1:before {
+  content: "\f125";
+}
+.hicon-message-2:before {
+  content: "\f11e";
+}
+.hicon-modern-house:before {
+  content: "\f12c";
+}
+.hicon-alarm-clock:before {
+  content: "\e902";
+}
+.hicon-arrow-1:before {
+  content: "\e903";
+}
+.hicon-arrow-left-2:before {
+  content: "\e908";
+}
+.hicon-arrow-right-2:before {
+  content: "\e90a";
+}
+.hicon-bars:before {
+  content: "\e90b";
+}
+.hicon-calendar1:before {
+  content: "\e90c";
+}
+.hicon-discount1:before {
+  content: "\e90d";
+}
+.hicon-happy-clients:before {
+  content: "\e913";
+}
+.hicon-like:before {
+  content: "\e920";
+}
+.hicon-location1:before {
+  content: "\e921";
+}
+.hicon-phone-2:before {
+  content: "\e923";
+}
+.hicon-pin-1:before {
+  content: "\e925";
+}
+.hicon-search:before {
+  content: "\e92f";
+}
+.hicon-team-exp:before {
+  content: "\e98e";
+}
+.hicon-team-exp-2:before {
+  content: "\e98f";
+}
+.hicon-teams:before {
+  content: "\e990";
+}
+.hicon-alarm:before {
+  content: "\e991";
+}
+.hicon-arrow-right-1:before {
+  content: "\e992";
+}
+.hicon-arrow-left-1:before {
+  content: "\e993";
+}
+.hicon-cart-1:before {
+  content: "\e994";
+}
+.hicon-check:before {
+  content: "\e995";
+}
+.hicon-shopping-cart-11:before {
+  content: "\e996";
+}
+.hicon-comments:before {
+  content: "\e997";
+}
+.hicon-play:before {
+  content: "\e998";
+}
+.hicon-bell:before {
+  content: "\f132";
+}
+.hicon-map:before {
+  content: "\f13c";
+}
+.hicon-send:before {
+  content: "\f145";
+}
+.hicon-confirmation:before {
+  content: "\f15a";
+}
+.hicon-achievement:before {
+  content: "\f177";
+}
+.hicon-lamp:before {
+  content: "\f178";
+}
+.hicon-chat-1:before {
+  content: "\f182";
+}
+.hicon-right-arrow:before {
+  content: "\f193";
+}
+.hicon-search-2:before {
+  content: "\f194";
+}
+.hicon-left-arrow:before {
+  content: "\f195";
+}
+.hicon-calling:before {
+  content: "\f196";
+}
+.hicon-heart:before {
+  content: "\f12b";
+}
+.hicon-basket:before {
+  content: "\f12d";
+}
+.hicon-apartment:before {
+  content: "\f13d";
+}
+.hicon-property:before {
+  content: "\f13e";
+}
+.hicon-house:before {
+  content: "\f13f";
+}
+.hicon-warehouse:before {
+  content: "\f140";
+}
+.hicon-apartment-1:before {
+  content: "\f141";
+}
+.hicon-home:before {
+  content: "\f142";
+}
+.hicon-maximize:before {
+  content: "\f143";
+}
+.hicon-bed:before {
+  content: "\f144";
+}
+.hicon-bath-tub:before {
+  content: "\f146";
+}
+.hicon-star-2:before {
+  content: "\f147";
+}
+.hicon-straight-quotes:before {
+  content: "\f148";
+}
+.hicon-quote-2:before {
+  content: "\f149";
+}
+.hicon-user-3:before {
+  content: "\f14a";
+}
+.hicon-calendar-1:before {
+  content: "\f14b";
+}
+.hicon-instagram:before {
+  content: "\f14c";
+}
+.hicon-filter:before {
+  content: "\f14d";
+}
+.hicon-apple-logo:before {
+  content: "\f15f";
+}
+.hicon-playstore:before {
+  content: "\f14e";
+}
+.hicon-maps-and-flags:before {
+  content: "\f14f";
+}
+.hicon-share:before {
+  content: "\f150";
+}
+.hicon-more:before {
+  content: "\f151";
+}
+.hicon-list-2:before {
+  content: "\f152";
+}
+.hicon-compare:before {
+  content: "\f153";
+}
+.hicon-whatsapp:before {
+  content: "\f154";
+}
+.hicon-tag:before {
+  content: "\f155";
+}
+.hicon-wifi-1:before {
+  content: "\f156";
+}
+.hicon-tv-monitor:before {
+  content: "\f157";
+}
+.hicon-parking:before {
+  content: "\f158";
+}
+.hicon-maintenance:before {
+  content: "\f159";
+}
+.hicon-placeholder:before {
+  content: "\f15b";
+}
+.hicon-gmail:before {
+  content: "\f15d";
+}
+.hicon-clock-2:before {
+  content: "\f15e";
+}

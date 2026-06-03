@@ -1,0 +1,138 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Catalan (Valencian)
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-17 08:51:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:511
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "Editor clàssic"
+
+#: classic-editor.php:437 classic-editor.php:515 classic-editor.php:915
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Editor de blocs"
+
+#: classic-editor.php:433 classic-editor.php:915
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Editor clàssic"
+
+#: classic-editor.php:868
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Editar (editor clàssic)"
+
+#: classic-editor.php:861
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Editar (editor de blocs)"
+
+#: classic-editor.php:520
+msgid "Change settings"
+msgstr "Canvia els ajustos"
+
+#: classic-editor.php:507
+msgid "Default editor for all sites"
+msgstr "Editor per defecte per a tots els llocs"
+
+#: classic-editor.php:503
+msgid "Editor Settings"
+msgstr "Ajustos de l'editor"
+
+#: classic-editor.php:487
+msgid "Default Editor"
+msgstr "Editor per defecte"
+
+#: classic-editor.php:902
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "editor de blocs"
+
+#: classic-editor.php:899
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "editor clàssic"
+
+#. translators: %s: post title
+#: classic-editor.php:863
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Editar &#8220;%s&#8221; a l'editor de blocs"
+
+#: classic-editor.php:698
+msgid "Switch to block editor"
+msgstr "Canviar a l'editor de blocs"
+
+#: classic-editor.php:727
+msgid "Switch to classic editor"
+msgstr "Canviar a l'editor clàssic"
+
+#: classic-editor.php:524
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Per defecte, l'editor clàssic reemplaça l'editor de blocs i els usuaris no poden canviar d'editor."
+
+#: classic-editor.php:523
+msgid "Allow site admins to change settings"
+msgstr "Permet als administradors del lloc canviar la configuració"
+
+#: classic-editor.php:679
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:461
+msgid "No"
+msgstr "No"
+
+#: classic-editor.php:457
+msgid "Yes"
+msgstr "Sí"
+
+#: classic-editor.php:384
+msgid "Allow users to switch editors"
+msgstr "Permet als usuaris canviar d'editor"
+
+#: classic-editor.php:383
+msgid "Default editor for all users"
+msgstr "Editor per defecte per a tots els usuaris"
+
+#. Author URI of the plugin
+#: classic-editor.php
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+#: classic-editor.php
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Plugin Name of the plugin
+#: classic-editor.php
+msgid "Classic Editor"
+msgstr "Classic Editor"
+
+#. Author of the plugin
+#: classic-editor.php
+msgid "WordPress Contributors"
+msgstr "Coŀlaboradors de WordPress"
+
+#. Description of the plugin
+#: classic-editor.php
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Activa l'editor clàssic de WordPress i l'estil antic de la pantalla d'edició d'entrades amb TinyMCE, caixes meta, etc. És compatible amb els coimplements antics que amplien esta pantalla."
+
+#. translators: %s: post title
+#: classic-editor.php:870
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Editar &#8220;%s&#8221; a l'editor clàssic"
+
+#: classic-editor.php:746
+msgid "Settings"
+msgstr "Ajustos"
