@@ -21,13 +21,13 @@ $logo = ( isset( $homirx_options['header_logo']['url'] ) && $homirx_options['hea
                 <div class="header-left">
                     <div class="logo-mobile">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                            <img src="<?php echo esc_url( $logo ); ?>" alt="<?php bloginfo( 'name' ); ?>">
+                            <img src="<?php echo esc_url( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
                         </a>
                     </div>
                 </div>
                 <div class="header-right">
                     <button class="navbar-toggle mobile-toggle" type="button">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'homirx-child' ); ?></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -44,7 +44,7 @@ $logo = ( isset( $homirx_options['header_logo']['url'] ) && $homirx_options['hea
                     <div class="header-bottom-inner">
                         <div class="logo">
                             <a class="logo-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <img src="<?php echo esc_url( $logo ); ?>" alt="<?php bloginfo( 'name' ); ?>">
+                                <img src="<?php echo esc_url( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
                             </a>
                         </div>
                         <div class="main-menu-inner">
