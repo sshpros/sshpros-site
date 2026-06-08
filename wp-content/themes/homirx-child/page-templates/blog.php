@@ -22,13 +22,13 @@ $query = new WP_Query( array(
                 <div class="col-md-4">
                     <article class="blog-card">
                         <?php if ( has_post_thumbnail() ) : ?>
-                            <a href="<?php the_permalink(); ?>" class="blog-card-image">
+                            <a href="<?php echo esc_url( get_permalink() ); ?>" class="blog-card-image">
                                 <?php echo wp_kses_post( get_the_post_thumbnail( null, 'medium' ) ); ?>
                             </a>
                         <?php endif; ?>
                         <div class="blog-card-body">
                             <h3 class="blog-card-title">
-                                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
                             </h3>
                             <p class="blog-card-meta"><?php echo esc_html( get_the_date() ); ?></p>
                             <p class="blog-card-excerpt"><?php the_excerpt(); ?></p>
