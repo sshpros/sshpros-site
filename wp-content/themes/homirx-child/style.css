@@ -63,3 +63,37 @@ Description: Child theme for Security & Smarthome Pros
     background-color: #f5f5f5;
     padding: 60px 0;
 }
+
+/* Service Pages */
+.service-content {
+    padding: 40px 0;
+}
+.service-body {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.service-sidebar {
+    position: sticky;
+    top: 20px;
+}
+.sidebar-cta {
+    background: #0d1b2a;
+    color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sidebar-cta h3 {
+    color: #fff;
+    margin-top: 0;
+}
+.service-cta {
+    background: #0d1b2a;
+    color: #fff;
+    padding: 50px 0;
+}
+.service-cta h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
