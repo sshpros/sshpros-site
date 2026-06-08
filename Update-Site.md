@@ -75,6 +75,24 @@ Comprehensive website overhaul for WordPress-based site. Focus on UI/UX improvem
   - Trust/benefit section at bottom with 3 key statements
   - Clean, professional nav bar with phone CTA
 
+## Homepage Hero Design
+- Full-width luxury home background image with dusk lighting.
+- Headline: "FULL SERVICE LOW VOLTAGE CONTRACTOR" in large, bold text.
+- Subheadline: "Premium low voltage solutions for luxury homes and businesses in Utah."
+- Centered horizontal CTA buttons: **Residential** (primary blue) and **Commercial** (secondary gray).
+- Interactive overlay labels for:
+  - Cameras
+  - Monitored Alarms
+  - Climate Control
+  - Lighting & Shades
+  - Home Theatre / Audio Visual
+  - Smart Lock
+  - Garage Door
+  - Custom Build Pre-Wire
+  - Whole-Home Network
+- Bottom dark overlay trust bar with three benefit statements.
+- Top navigation with logo, site menu, and blue phone CTA: **CALL US: (928) THE-PROS**.
+
 ## Notes
 - Waiting for WordPress source files upload
 - Waiting for hero page design example ✓ (received - documented)
