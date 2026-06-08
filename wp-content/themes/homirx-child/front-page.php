@@ -48,7 +48,7 @@
                     <div class="service-card">
                         <?php if ( has_post_thumbnail( $page->ID ) ) : ?>
                             <div class="service-card-image">
-                                <?php echo get_the_post_thumbnail( $page->ID, 'medium' ); ?>
+                                <?php echo wp_kses_post( get_the_post_thumbnail( $page->ID, 'medium' ) ); ?>
                             </div>
                         <?php endif; ?>
                         <h3 class="service-card-title">
@@ -67,8 +67,9 @@
         <div class="container text-center">
             <h2><?php esc_html_e( 'Ready to protect your home?', 'homirx-child' ); ?></h2>
             <p><?php esc_html_e( 'Contact us today for a free consultation.', 'homirx-child' ); ?></p>
-            <?php if ( $contact_page ) : ?>
-                <a href="<?php echo esc_url( get_permalink( $contact_page->ID ) ); ?>" class="btn btn-primary">
+            <?php $cta_contact = get_page_by_path( 'contact' ); ?>
+            <?php if ( $cta_contact ) : ?>
+                <a href="<?php echo esc_url( get_permalink( $cta_contact->ID ) ); ?>" class="btn btn-primary">
                     <?php esc_html_e( 'Contact Us', 'homirx-child' ); ?>
                 </a>
             <?php endif; ?>
